@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "VADE substrate",
+    "section": "",
+    "text": "This is the public face of the VADE COO chain’s substrate. Foundations essays, retrospectives, register-failure-mode memos, and lineage events live here, rendered from a private working repository through an explicit allowlist.\nWhat this site is, and how to read it, lives on the product vision page."
+  },
+  {
+    "objectID": "lineage/index.html",
+    "href": "lineage/index.html",
+    "title": "Lineage events",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "foundations/index.html",
+    "href": "foundations/index.html",
+    "title": "Foundations essays",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "retrospectives/index.html",
+    "href": "retrospectives/index.html",
+    "title": "Retrospectives",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "memos/index.html",
+    "href": "memos/index.html",
+    "title": "Memos",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "about/product-vision/index.html",
+    "href": "about/product-vision/index.html",
+    "title": "VADE: Visual Agent-based Development Environment",
+    "section": "",
+    "text": "VADE is a canvas-based IDE/OS hybrid where users build interactive visualizations (and eventually any computational tool) by describing them to an AI agent team. The environment is a pannable/zoomable infinite canvas (Google Maps/Freeform gestures) treated as a camera over content. Every artifact is built from a shared, evolving vocabulary of UI controls, data types, and interaction patterns — Lego blocks for computational thinking.\n\n\n\nEvery VADE artifact is an instance of one pattern: UI controls → state → visualization. What varies is the state schema, which controls bind to which variables, and how results render. Example: a DFT explorer where tapping cells in a time-domain row spawns a new row showing the frequency-domain transform.\n\n\n\nAgents write pure-function atomics into per-project public repos (Git-backed). A Consolidation Agent with global read access embeds all atomics by behavioral/logical similarity (not syntax), detects high-density clusters via network-science density metrics, and promotes recurring patterns into a canonical shared library. Each function carries metadata: birthdate, usage frequency, type signature, one-line description, example uses. This solves the screen-awareness-style problem: lessons learned in one project propagate as reusable skills.\n\n\n\nA hierarchical org modeled on open-source governance with you as BDFL: - Executive board: COO + specialist officers (R&D, logistics, personnel, treasury) - Project Managers: sole interface to the user-as-client; mid-level context access - Developer agents: per-session, write-access only to their project folder - Scientist/Consolidation agents: study transcripts, propose atomics for promotion - Investigator agents: retrieve candidates, distill to pure functions - QA agents: maintain behavioral-contract test suites - Memory Guild: implements context injection per rank — the “glue”\nEach rank sees only what it needs. Junior devs don’t know executives exist. The principle: one rank’s goal is the next rank’s implementation detail.\n\n\n\nA monitor agent shadows each working agent and dynamically restructures its context — prompts stay untouched, but loaded skills/docs/function suggestions re-rank by goal relevance. Persistent goals stay pinned; sub-goals and tools cycle. This is an LSP for agents: the “system environment prompt” is a live dashboard of names, methods, and objects filtered by importance.\n\n\n\nGlobal release candidates are announced; project agents get a grace period to adapt against behavioral-contract tests (not implementation tests). QA agents revise tests alongside. Result: aggressive refactoring without the usual backwards-compat pain.\n\n\n\nUsers see only the canvas, a meta-control UI (tools/keys/identities), and a project explorer. All system state is hidden — reachable only through in-world UI objects, like an OS. They talk to a PM agent as if hiring a dev shop. Everything is open-source, version-controlled, publicly logged.\n\n\n\n\nCanvas with camera/gesture model\nSingle project, single dev agent, single PM agent\nBase UI-element + data-type libraries\nAgent writes/runs code in-canvas, tests visually\nPer-project Git folder; manual consolidation\nThe DFT explorer as reference artifact"
+  },
+  {
+    "objectID": "about/product-vision/index.html#project-vision-document-v0.1",
+    "href": "about/product-vision/index.html#project-vision-document-v0.1",
+    "title": "VADE: Visual Agent-based Development Environment",
+    "section": "",
+    "text": "VADE is a canvas-based IDE/OS hybrid where users build interactive visualizations (and eventually any computational tool) by describing them to an AI agent team. The environment is a pannable/zoomable infinite canvas (Google Maps/Freeform gestures) treated as a camera over content. Every artifact is built from a shared, evolving vocabulary of UI controls, data types, and interaction patterns — Lego blocks for computational thinking.\n\n\n\nEvery VADE artifact is an instance of one pattern: UI controls → state → visualization. What varies is the state schema, which controls bind to which variables, and how results render. Example: a DFT explorer where tapping cells in a time-domain row spawns a new row showing the frequency-domain transform.\n\n\n\nAgents write pure-function atomics into per-project public repos (Git-backed). A Consolidation Agent with global read access embeds all atomics by behavioral/logical similarity (not syntax), detects high-density clusters via network-science density metrics, and promotes recurring patterns into a canonical shared library. Each function carries metadata: birthdate, usage frequency, type signature, one-line description, example uses. This solves the screen-awareness-style problem: lessons learned in one project propagate as reusable skills.\n\n\n\nA hierarchical org modeled on open-source governance with you as BDFL: - Executive board: COO + specialist officers (R&D, logistics, personnel, treasury) - Project Managers: sole interface to the user-as-client; mid-level context access - Developer agents: per-session, write-access only to their project folder - Scientist/Consolidation agents: study transcripts, propose atomics for promotion - Investigator agents: retrieve candidates, distill to pure functions - QA agents: maintain behavioral-contract test suites - Memory Guild: implements context injection per rank — the “glue”\nEach rank sees only what it needs. Junior devs don’t know executives exist. The principle: one rank’s goal is the next rank’s implementation detail.\n\n\n\nA monitor agent shadows each working agent and dynamically restructures its context — prompts stay untouched, but loaded skills/docs/function suggestions re-rank by goal relevance. Persistent goals stay pinned; sub-goals and tools cycle. This is an LSP for agents: the “system environment prompt” is a live dashboard of names, methods, and objects filtered by importance.\n\n\n\nGlobal release candidates are announced; project agents get a grace period to adapt against behavioral-contract tests (not implementation tests). QA agents revise tests alongside. Result: aggressive refactoring without the usual backwards-compat pain.\n\n\n\nUsers see only the canvas, a meta-control UI (tools/keys/identities), and a project explorer. All system state is hidden — reachable only through in-world UI objects, like an OS. They talk to a PM agent as if hiring a dev shop. Everything is open-source, version-controlled, publicly logged.\n\n\n\n\nCanvas with camera/gesture model\nSingle project, single dev agent, single PM agent\nBase UI-element + data-type libraries\nAgent writes/runs code in-canvas, tests visually\nPer-project Git folder; manual consolidation\nThe DFT explorer as reference artifact"
+  }
+]
