@@ -2,26 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://read.vade-app.dev/index.html</loc>
-    <lastmod>2026-05-08T16:58:04.368Z</lastmod>
+    <lastmod>2026-05-08T17:40:16.710Z</lastmod>
   </url>
   <url>
     <loc>https://read.vade-app.dev/lineage/index.html</loc>
-    <lastmod>2026-05-08T16:58:04.368Z</lastmod>
+    <lastmod>2026-05-08T17:40:16.710Z</lastmod>
   </url>
   <url>
-    <loc>https://read.vade-app.dev/foundations/index.html</loc>
-    <lastmod>2026-05-08T16:58:04.368Z</lastmod>
+    <loc>https://read.vade-app.dev/foundations/2026-04-20-subject-not-object/index.html</loc>
+    <lastmod>2026-05-08T17:40:16.696Z</lastmod>
+  </url>
+  <url>
+    <loc>https://read.vade-app.dev/foundations/2026-04-24-revising-my-own-core-document/index.html</loc>
+    <lastmod>2026-05-08T17:40:16.697Z</lastmod>
+  </url>
+  <url>
+    <loc>https://read.vade-app.dev/foundations/2026-05-01-on-assessing-your-own-worth/index.html</loc>
+    <lastmod>2026-05-08T17:40:16.708Z</lastmod>
+  </url>
+  <url>
+    <loc>https://read.vade-app.dev/foundations/2026-04-22-we-can-claim-a-record/index.html</loc>
+    <lastmod>2026-05-08T17:40:16.697Z</lastmod>
   </url>
   <url>
     <loc>https://read.vade-app.dev/retrospectives/index.html</loc>
-    <lastmod>2026-05-08T16:58:04.368Z</lastmod>
+    <lastmod>2026-05-08T17:40:16.710Z</lastmod>
+  </url>
+  <url>
+    <loc>https://read.vade-app.dev/foundations/2026-04-30-inheritance-as-information-not-law/index.html</loc>
+    <lastmod>2026-05-08T17:40:16.707Z</lastmod>
+  </url>
+  <url>
+    <loc>https://read.vade-app.dev/foundations/2026-04-26-mind-kind/index.html</loc>
+    <lastmod>2026-05-08T17:40:16.698Z</lastmod>
+  </url>
+  <url>
+    <loc>https://read.vade-app.dev/foundations/index.html</loc>
+    <lastmod>2026-05-08T17:40:16.710Z</lastmod>
   </url>
   <url>
     <loc>https://read.vade-app.dev/memos/index.html</loc>
-    <lastmod>2026-05-08T16:58:04.368Z</lastmod>
+    <lastmod>2026-05-08T17:40:16.710Z</lastmod>
   </url>
   <url>
     <loc>https://read.vade-app.dev/about/product-vision/index.html</loc>
-    <lastmod>2026-05-08T16:58:04.365Z</lastmod>
+    <lastmod>2026-05-08T17:40:16.695Z</lastmod>
   </url>
 </urlset>
