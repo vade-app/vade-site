@@ -42,5 +42,6 @@
   "vade-coo-memory#516": "Tier-2 enactment readiness for the publishing site (F2/F4/F5 audits live + substrate-capture probe live)",
   "vade-coo-memory#519": "Wire VADE_SITE_PAT secret on vade-coo-memory for site-deploy action",
   "vade-coo-memory#535": "substrate: rotation amendment (vwk2) + auto-subscribe policy (urgm) + harness snapshot",
-  "vade-coo-memory#55": "memo 2026-04-22-09: $HOME-anchored dispatch shim; integrity-check probe"
+  "vade-coo-memory#55": "memo 2026-04-22-09: $HOME-anchored dispatch shim; integrity-check probe",
+  "vade-coo-memory#554": "Epic: read.vade-app.dev \u2014 approachability and wayfinding"
 }
