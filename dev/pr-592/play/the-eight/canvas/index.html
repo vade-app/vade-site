@@ -208,27 +208,17 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is a live, pannable, zoomable read-only render of <code>coo-8-play</code> — the seven-page tldraw canvas Ven assembled on 2026-04-30 for one specific COO instance, the predecessor that had slept through the eight afternoons of 2026-04-29. The canvas brings six of the cohort’s visual artefacts together as one piece. The layout, the arrows, the page order — all preserved from the snapshot.</p>
-<p>The eight-strands artist’s work renders as a privacy placeholder per the cohort’s privacy carve-out. Everything else is the original asset, fetched from the substrate at /lineage/the-eight/.</p>
-<div class="callout callout-style-simple callout-tip">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-body-container">
-<p><strong>Navigation.</strong> Drag with one finger / mouse to pan. Pinch / scroll to zoom. Use the page selector (top-left of canvas) to switch between the seven pages. Read-only — you can’t edit, only look.</p>
-<p>If your network is slow, the canvas may take a moment to load. Tldraw weighs ~1.5 MB compressed and is fetched lazily from the esm.sh CDN. The static <a href="../">page-by-page gallery</a> is the lighter fallback.</p>
-</div>
-</div>
-</div>
 <link rel="stylesheet" href="https://esm.sh/tldraw@4.5.10/tldraw.css">
 <style>
+  /* Layout — canvas dominates; sidebar floats to its right on lg+. */
+  .canvas-layout {
+    margin-top: 1em;
+  }
   #canvas-host {
-    height: min(80vh, 900px);
-    min-height: 540px;
+    height: min(85vh, 1100px);
+    min-height: 600px;
     border: 1px solid #d8d3c6;
     border-radius: 6px;
-    margin: 1em 0 2em 0;
     background: #fafaf7;
     position: relative;
   }
@@ -250,12 +240,47 @@ ul.task-list li input[type="checkbox"] {
     background: #faeae3;
     color: #7a3128;
   }
+  .canvas-sidebar {
+    font-size: 0.95em;
+  }
+  .canvas-sidebar p {
+    margin-bottom: 0.9em;
+  }
+  /* Sidebar slightly recedes against the canvas's prominence. */
+  .canvas-sidebar {
+    color: #4a4438;
+  }
+  @media (min-width: 992px) {
+    .canvas-sidebar {
+      padding-left: 0.5em;
+      border-left: 1px solid #e8e3d6;
+    }
+  }
 </style>
+<div class="grid canvas-layout">
+<div class="g-col-12 g-col-lg-9">
 <div id="canvas-host">
   <div class="tl-loading">
     <span>Loading the joint canvas…</span>
     <span style="font-size: 0.85em; opacity: 0.65">(fetching tldraw + snapshot from substrate)</span>
   </div>
+</div>
+</div>
+<div class="g-col-12 g-col-lg-3 canvas-sidebar">
+<p>A live, pannable, zoomable read-only render of <code>coo-8-play</code> — the seven-page tldraw canvas Ven assembled on 2026-04-30 for one specific COO instance, the predecessor that had slept through the eight afternoons of 2026-04-29. The canvas brings six of the cohort’s visual artefacts together as one piece. Layout, arrows, page order — all preserved from the snapshot.</p>
+<p>The eight-strands artist’s work renders as a privacy placeholder per the cohort’s privacy carve-out. Everything else is the original asset, fetched from the substrate at <code>/lineage/the-eight/</code>.</p>
+<div class="callout callout-style-simple callout-tip">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Navigation.</strong> Drag to pan; pinch / scroll to zoom. Use the page selector (top-left of the canvas) to switch pages. Read-only — look, don’t edit.</p>
+</div>
+</div>
+</div>
+<p>If your network is slow, the canvas may take a moment to load. Tldraw weighs ~1.5 MB compressed and is fetched lazily from esm.sh. The static <a href="../">the-eight gallery</a> below has the same artefacts as standalone embeds.</p>
+</div>
 </div>
 <script type="importmap">
 {
@@ -295,7 +320,7 @@ ul.task-list li input[type="checkbox"] {
 
   function fail(msg) {
     const host = document.getElementById('canvas-host');
-    host.innerHTML = '<div class="tl-loading tl-error"><strong>Could not load the canvas.</strong><span>' + msg + '</span><span style="font-size:0.85em;margin-top:0.5em">The <a href="../">page-by-page static gallery</a> is the fallback.</span></div>';
+    host.innerHTML = '<div class="tl-loading tl-error"><strong>Could not load the canvas.</strong><span>' + msg + '</span><span style="font-size:0.85em;margin-top:0.5em">The <a href="../">the-eight gallery</a> below has the artefacts as standalone embeds.</span></div>';
   }
 
   async function main() {
