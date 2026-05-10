@@ -2,6 +2,7 @@
   {
     "listing": "/retrospectives/index.html",
     "items": [
+      "/retrospectives/2026-05-10-notebooklm-access-and-the-pdf-pivot/index.html",
       "/retrospectives/2026-05-09-pr-237-rationalization-discriminator-pattern/index.html",
       "/retrospectives/2026-05-09-substrate-to-canvas/index.html",
       "/retrospectives/2026-05-09-vanilla-audit-pr237-external-retrospective/index.html",
@@ -61,6 +62,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/retrospectives/2026-05-10-notebooklm-access-and-the-pdf-pivot/index.html",
       "/retrospectives/2026-05-09-pr-237-rationalization-discriminator-pattern/index.html",
       "/retrospectives/2026-05-09-substrate-to-canvas/index.html",
       "/retrospectives/2026-05-09-vanilla-audit-pr237-external-retrospective/index.html",
