@@ -1,1 +1,61 @@
+# Explicit allow rules for AI fetchers + general crawlers.
+# Per MEMO-2026-05-10-3tkz follow-up: NotebookLM and Gemini fetchers
+# default to cautious behaviour when a site has no explicit policy
+# for their UA, even though the spec says "no rule" means "allowed".
+# This file replaces Quarto's auto-generated bare-Sitemap robots.txt.
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Google-CloudVertexBot
+Allow: /
+
+User-agent: NotebookLM-User
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: *
+Allow: /
+
 Sitemap: https://read.vade-app.dev/sitemap.xml
