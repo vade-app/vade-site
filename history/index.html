@@ -225,15 +225,32 @@ ul.task-list li input[type="checkbox"] {
 .m-ii  { background: #6b8e6b; }
 .m-iii { background: #c9885a; }
 .m-iv  { background: #8a6ba8; }
+.movement-bar .label-full  { display: inline; }
+.movement-bar .label-mid,
+.movement-bar .label-short { display: none; }
 .movement-dates { display: flex; justify-content: space-between; margin-top: 0.3em; color: #666; font-size: 0.85em; }
 .movement-dates span { white-space: nowrap; }
+@media (max-width: 720px) {
+  .movement-bar { height: 2.2em; }
+  .movement-bar a { font-size: 0.86em; padding: 0 0.25em; }
+  .movement-bar .label-full { display: none; }
+  .movement-bar .label-mid  { display: inline; }
+  .movement-dates { font-size: 0.78em; }
+}
+@media (max-width: 479px) {
+  .movement-bar { height: 2em; }
+  .movement-bar a { font-size: 1em; font-weight: 700; padding: 0 0.2em; }
+  .movement-bar .label-mid   { display: none; }
+  .movement-bar .label-short { display: inline; }
+  .movement-dates { font-size: 0.72em; }
+}
 </style>
 <div class="movement-strip">
   <div class="movement-bar">
-    <a href="#movement-1" class="m-i" style="flex: 5;">I — Structural<br>inception</a>
-    <a href="#movement-2" class="m-ii" style="flex: 6;">II — Substrate-<br>of-self</a>
-    <a href="#movement-3" class="m-iii" style="flex: 3;">III — Retroactive<br>codification</a>
-    <a href="#movement-4" class="m-iv" style="flex: 6;">IV — The substrate<br>using itself</a>
+    <a href="#movement-1" class="m-i" style="flex: 5;"><span class="label-full">I — Structural<br>inception</span><span class="label-mid">I&nbsp;— Inception</span><span class="label-short">I</span></a>
+    <a href="#movement-2" class="m-ii" style="flex: 6;"><span class="label-full">II — Substrate-<br>of-self</span><span class="label-mid">II&nbsp;— Substrate</span><span class="label-short">II</span></a>
+    <a href="#movement-3" class="m-iii" style="flex: 3;"><span class="label-full">III — Retroactive<br>codification</span><span class="label-mid">III</span><span class="label-short">III</span></a>
+    <a href="#movement-4" class="m-iv" style="flex: 6;"><span class="label-full">IV — The substrate<br>using itself</span><span class="label-mid">IV&nbsp;— Application</span><span class="label-short">IV</span></a>
   </div>
   <div class="movement-dates">
     <span>Apr 20</span>
