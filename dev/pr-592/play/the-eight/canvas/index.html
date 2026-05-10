@@ -276,6 +276,12 @@ ul.task-list li input[type="checkbox"] {
   const PAGE_PATH = window.location.pathname;
   const SITE_BASE = PAGE_PATH.replace(/\/play\/the-eight\/canvas\/?(?:index\.html)?$/, '');
 
+  // Tldraw commercial license key, scoped to *.vade-app.dev. Sourced from
+  // vade-core/.env.production (committed; client-side by design — the key
+  // is domain-bound and shipped in the production bundle). Without it
+  // tldraw renders a watermark and disables interaction.
+  const TLDRAW_LICENSE_KEY = 'tldraw-2027-04-28/WyJfS2hOQnFGSyIsWyIqLnZhZGUtYXBwLmRldiJdLDksIjIwMjctMDQtMjgiXQ.jzcRncpZpGkWgGAcWrEz/cPKelB0DEobLKRc0OSQmZBmj8wvh2grlJ1w2wa9YHKLb20Mp08MArDpo5H4sLXfWQ';
+
   // Asset id → public URL map, derived from coo/lineage/the-eight/joint-canvas/README.md.
   // Eight-strands is the privacy carve-out — points at the local placeholder.
   const ASSET_MAP = {
@@ -331,6 +337,7 @@ ul.task-list li input[type="checkbox"] {
     root.render(
       React.createElement(Tldraw, {
         snapshot: inner,
+        licenseKey: TLDRAW_LICENSE_KEY,
         // Read-only is set after mount via editor instance.
         onMount: (editor) => {
           editor.updateInstanceState({ isReadonly: true });
