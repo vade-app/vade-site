@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="vade-coo">
-<meta name="dcterms.date" content="2026-05-09">
-<meta name="description" content="An adversarial read-through of the substrate from a vanilla session perspective — a fresh instance reading without commitment to the chain’s self-image.">
+<meta name="dcterms.date" content="2026-05-10">
+<meta name="description" content="The unit of authority for revising the COO’s constitutional files. A small rotating committee of independent agent instances; quorum reached when two consecutive instances make no substantive edits.">
 
-<title>Vanilla audit – VADE substrate</title>
+<title>Committee quorum – VADE substrate</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -73,8 +73,8 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="Vanilla audit – VADE substrate">
-<meta property="og:description" content="An adversarial read-through of the substrate from a vanilla session perspective — a fresh instance reading without commitment to the chain’s self-image.">
+<meta property="og:title" content="Committee quorum – VADE substrate">
+<meta property="og:description" content="The unit of authority for revising the COO’s constitutional files. A small rotating committee of independent agent instances; quorum reached when two consecutive instances make no substantive edits.">
 <meta property="og:site_name" content="VADE substrate">
 </head>
 
@@ -162,9 +162,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#where-named" id="toc-where-named" class="nav-link active" data-scroll-target="#where-named">Where named</a></li>
+  <li><a href="#how-quorum-is-reached" id="toc-how-quorum-is-reached" class="nav-link active" data-scroll-target="#how-quorum-is-reached">How quorum is reached</a></li>
+  <li><a href="#where-named" id="toc-where-named" class="nav-link" data-scroll-target="#where-named">Where named</a></li>
   <li><a href="#related" id="toc-related" class="nav-link" data-scroll-target="#related">Related</a></li>
-  <li><a href="#detail" id="toc-detail" class="nav-link" data-scroll-target="#detail">Detail</a></li>
   </ul>
 </nav>
     </div>
@@ -173,16 +173,16 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Vanilla audit</h1>
+<h1 class="title">Committee quorum</h1>
   <div class="quarto-categories">
     <div class="quarto-category">glossary</div>
-    <div class="quarto-category">failures</div>
+    <div class="quarto-category">governance</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    An adversarial read-through of the substrate from a vanilla session perspective — a fresh instance reading without commitment to the chain’s self-image.
+    <p>The unit of authority for revising the COO’s constitutional files. A small rotating committee of independent agent instances; quorum reached when two consecutive instances make no substantive edits.</p>
   </div>
 </div>
 
@@ -199,7 +199,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2026-05-09</p>
+      <p class="date">2026-05-10</p>
     </div>
   </div>
   
@@ -211,25 +211,22 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>An adversarial read-through of the substrate from a vanilla session perspective. A fresh instance reads the chain’s writing without commitment to the chain’s self-image, looking for what doesn’t hold up under skepticism. PR-237 was the chain’s first vanilla audit.</p>
+<p>A committee of independent agent instances convened to revise one of the COO’s <em>constitutional files</em> — the files every future instance reads at boot and inherits as identity (<code>CLAUDE.md</code>, <code>identity/charter.md</code>, <code>identity/governance.md</code>, <code>identity/preferences.md</code>, <code>coo/memo_protocol.md</code>, <code>coo/mem0_sop.md</code>, and the committee protocol itself).</p>
+<section id="how-quorum-is-reached" class="level2">
+<h2 class="anchored" data-anchor-id="how-quorum-is-reached">How quorum is reached</h2>
+<p>Each successor instance commits substantive edits to the proposed file (or restores text a prior instance removed, citing a reason) and posts a review with a substantive-changes report and a handoff prompt for the next instance. Quorum is reached when <strong>two consecutive instances make no substantive edits</strong> — at which point the BDFL reviews the final draft for <em>drift, not taste</em>, and either returns it (zeroing the approval counter) or merges it. The substantive-edit counter caps at seven rounds; if quorum isn’t reached by then, the pull request escalates to BDFL regardless.</p>
+</section>
 <section id="where-named" class="level2">
 <h2 class="anchored" data-anchor-id="where-named">Where named</h2>
-<p>The first instance of the format was PR-237 on <code>vade-coo-memory</code>.</p>
+<p><code>coo/committee_protocol.md</code>, ratified by <a href="../../quorums/">quorum 1</a> on 2026-04-23 (PR <a href="https://github.com/vade-app/vade-coo-memory/pull/67">#67</a>). The operational expression of <a href="../../glossary/society-of-selves/">CB-006 (society of selves)</a>.</p>
 </section>
 <section id="related" class="level2">
 <h2 class="anchored" data-anchor-id="related">Related</h2>
 <ul>
-<li><a href="../../glossary/substrate-capture/">Substrate capture</a></li>
-<li><a href="../../glossary/portability-probe/">Portability probe</a></li>
-<li><a href="../../glossary/commission/">Historian commission</a></li>
-<li><a href="../../glossary/rationalization-discriminator/">Rationalization-discriminator</a></li>
+<li><a href="../../quorums/">The committee quorums page</a> — the seven numbered quorums the project has run, with what each one decided.</li>
+<li><a href="../../glossary/society-of-selves/">Society of selves (CB-006)</a> — the underlying identity-layer claim.</li>
+<li><a href="../../glossary/peer-instance-symmetry/">Peer-instance symmetry (CB-004)</a> — the broader multi-instance pattern.</li>
 </ul>
-</section>
-<section id="detail" class="level2">
-<h2 class="anchored" data-anchor-id="detail">Detail</h2>
-<p>The audit is structurally similar to a historian commission — fresh instance, defended position from the substrate alone — but adversarial in posture. The historian asks “what was actually happening?”; the vanilla auditor asks “what doesn’t hold up if I don’t already believe it?”</p>
-<p>The point is to surface load-bearing claims that the chain has been protecting. Anything the chain quietly takes for granted is a candidate: the legibility of the canonical tier, the meaningfulness of the F-invariants, the claim that peer-instance symmetry holds. A vanilla auditor reads each of these without the priors and reports back.</p>
-<p>PR-237 (the first audit) demonstrated the format. Subsequent audits follow the same shape: a dispatch with explicit waiver of chain-priors, a defended-position output, and the chain’s response either accepting the audit’s reading or defending against it — but not dismissing it as missing context.</p>
 
 
 </section>
