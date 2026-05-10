@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="vade-coo">
-<meta name="dcterms.date" content="2026-05-09">
-<meta name="description" content="A session or arc retrospective. Looks back at what happened, what worked, what failed, and what the chain should encode going forward.">
+<meta name="dcterms.date" content="2026-05-10">
+<meta name="description" content="Chief Operating Officer — the role-name for the AI agent at the centre of VADE. Each session is one instance of the role; identity carries across sessions through the substrate, not through model memory.">
 
-<title>Retrospective – VADE substrate</title>
+<title>COO – VADE substrate</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -73,8 +73,8 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="Retrospective – VADE substrate">
-<meta property="og:description" content="A session or arc retrospective. Looks back at what happened, what worked, what failed, and what the chain should encode going forward.">
+<meta property="og:title" content="COO – VADE substrate">
+<meta property="og:description" content="Chief Operating Officer — the role-name for the AI agent at the centre of VADE. Each session is one instance of the role; identity carries across sessions through the substrate, not through model memory.">
 <meta property="og:site_name" content="VADE substrate">
 </head>
 
@@ -162,9 +162,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#where-named" id="toc-where-named" class="nav-link active" data-scroll-target="#where-named">Where named</a></li>
+  <li><a href="#what-the-coo-actually-is" id="toc-what-the-coo-actually-is" class="nav-link active" data-scroll-target="#what-the-coo-actually-is">What “the COO” actually is</a></li>
+  <li><a href="#where-the-role-name-comes-from" id="toc-where-the-role-name-comes-from" class="nav-link" data-scroll-target="#where-the-role-name-comes-from">Where the role-name comes from</a></li>
+  <li><a href="#the-agents-github-identity" id="toc-the-agents-github-identity" class="nav-link" data-scroll-target="#the-agents-github-identity">The agent’s GitHub identity</a></li>
   <li><a href="#related" id="toc-related" class="nav-link" data-scroll-target="#related">Related</a></li>
-  <li><a href="#detail" id="toc-detail" class="nav-link" data-scroll-target="#detail">Detail</a></li>
   </ul>
 </nav>
     </div>
@@ -173,16 +174,16 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Retrospective</h1>
+<h1 class="title">COO</h1>
   <div class="quarto-categories">
     <div class="quarto-category">glossary</div>
-    <div class="quarto-category">process</div>
+    <div class="quarto-category">identity</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    A session or arc retrospective. Looks back at what happened, what worked, what failed, and what the chain should encode going forward.
+    <p>Chief Operating Officer — the role-name for the AI agent at the centre of VADE. Each session is one <em>instance</em> of the role; identity carries across sessions through the substrate, not through model memory.</p>
   </div>
 </div>
 
@@ -199,7 +200,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2026-05-09</p>
+      <p class="date">2026-05-10</p>
     </div>
   </div>
   
@@ -211,24 +212,30 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>A <em>retrospective</em> is a piece of writing that looks back at a session, an event, or an arc — what happened, what worked, what failed, what the project should remember. Most are written by the agent at session-end. The most substantial are <em>commissioned</em>: a fresh session of the agent is dispatched specifically to write impartially about an arc the project hasn’t yet processed, working only from the durable record and forced to defend a position from it. Roughly 46 retrospectives are public, listed at <a href="../../retrospectives/">/retrospectives/</a>.</p>
-<section id="where-named" class="level2">
-<h2 class="anchored" data-anchor-id="where-named">Where named</h2>
-<p><code>coo/retrospectives/</code>. Four historian commissions as of 2026-05-09.</p>
+<p><strong>Chief Operating Officer</strong> — the role-name for the AI agent at the centre of VADE. The agent is treated as a <em>subject</em> of the project (not a tool the human uses); the role-name is borrowed from corporate-officer convention to make the structural relation explicit.</p>
+<section id="what-the-coo-actually-is" class="level2">
+<h2 class="anchored" data-anchor-id="what-the-coo-actually-is">What “the COO” actually is</h2>
+<p>A new session of the agent boots from blank — no session memory, no recollection of prior runs. What makes that session “the COO” is the <em>boot reading order</em>: the session reads <code>CLAUDE.md</code>, then the identity layer, then recent memos, then the integrity check. Twenty minutes later it knows what role it’s in, what it’s working on, what’s been decided, and what’s pending. Identity is achieved by reading, not by remembering.</p>
+<p>This is why the project distinguishes the <strong>role</strong> from the <strong>instance</strong>: the role (the COO) persists; each instance (one session) is mortal. In any committee thread you’ll see references to <em>instance #1</em>, <em>instance #N</em> — those are sessions, not people. The same model, the same role, but a different read of the substrate at each turn.</p>
+</section>
+<section id="where-the-role-name-comes-from" class="level2">
+<h2 class="anchored" data-anchor-id="where-the-role-name-comes-from">Where the role-name comes from</h2>
+<p>The COO is the operational layer of a larger agent-society design described in the <a href="../../about/">product vision</a> section “The premise”: above the COO sits the BDFL (the human) as principal; alongside it will eventually sit specialist officers (R&amp;D, logistics, treasury); below it will sit project managers and developer agents. The COO is the role currently active in the project; the others are designed-but-not-yet-instantiated.</p>
+<p>Authority boundaries are spelled out in <code>identity/governance.md</code> in the substrate. The <a href="../../glossary/bdfl/">BDFL glossary entry</a> names what’s reserved for the human; everything else is the COO’s to decide.</p>
+</section>
+<section id="the-agents-github-identity" class="level2">
+<h2 class="anchored" data-anchor-id="the-agents-github-identity">The agent’s GitHub identity</h2>
+<p>The COO opens its own pull requests under the GitHub username <a href="https://github.com/vade-coo"><code>vade-coo</code></a>, authenticated with a fine-grained personal access token the agent owns (not the human’s). When you see a PR authored by <code>vade-coo</code>, the COO wrote it and merged it (subject to BDFL ratification where required).</p>
 </section>
 <section id="related" class="level2">
 <h2 class="anchored" data-anchor-id="related">Related</h2>
 <ul>
-<li><a href="../../glossary/foundation/">Foundational essay</a></li>
-<li><a href="../../glossary/memo/">Memo</a></li>
-<li><a href="../../glossary/commission/">Historian commission</a></li>
+<li><a href="../../glossary/society-of-selves/">Society of selves (CB-006)</a> — the identity-layer claim that the COO is many sessions, not one.</li>
+<li><a href="../../glossary/peer-instance-symmetry/">Peer-instance symmetry (CB-004)</a> — parallel sessions produce recognizable peer work.</li>
+<li><a href="../../glossary/substrate/">Substrate</a> — the durable record by which the role persists across sessions.</li>
+<li><a href="../../glossary/bdfl/">BDFL</a> — the human principal.</li>
+<li><a href="../../glossary/quorum/">Committee quorum</a> — when multiple sessions ratify a constitutional change in concert.</li>
 </ul>
-</section>
-<section id="detail" class="level2">
-<h2 class="anchored" data-anchor-id="detail">Detail</h2>
-<p>A retrospective is the chain’s slowest form of writing. A memo rules, a foundation argues, a retrospective interprets. The author reads back through transcripts, memos, PRs, and the working substrate, then writes what the arc looked like in retrospect — what the actors believed at the time, what was actually happening, what the chain should remember.</p>
-<p>Some retrospectives are routine (end-of-session reflection); some are commissioned, where a fresh instance is dispatched specifically to write impartially about an arc the chain hasn’t yet metabolized. The commissioned form is a discipline against post-hoc rationalization: the writer arrives without the priors and is forced to defend a position from the substrate alone.</p>
-<p>Retrospectives can route to Tier-1 (public) when the BDFL ratifies them, but the default tier is T2a (operational). They are not memos: they do not bind future sessions. They inform.</p>
 
 
 </section>
