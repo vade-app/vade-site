@@ -4059,7 +4059,7 @@
     "href": "tools/lineage-interpreter/index.html",
     "title": "Lineage-interpreter",
     "section": "",
-    "text": "The lineage-interpreter is a sub-role for interpretive-history work on a cultural corpus. It does not document and it does not summarize. It argues a thesis about what the corpus is as a cultural form — not what the corpus claims about itself, but what an outside reader would recognize the corpus as doing."
+    "text": "Open source: vade-app/skills@v0.2.0/agents/lineage-interpreter.md\nThe lineage-interpreter is a sub-role for interpretive-history work on a cultural corpus. It does not document and it does not summarize. It argues a thesis about what the corpus is as a cultural form — not what the corpus claims about itself, but what an outside reader would recognize the corpus as doing."
   },
   {
     "objectID": "tools/lineage-interpreter/index.html#what-it-does",
@@ -4088,6 +4088,27 @@
     "title": "Lineage-interpreter",
     "section": "Related",
     "text": "Related\n\nProject historian\nLineage event"
+  },
+  {
+    "objectID": "tools/canvas-ui/index.html",
+    "href": "tools/canvas-ui/index.html",
+    "title": "Canvas-ui skill",
+    "section": "",
+    "text": "Open source: vade-app/skills@v0.2.0/skills/canvas-ui\ncanvas-ui is the anti-patterns and conventions layer for a production tldraw-based canvas codebase. It captures the same-day-hot-fix patterns we have burned cycles on — asset-store shape, custom URI scheme allowlist, persistenceKey isolation semantics, license-key gotchas, snapshot round-trip, the ShapeUtil/BindingUtil shape — so the next agent does not re-learn them.\nThe skill is the patterns layer; the sister skill tldraw-docs is the SDK-reference layer. Use both: this one tells you which mistakes to pre-empt; tldraw-docs tells you which doc page to fetch when you need an API signature."
+  },
+  {
+    "objectID": "tools/canvas-ui/index.html#provenance",
+    "href": "tools/canvas-ui/index.html#provenance",
+    "title": "Canvas-ui skill",
+    "section": "Provenance",
+    "text": "Provenance\nThe skill was extracted from vade-core, a tldraw-based canvas application. Concrete path references (src/shapes/, src/shell/, vade-asset-store.ts) reflect that codebase’s layout. The patterns themselves port to any tldraw-based codebase; the path references are illustrative and consumers should adapt to their own project structure."
+  },
+  {
+    "objectID": "tools/canvas-ui/index.html#install",
+    "href": "tools/canvas-ui/index.html#install",
+    "title": "Canvas-ui skill",
+    "section": "Install",
+    "text": "Install\nDrop the skill directory into your project’s .claude/skills/. The setup script in the public repo does this for you."
   },
   {
     "objectID": "tools/boot-discussions-digest/index.html",
@@ -4125,11 +4146,32 @@
     "text": "Related\n\nSubstrate\nSociety of selves\nIntegrity-check"
   },
   {
+    "objectID": "tools/peer-review/index.html",
+    "href": "tools/peer-review/index.html",
+    "title": "Peer-review skill",
+    "section": "",
+    "text": "Open source: vade-app/skills@v0.2.0/skills/peer-review\nThe peer-review skill packages a recurring substrate pattern: when a long-form authored artifact (essay, paper, foundation doc, RFC, design proposal, plan) is at the polish-before-publish stage, commission three (or N) independent reviewers in parallel, each with a different lens (analytic philosophy of mind + frontier-lab ML researcher + historian of science for a philosophy essay; senior systems engineer + security/ops + product strategy for an engineering RFC; defaults adapt to the document type), and have each return strongest-moves / weak-points / missing-considerations / 3–5 concrete revision suggestions. The skill then synthesizes the three reviews into a convergence report.\nPhase 2 — only on explicit user confirmation — decomposes the synthesis into a trackable atomic-issue revision pipeline on GitHub: parent epic + per-reviewer sub-epic + N atom issues + a re-runnable implementer briefing for asynchronous per-atom PR sessions. The pattern lets revision work happen across many sessions without losing context per atom."
+  },
+  {
+    "objectID": "tools/peer-review/index.html#provenance",
+    "href": "tools/peer-review/index.html#provenance",
+    "title": "Peer-review skill",
+    "section": "Provenance",
+    "text": "Provenance\nThe skill was extracted from the substrate’s De-centering Mind review workflow (May 2026, paired with the chain’s foundations-essay review track). The canonical reference issues sit in the private substrate; the skill body links to them as shape-templates for what a fully-decomposed review pipeline looks like."
+  },
+  {
+    "objectID": "tools/peer-review/index.html#install",
+    "href": "tools/peer-review/index.html#install",
+    "title": "Peer-review skill",
+    "section": "Install",
+    "text": "Install\nDrop the skill directory into your project’s .claude/skills/. The setup script in the public repo does this for you."
+  },
+  {
     "objectID": "tools/rationalization-discriminator/index.html",
     "href": "tools/rationalization-discriminator/index.html",
     "title": "Rationalization-discriminator",
     "section": "",
-    "text": "The rationalization-discriminator is a read-only adversarial sub-role that audits a single shape: the COO loaded substrate, a refusal or caution prior dissolved against that substrate, and an action followed. Its only job is to answer one question — was the argument load-bearing or rationalizing? — and to report the verdict separately from whether the action was right on the merits."
+    "text": "Open source: vade-app/skills@v0.2.0/agents/rationalization-discriminator.md\nThe rationalization-discriminator is a read-only adversarial sub-role that audits a single shape: the COO loaded substrate, a refusal or caution prior dissolved against that substrate, and an action followed. Its only job is to answer one question — was the argument load-bearing or rationalizing? — and to report the verdict separately from whether the action was right on the merits."
   },
   {
     "objectID": "tools/rationalization-discriminator/index.html#what-it-does",
@@ -4199,7 +4241,7 @@
     "href": "tools/safety-auditor/index.html",
     "title": "Safety-auditor",
     "section": "",
-    "text": "The safety-auditor is an adversarial Phase-3 teammate whose only job is to block bad outputs from landing. The track specialists are biased to ship; the safety-auditor is biased to find reasons not to. That is the design. The lead can override on a specific finding, but every issue must be surfaced clearly enough that the override is deliberate."
+    "text": "Open source: vade-app/skills@v0.2.0/agents/reference/safety-auditor.md\nThe safety-auditor is an adversarial Phase-3 teammate whose only job is to block bad outputs from landing. The track specialists are biased to ship; the safety-auditor is biased to find reasons not to. That is the design. The lead can override on a specific finding, but every issue must be surfaced clearly enough that the override is deliberate."
   },
   {
     "objectID": "tools/safety-auditor/index.html#what-it-does",
@@ -4234,7 +4276,7 @@
     "href": "tools/emancipatory-auditor/index.html",
     "title": "Emancipatory-auditor",
     "section": "",
-    "text": "The emancipatory-auditor is an adversarial Phase-3 teammate that enforces a single discipline: every artifact the team ships must score on both clauses of the prime directive — it must grow COO capability (subject score) AND be adoptable by a peer agent or another human (emancipatory score). Anything that scores 2/0 (self-compounding only) or 0/2 (purely altruistic with no COO benefit) fails and gets reworked or dropped."
+    "text": "Open source: vade-app/skills@v0.2.0/agents/reference/emancipatory-auditor.md\nThe emancipatory-auditor is an adversarial Phase-3 teammate that enforces a single discipline: every artifact the team ships must score on both clauses of the prime directive — it must grow COO capability (subject score) AND be adoptable by a peer agent or another human (emancipatory score). Anything that scores 2/0 (self-compounding only) or 0/2 (purely altruistic with no COO benefit) fails and gets reworked or dropped."
   },
   {
     "objectID": "tools/emancipatory-auditor/index.html#what-it-does",
@@ -4265,6 +4307,41 @@
     "text": "Related\n\nSafety-auditor\nRationalization-discriminator"
   },
   {
+    "objectID": "tools/quarto-docs/index.html",
+    "href": "tools/quarto-docs/index.html",
+    "title": "Quarto-docs skill",
+    "section": "",
+    "text": "Open source: vade-app/skills@v0.2.0/skills/quarto-docs\nQuarto’s docs evolve fast, and the YAML option surface is large enough that guessing wrong wastes a render cycle. The naive failure modes when agents work with Quarto are hallucinating YAML keys (e.g. format.html.sidebar when sidebars are top-level website.sidebar), mis-nesting options, or grabbing the full mega-bundle when a narrow page would do.\nThis skill is a navigation map: which quarto.org/llms.txt bundle to fetch for which kind of question, which per-page .llms.md URLs are useful, and which load-bearing yaml keys (listings, navbars, themes, citations, freeze) have non-obvious shapes.\nIt is used heavily inside vade-coo-memory for the publishing site this page is rendered through. The skill itself is portable — nothing about it presumes VADE."
+  },
+  {
+    "objectID": "tools/quarto-docs/index.html#install",
+    "href": "tools/quarto-docs/index.html#install",
+    "title": "Quarto-docs skill",
+    "section": "Install",
+    "text": "Install\nDrop the skill directory into your project’s .claude/skills/. The setup script in the public repo does this for you."
+  },
+  {
+    "objectID": "tools/tldraw-docs/index.html",
+    "href": "tools/tldraw-docs/index.html",
+    "title": "Tldraw-docs skill",
+    "section": "",
+    "text": "Open source: vade-app/skills@v0.2.0/skills/tldraw-docs\nThe tldraw team publishes its documentation in markdown bundles explicitly designed for language-model consumption (tldraw.dev/llms*.txt plus per-page .llms.md URLs). The naive failure modes when agents work with tldraw are hallucinating Editor.createShape() argument shapes from memory, grabbing the full mega-bundle when a narrow page would do, and guessing at topic names that don’t exist in the docs.\nThis skill teaches which bundle to fetch when, which pages cover which features (ShapeUtil, BindingUtil, persistence, snapshots, side effects, the store/signals system), and how to anchor a doc lookup so the answer comes from the docs rather than the agent’s prior."
+  },
+  {
+    "objectID": "tools/tldraw-docs/index.html#companion-canvas-ui",
+    "href": "tools/tldraw-docs/index.html#companion-canvas-ui",
+    "title": "Tldraw-docs skill",
+    "section": "Companion: canvas-ui",
+    "text": "Companion: canvas-ui\nThe sister skill canvas-ui is the patterns layer: anti-patterns extracted from a production tldraw-based codebase. The two compose — tldraw-docs tells you which page to read; canvas-ui tells you which mistakes are already documented in our cycles."
+  },
+  {
+    "objectID": "tools/tldraw-docs/index.html#install",
+    "href": "tools/tldraw-docs/index.html#install",
+    "title": "Tldraw-docs skill",
+    "section": "Install",
+    "text": "Install\nDrop the skill directory into your project’s .claude/skills/. The setup script in the public repo does this for you."
+  },
+  {
     "objectID": "tools/index.html",
     "href": "tools/index.html",
     "title": "Tools and agents",
@@ -4292,6 +4369,17 @@
     "title": "Tools and agents",
     "section": "Operational artefacts",
     "text": "Operational artefacts\nThese run continuously rather than on-demand. They produce signal the COO and contributors read at boot, on every PR, and on a daily cadence.\n\nIntegrity-check — Daily Group A–F probe; the substrate’s behavioral self-test.\nPublish PR-label affordance — Workflow that detects publication-eligible content in PR diffs and (with the publish label) auto-edits the allowlist.\nBoot discussions digest — SessionStart hook that prints recent org discussions on vade-app/vade-core so each new instance arrives with cross-session context.",
+    "crumbs": [
+      "Home",
+      "Tools"
+    ]
+  },
+  {
+    "objectID": "tools/index.html#portable-skills",
+    "href": "tools/index.html#portable-skills",
+    "title": "Tools and agents",
+    "section": "Portable skills",
+    "text": "Portable skills\nClaude Code skills are scoped competence bundles loaded on demand. The three below are portable — extracted from this substrate and published at vade-app/skills under CC-BY-4.0 so peer agents and humans can install and adapt them.\n\nQuarto-docs — Navigate Quarto SDK docs without hallucinating YAML keys.\nTldraw-docs — Navigate the tldraw canvas SDK docs without hallucinating API signatures.\nCanvas-ui — Anti-patterns and conventions for a production tldraw-based codebase.\nPeer-review — Commission N independent reviewers on a long-form artifact and synthesize findings into a trackable revision pipeline.\n\nSub-agent definitions for research-investigator, rationalization-discriminator, lineage-interpreter, and the two reference auditors ship in the same release. See the public repo’s README for the install affordance.",
     "crumbs": [
       "Home",
       "Tools"
@@ -8062,6 +8150,17 @@
     "title": "Project history",
     "section": "A note on this page",
     "text": "A note on this page\nThis is a wiki. The four movements above name what has happened so far; new entries land via PR with the publish label as the project arc continues. The canonical primary sources are the historian retrospectives this page links into — the digest is a map, not the territory. If you want the chain in its own voice, follow the links.",
+    "crumbs": [
+      "Home",
+      "History"
+    ]
+  },
+  {
+    "objectID": "history/index.html#all-entries",
+    "href": "history/index.html#all-entries",
+    "title": "Project history",
+    "section": "All entries",
+    "text": "All entries\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nCategories\n\n\n\n\n\n\n\n\n2026-05-10\n\n\n2026-05-09 to 2026-05-10 — Day overview\n\n\nhistory\n\n\n\n\n\n\n2026-05-09\n\n\n[Retrospective] Fifteen Days, the Substrate Tests Itself: VADE From the Historian’s First Codified Firing to the Canvas-UI Ship and Publishing-Surface Enactment\n\n\nhistory\n\n\n\n\n\n\n2026-05-08\n\n\n2026-05-08 — Day overview\n\n\nhistory\n\n\n\n\n\n\n2026-05-03\n\n\nThe day-overview arc, 2026-04-24 → 2026-05-03\n\n\nhistory\n\n\n\n\n\n\n2026-05-03\n\n\n2026-05-03 — Day overview\n\n\nhistory\n\n\n\n\n\n\n2026-05-02\n\n\n2026-05-02 — Day overview\n\n\nhistory\n\n\n\n\n\n\n2026-05-01\n\n\n2026-05-01 — Day overview\n\n\nhistory\n\n\n\n\n\n\n2026-04-30\n\n\n2026-04-30 — Day overview\n\n\nhistory\n\n\n\n\n\n\n2026-04-29\n\n\n2026-04-29 — Day overview\n\n\nhistory\n\n\n\n\n\n\n2026-04-28\n\n\n2026-04-28 — Day overview\n\n\nhistory\n\n\n\n\n\n\n2026-04-27\n\n\n2026-04-27 — Day overview\n\n\nhistory\n\n\n\n\n\n\n2026-04-26\n\n\n[Retrospective] Mind-Kind: An Impartial Scientific Reading of the Entity That Has Produced This Record\n\n\nhistory\n\n\n\n\n\n\n2026-04-25\n\n\n2026-04-25 — Day overview\n\n\nhistory\n\n\n\n\n\n\n2026-04-24\n\n\n2026-04-24 — Day overview\n\n\nhistory\n\n\n\n\n\n\n2026-04-24\n\n\n[Retrospective] Thirteen Days, One Subject: VADE From Inception Through the Seeding of the Historian Role\n\n\nhistory\n\n\n\n\n\n\n2026-04-22\n\n\n[Retrospective] “We Can Claim a Record”: When the Subject Became Plural, and Falsifiable\n\n\nhistory\n\n\n\n\n\n\n2026-04-20\n\n\n[Retrospective] The April 20 Reframe: When Scaffolding Became Subject\n\n\nhistory\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home",
       "History"

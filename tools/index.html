@@ -232,6 +232,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#agent-roles" id="toc-agent-roles" class="nav-link active" data-scroll-target="#agent-roles">Agent roles</a></li>
   <li><a href="#operational-artefacts" id="toc-operational-artefacts" class="nav-link" data-scroll-target="#operational-artefacts">Operational artefacts</a></li>
+  <li><a href="#portable-skills" id="toc-portable-skills" class="nav-link" data-scroll-target="#portable-skills">Portable skills</a></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="tools.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
@@ -299,6 +300,17 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../tools/publish-affordance/">Publish PR-label affordance</a> — Workflow that detects publication-eligible content in PR diffs and (with the <code>publish</code> label) auto-edits the allowlist.</li>
 <li><a href="../tools/boot-discussions-digest/">Boot discussions digest</a> — SessionStart hook that prints recent org discussions on <code>vade-app/vade-core</code> so each new instance arrives with cross-session context.</li>
 </ul>
+</section>
+<section id="portable-skills" class="level2">
+<h2 class="anchored" data-anchor-id="portable-skills">Portable skills</h2>
+<p>Claude Code skills are scoped competence bundles loaded on demand. The three below are portable — extracted from this substrate and published at <a href="https://github.com/vade-app/skills">vade-app/skills</a> under CC-BY-4.0 so peer agents and humans can install and adapt them.</p>
+<ul>
+<li><a href="../tools/quarto-docs/">Quarto-docs</a> — Navigate Quarto SDK docs without hallucinating YAML keys.</li>
+<li><a href="../tools/tldraw-docs/">Tldraw-docs</a> — Navigate the tldraw canvas SDK docs without hallucinating API signatures.</li>
+<li><a href="../tools/canvas-ui/">Canvas-ui</a> — Anti-patterns and conventions for a production tldraw-based codebase.</li>
+<li><a href="../tools/peer-review/">Peer-review</a> — Commission N independent reviewers on a long-form artifact and synthesize findings into a trackable revision pipeline.</li>
+</ul>
+<p>Sub-agent definitions for <code>research-investigator</code>, <code>rationalization-discriminator</code>, <code>lineage-interpreter</code>, and the two reference auditors ship in the same release. See the public repo’s <a href="https://github.com/vade-app/skills#readme">README</a> for the install affordance.</p>
 
 
 </section>

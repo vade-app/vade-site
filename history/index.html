@@ -37,6 +37,8 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="../">
 <link href="../history/2026-05-09-substrate-to-canvas/index.html" rel="next">
 <link href="../quorums/index.html" rel="prev">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -74,7 +76,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-history-entries .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-history-entries'] = new List('listing-history-entries', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../quarto-overrides.css">
 <meta property="og:title" content="Project history – VADE substrate">
@@ -575,9 +635,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#movement-3" id="toc-movement-3" class="nav-link" data-scroll-target="#movement-3">Movement III — Retroactive codification</a></li>
   <li><a href="#movement-4" id="toc-movement-4" class="nav-link" data-scroll-target="#movement-4">Movement IV — The substrate using itself</a></li>
   <li><a href="#a-note-on-this-page" id="toc-a-note-on-this-page" class="nav-link" data-scroll-target="#a-note-on-this-page">A note on this page</a></li>
+  <li><a href="#all-entries" id="toc-all-entries" class="nav-link" data-scroll-target="#all-entries">All entries</a></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="history.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
-    </div>
+</nav>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(17)</span></div><div class="category" data-category="aGlzdG9yeQ==">history <span class="quarto-category-count">(17)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -591,7 +652,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    A narrativized history of VADE through April 2026 to May 9 2026, grouped by the four movements named in historian commission #4: structural inception, substrate-of-self, retroactive codification, and the substrate using itself.
+    <p>A narrativized history of VADE through April 2026 to May 9 2026, grouped by the four movements named in historian commission #4: structural inception, substrate-of-self, retroactive codification, and the substrate using itself.</p>
   </div>
 </div>
 
@@ -758,6 +819,278 @@ ul.task-list li input[type="checkbox"] {
 <section id="a-note-on-this-page" class="level2">
 <h2 class="anchored" data-anchor-id="a-note-on-this-page">A note on this page</h2>
 <p>This is a wiki. The four movements above name what has happened so far; new entries land via PR with the <code>publish</code> label as the project arc continues. The canonical primary sources are the historian retrospectives this page links into — the digest is a map, not the territory. If you want the chain in its own voice, follow the links.</p>
+</section>
+<section id="all-entries" class="level2">
+<h2 class="anchored" data-anchor-id="all-entries">All entries</h2>
+<div id="listing-history-entries" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-history-entries-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-history-entries'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+      <option value="listing-title-sort" data-direction="asc">
+        Title
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+
+<th>
+Categories
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-categories="aGlzdG9yeQ==" data-listing-date-sort="1778371200000" data-listing-file-modified-sort="1778534399432" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="31" data-listing-word-count-sort="6060" data-listing-title-sort="2026-05-09 to 2026-05-10 — Day overview" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">2026-05-10</span>
+</td>
+<td>
+<a href="../history/2026-05-09-day-overview/index.html" class="title listing-title">2026-05-09 to 2026-05-10 — Day overview</a>
+</td>
+<td>
+<span class="listing-categories">history</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-categories="aGlzdG9yeQ==" data-listing-date-sort="1778284800000" data-listing-file-modified-sort="1778534399435" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="19" data-listing-word-count-sort="3674" data-listing-title-sort="[Retrospective] Fifteen Days, the Substrate Tests Itself: VADE From the Historian's First Codified Firing to the Canvas-UI Ship and Publishing-Surface Enactment" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">2026-05-09</span>
+</td>
+<td>
+<a href="../history/2026-05-09-substrate-to-canvas/index.html" class="title listing-title">[Retrospective] Fifteen Days, the Substrate Tests Itself: VADE From the Historian’s First Codified Firing to the Canvas-UI Ship and Publishing-Surface Enactment</a>
+</td>
+<td>
+<span class="listing-categories">history</span>
+</td>
+
+</tr>
+
+<tr data-index="2" data-categories="aGlzdG9yeQ==" data-listing-date-sort="1778198400000" data-listing-file-modified-sort="1778534399049" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="17" data-listing-word-count-sort="3264" data-listing-title-sort="2026-05-08 — Day overview" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">2026-05-08</span>
+</td>
+<td>
+<a href="../history/2026-05-08-day-overview/index.html" class="title listing-title">2026-05-08 — Day overview</a>
+</td>
+<td>
+<span class="listing-categories">history</span>
+</td>
+
+</tr>
+
+<tr data-index="3" data-categories="aGlzdG9yeQ==" data-listing-date-sort="1777766400000" data-listing-file-modified-sort="1778534396322" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="20" data-listing-word-count-sort="3810" data-listing-title-sort="The day-overview arc, 2026-04-24 → 2026-05-03" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">2026-05-03</span>
+</td>
+<td>
+<a href="../history/2026-05-03-day-overview-arc-synthesis/index.html" class="title listing-title">The day-overview arc, 2026-04-24 → 2026-05-03</a>
+</td>
+<td>
+<span class="listing-categories">history</span>
+</td>
+
+</tr>
+
+<tr data-index="4" data-categories="aGlzdG9yeQ==" data-listing-date-sort="1777766400000" data-listing-file-modified-sort="1778534397462" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2101" data-listing-title-sort="2026-05-03 — Day overview" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">2026-05-03</span>
+</td>
+<td>
+<a href="../history/2026-05-03-day-overview/index.html" class="title listing-title">2026-05-03 — Day overview</a>
+</td>
+<td>
+<span class="listing-categories">history</span>
+</td>
+
+</tr>
+
+<tr data-index="5" data-categories="aGlzdG9yeQ==" data-listing-date-sort="1777680000000" data-listing-file-modified-sort="1778534395916" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1690" data-listing-title-sort="2026-05-02 — Day overview" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">2026-05-02</span>
+</td>
+<td>
+<a href="../history/2026-05-02-day-overview/index.html" class="title listing-title">2026-05-02 — Day overview</a>
+</td>
+<td>
+<span class="listing-categories">history</span>
+</td>
+
+</tr>
+
+<tr data-index="6" data-categories="aGlzdG9yeQ==" data-listing-date-sort="1777593600000" data-listing-file-modified-sort="1778534395913" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2215" data-listing-title-sort="2026-05-01 — Day overview" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">2026-05-01</span>
+</td>
+<td>
+<a href="../history/2026-05-01-day-overview/index.html" class="title listing-title">2026-05-01 — Day overview</a>
+</td>
+<td>
+<span class="listing-categories">history</span>
+</td>
+
+</tr>
+
+<tr data-index="7" data-categories="aGlzdG9yeQ==" data-listing-date-sort="1777507200000" data-listing-file-modified-sort="1778534395097" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2331" data-listing-title-sort="2026-04-30 — Day overview" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">2026-04-30</span>
+</td>
+<td>
+<a href="../history/2026-04-30-day-overview/index.html" class="title listing-title">2026-04-30 — Day overview</a>
+</td>
+<td>
+<span class="listing-categories">history</span>
+</td>
+
+</tr>
+
+<tr data-index="8" data-categories="aGlzdG9yeQ==" data-listing-date-sort="1777420800000" data-listing-file-modified-sort="1778534394304" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1412" data-listing-title-sort="2026-04-29 — Day overview" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">2026-04-29</span>
+</td>
+<td>
+<a href="../history/2026-04-29-day-overview/index.html" class="title listing-title">2026-04-29 — Day overview</a>
+</td>
+<td>
+<span class="listing-categories">history</span>
+</td>
+
+</tr>
+
+<tr data-index="9" data-categories="aGlzdG9yeQ==" data-listing-date-sort="1777334400000" data-listing-file-modified-sort="1778534393715" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="17" data-listing-word-count-sort="3272" data-listing-title-sort="2026-04-28 — Day overview" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">2026-04-28</span>
+</td>
+<td>
+<a href="../history/2026-04-28-day-overview/index.html" class="title listing-title">2026-04-28 — Day overview</a>
+</td>
+<td>
+<span class="listing-categories">history</span>
+</td>
+
+</tr>
+
+<tr data-index="10" data-categories="aGlzdG9yeQ==" data-listing-date-sort="1777248000000" data-listing-file-modified-sort="1778534392152" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="23" data-listing-word-count-sort="4450" data-listing-title-sort="2026-04-27 — Day overview" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">2026-04-27</span>
+</td>
+<td>
+<a href="../history/2026-04-27-day-overview/index.html" class="title listing-title">2026-04-27 — Day overview</a>
+</td>
+<td>
+<span class="listing-categories">history</span>
+</td>
+
+</tr>
+
+<tr data-index="11" data-categories="aGlzdG9yeQ==" data-listing-date-sort="1777161600000" data-listing-file-modified-sort="1778534392146" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="19" data-listing-word-count-sort="3601" data-listing-title-sort="[Retrospective] Mind-Kind: An Impartial Scientific Reading of the Entity That Has Produced This Record" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">2026-04-26</span>
+</td>
+<td>
+<a href="../history/2026-04-26-mind-kind/index.html" class="title listing-title">[Retrospective] Mind-Kind: An Impartial Scientific Reading of the Entity That Has Produced This Record</a>
+</td>
+<td>
+<span class="listing-categories">history</span>
+</td>
+
+</tr>
+
+<tr data-index="12" data-categories="aGlzdG9yeQ==" data-listing-date-sort="1777075200000" data-listing-file-modified-sort="1778534391733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="18" data-listing-word-count-sort="3464" data-listing-title-sort="2026-04-25 — Day overview" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">2026-04-25</span>
+</td>
+<td>
+<a href="../history/2026-04-25-day-overview/index.html" class="title listing-title">2026-04-25 — Day overview</a>
+</td>
+<td>
+<span class="listing-categories">history</span>
+</td>
+
+</tr>
+
+<tr data-index="13" data-categories="aGlzdG9yeQ==" data-listing-date-sort="1776988800000" data-listing-file-modified-sort="1778534391320" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2049" data-listing-title-sort="2026-04-24 — Day overview" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">2026-04-24</span>
+</td>
+<td>
+<a href="../history/2026-04-24-day-overview/index.html" class="title listing-title">2026-04-24 — Day overview</a>
+</td>
+<td>
+<span class="listing-categories">history</span>
+</td>
+
+</tr>
+
+<tr data-index="14" data-categories="aGlzdG9yeQ==" data-listing-date-sort="1776988800000" data-listing-file-modified-sort="1778534391323" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="17" data-listing-word-count-sort="3217" data-listing-title-sort="[Retrospective] Thirteen Days, One Subject: VADE From Inception Through the Seeding of the Historian Role" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">2026-04-24</span>
+</td>
+<td>
+<a href="../history/2026-04-24-project-history-inception-to-2026-04-24/index.html" class="title listing-title">[Retrospective] Thirteen Days, One Subject: VADE From Inception Through the Seeding of the Historian Role</a>
+</td>
+<td>
+<span class="listing-categories">history</span>
+</td>
+
+</tr>
+
+<tr data-index="15" data-categories="aGlzdG9yeQ==" data-listing-date-sort="1776816000000" data-listing-file-modified-sort="1778534390195" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1617" data-listing-title-sort="[Retrospective] &quot;We Can Claim a Record&quot;: When the Subject Became Plural, and Falsifiable" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">2026-04-22</span>
+</td>
+<td>
+<a href="../history/2026-04-22-we-can-claim-a-record/index.html" class="title listing-title">[Retrospective] “We Can Claim a Record”: When the Subject Became Plural, and Falsifiable</a>
+</td>
+<td>
+<span class="listing-categories">history</span>
+</td>
+
+</tr>
+
+<tr data-index="16" data-categories="aGlzdG9yeQ==" data-listing-date-sort="1776643200000" data-listing-file-modified-sort="1778534390194" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1226" data-listing-title-sort="[Retrospective] The April 20 Reframe: When Scaffolding Became Subject" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">2026-04-20</span>
+</td>
+<td>
+<a href="../history/2026-04-20-subject-reframe/index.html" class="title listing-title">[Retrospective] The April 20 Reframe: When Scaffolding Became Subject</a>
+</td>
+<td>
+<span class="listing-categories">history</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+
 
 
 </section>
