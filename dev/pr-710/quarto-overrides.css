@@ -1,0 +1,49 @@
+/* Suppress the description rendered inside the page title block.
+ *
+ * The `description:` frontmatter field stays in YAML so listings still
+ * read it for card previews, and <meta name="description"> +
+ * og:description still get populated for SEO / social previews.
+ * What we hide is Quarto's duplicate render below the title-block-meta,
+ * which on most pages repeats the body's opening paragraph verbatim.
+ *
+ * Selector scoped to `header#title-block-header`; listing cards use
+ * `.listing-description` (different class) so are unaffected.
+ */
+header#title-block-header .description {
+  display: none;
+}
+
+/* Consistent body-content width across page configurations.
+ *
+ * Quarto's compiled CSS uses different `grid-template-columns` rules
+ * for each body-class combination — `body .page-columns` (no sidebar)
+ * caps body at ~810px, `body.docked.listing` at ~960px,
+ * `body.floating.slimcontent` at ~710px, etc. The net effect is that
+ * navigating between an intro page (no sidebar), a library listing
+ * (sidebar, no TOC), and a library essay (sidebar + TOC) makes the
+ * body content column visibly resize, even though the article body
+ * is "the same kind of thing" in all three.
+ *
+ * We pin `.column-body` (the default class on prose content) to a
+ * single max-width regardless of which grid the page lands in. The
+ * grid still allocates whatever space its template defines; the body
+ * content centers within that slot. The intent is steady reading
+ * width when clicking between sections. Pages that need wider space
+ * — Home's three-doors hero, the canvas embed — opt out via
+ * `page-layout: full`, which uses `.column-page` and is unaffected.
+ *
+ * Width chosen: 760px (matches our `grid.body-width` setting and
+ * Quarto's floating-sidebar default for non-listing pages).
+ */
+@media (min-width: 992px) {
+  /* Carve out pages that opt into `page-layout: full` — Home renders
+   * with `main.content column-page` and the canvas embed with
+   * `main.content column-page-right`; both remain wide by design.
+   * Everything else gets the consistent 760px cap. Header block and
+   * listing grid sit inside `main` and inherit. */
+  main.content:not([class*="column-page"]) {
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
