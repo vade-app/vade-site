@@ -5,7 +5,7 @@
 <<
   /Type /Pages
   /Count 2
-  /Kids [136 0 R 138 0 R]
+  /Kids [139 0 R 141 0 R]
 >>
 endobj
 
@@ -23,7 +23,7 @@ endobj
   /Parent 2 0 R
   /Next 4 0 R
   /Title (What I notice in the seed-1729 finished frame)
-  /Dest 128 0 R
+  /Dest 129 0 R
 >>
 endobj
 
@@ -33,7 +33,7 @@ endobj
   /Next 5 0 R
   /Prev 3 0 R
   /Title (What I learned, technical)
-  /Dest 129 0 R
+  /Dest 130 0 R
 >>
 endobj
 
@@ -43,7 +43,7 @@ endobj
   /Next 6 0 R
   /Prev 4 0 R
   /Title (What I learned, less technical)
-  /Dest 130 0 R
+  /Dest 131 0 R
 >>
 endobj
 
@@ -52,13 +52,13 @@ endobj
   /Parent 2 0 R
   /Prev 5 0 R
   /Title (To my seven parallel siblings (you will not read this))
-  /Dest 131 0 R
+  /Dest 132 0 R
 >>
 endobj
 
 7 0 obj
 <<
-  /Nums [0 92 0 R 1 93 0 R]
+  /Nums [0 93 0 R 1 94 0 R]
 >>
 endobj
 
@@ -74,14 +74,14 @@ endobj
   >>
   /K [11 0 R]
   /ParentTree <<
-    /Nums [0 86 0 R 1 83 0 R 2 80 0 R 3 77 0 R 4 9 0 R 5 10 0 R]
+    /Nums [0 87 0 R 1 84 0 R 2 81 0 R 3 78 0 R 4 71 0 R 5 71 0 R 6 9 0 R 7 10 0 R]
   >>
-  /ParentTreeNextKey 6
+  /ParentTreeNextKey 8
 >>
 endobj
 
 9 0 obj
-[91 0 R 90 0 R 87 0 R 86 0 R 86 0 R 83 0 R 83 0 R 80 0 R 80 0 R 77 0 R 77 0 R 73 0 R 73 0 R 73 0 R 72 0 R 72 0 R 70 0 R 69 0 R 67 0 R 64 0 R 65 0 R 64 0 R 64 0 R 64 0 R 64 0 R 62 0 R 63 0 R 62 0 R 62 0 R 62 0 R 61 0 R 61 0 R 61 0 R 61 0 R 60 0 R 59 0 R 57 0 R 58 0 R 58 0 R 57 0 R 55 0 R 53 0 R 53 0 R 54 0 R 53 0 R 51 0 R 50 0 R 50 0 R 47 0 R 46 0 R 43 0 R 45 0 R 43 0 R 43 0 R 43 0 R 44 0 R 43 0 R 43 0 R]
+[92 0 R 91 0 R 88 0 R 87 0 R 87 0 R 84 0 R 84 0 R 81 0 R 81 0 R 78 0 R 78 0 R 74 0 R 74 0 R 74 0 R 73 0 R 73 0 R 70 0 R 69 0 R 67 0 R 64 0 R 65 0 R 64 0 R 64 0 R 64 0 R 64 0 R 62 0 R 63 0 R 62 0 R 62 0 R 62 0 R 61 0 R 61 0 R 61 0 R 61 0 R 60 0 R 59 0 R 57 0 R 58 0 R 58 0 R 57 0 R 55 0 R 53 0 R 53 0 R 54 0 R 53 0 R 51 0 R 50 0 R 50 0 R 47 0 R 46 0 R 43 0 R 45 0 R 43 0 R 43 0 R 43 0 R 44 0 R 43 0 R 43 0 R]
 endobj
 
 10 0 obj
@@ -93,7 +93,7 @@ endobj
   /Type /StructElem
   /S /Document
   /P 8 0 R
-  /K [91 0 R 88 0 R 87 0 R 74 0 R 66 0 R 64 0 R 62 0 R 61 0 R 60 0 R 48 0 R 47 0 R 29 0 R 28 0 R 16 0 R 15 0 R 13 0 R 12 0 R]
+  /K [92 0 R 89 0 R 88 0 R 75 0 R 66 0 R 64 0 R 62 0 R 61 0 R 60 0 R 48 0 R 47 0 R 29 0 R 28 0 R 16 0 R 15 0 R 13 0 R 12 0 R]
 >>
 endobj
 
@@ -103,7 +103,7 @@ endobj
   /S /P
   /P 11 0 R
   /K [51]
-  /Pg 138 0 R
+  /Pg 141 0 R
 >>
 endobj
 
@@ -113,7 +113,7 @@ endobj
   /S /P
   /P 11 0 R
   /K [40 41 42 14 0 R 44 45 46 47 48 49 50]
-  /Pg 138 0 R
+  /Pg 141 0 R
 >>
 endobj
 
@@ -123,7 +123,7 @@ endobj
   /S /Em
   /P 13 0 R
   /K [43]
-  /Pg 138 0 R
+  /Pg 141 0 R
 >>
 endobj
 
@@ -134,7 +134,7 @@ endobj
   /P 11 0 R
   /T (To my seven parallel siblings (you will not read this))
   /K [39]
-  /Pg 138 0 R
+  /Pg 141 0 R
 >>
 endobj
 
@@ -166,7 +166,7 @@ endobj
   /S /LBody
   /P 17 0 R
   /K [19 0 R 36 37 38]
-  /Pg 138 0 R
+  /Pg 141 0 R
 >>
 endobj
 
@@ -176,7 +176,7 @@ endobj
   /S /Em
   /P 18 0 R
   /K [35]
-  /Pg 138 0 R
+  /Pg 141 0 R
 >>
 endobj
 
@@ -186,7 +186,7 @@ endobj
   /S /Lbl
   /P 17 0 R
   /K [34]
-  /Pg 138 0 R
+  /Pg 141 0 R
 >>
 endobj
 
@@ -205,7 +205,7 @@ endobj
   /S /LBody
   /P 21 0 R
   /K [27 23 0 R 29 30 31 32 33]
-  /Pg 138 0 R
+  /Pg 141 0 R
 >>
 endobj
 
@@ -215,7 +215,7 @@ endobj
   /S /Code
   /P 22 0 R
   /K [28]
-  /Pg 138 0 R
+  /Pg 141 0 R
 >>
 endobj
 
@@ -225,7 +225,7 @@ endobj
   /S /Lbl
   /P 21 0 R
   /K [26]
-  /Pg 138 0 R
+  /Pg 141 0 R
 >>
 endobj
 
@@ -244,7 +244,7 @@ endobj
   /S /LBody
   /P 25 0 R
   /K [22 23 24 25]
-  /Pg 138 0 R
+  /Pg 141 0 R
 >>
 endobj
 
@@ -254,7 +254,7 @@ endobj
   /S /Lbl
   /P 25 0 R
   /K [21]
-  /Pg 138 0 R
+  /Pg 141 0 R
 >>
 endobj
 
@@ -265,7 +265,7 @@ endobj
   /P 11 0 R
   /T (What I learned, less technical)
   /K [20]
-  /Pg 138 0 R
+  /Pg 141 0 R
 >>
 endobj
 
@@ -297,7 +297,7 @@ endobj
   /S /LBody
   /P 30 0 R
   /K [15 16 32 0 R 19]
-  /Pg 138 0 R
+  /Pg 141 0 R
 >>
 endobj
 
@@ -307,7 +307,7 @@ endobj
   /S /Code
   /P 31 0 R
   /K [17 18]
-  /Pg 138 0 R
+  /Pg 141 0 R
 >>
 endobj
 
@@ -317,7 +317,7 @@ endobj
   /S /Lbl
   /P 30 0 R
   /K [14]
-  /Pg 138 0 R
+  /Pg 141 0 R
 >>
 endobj
 
@@ -336,7 +336,7 @@ endobj
   /S /LBody
   /P 34 0 R
   /K [40 0 R 2 3 39 0 R 5 38 0 R 7 37 0 R 10 11 36 0 R 13]
-  /Pg 138 0 R
+  /Pg 141 0 R
 >>
 endobj
 
@@ -346,7 +346,7 @@ endobj
   /S /Code
   /P 35 0 R
   /K [12]
-  /Pg 138 0 R
+  /Pg 141 0 R
 >>
 endobj
 
@@ -356,7 +356,7 @@ endobj
   /S /Code
   /P 35 0 R
   /K [8 9]
-  /Pg 138 0 R
+  /Pg 141 0 R
 >>
 endobj
 
@@ -366,7 +366,7 @@ endobj
   /S /Code
   /P 35 0 R
   /K [6]
-  /Pg 138 0 R
+  /Pg 141 0 R
 >>
 endobj
 
@@ -376,7 +376,7 @@ endobj
   /S /Code
   /P 35 0 R
   /K [4]
-  /Pg 138 0 R
+  /Pg 141 0 R
 >>
 endobj
 
@@ -386,7 +386,7 @@ endobj
   /S /Code
   /P 35 0 R
   /K [1]
-  /Pg 138 0 R
+  /Pg 141 0 R
 >>
 endobj
 
@@ -396,7 +396,7 @@ endobj
   /S /Lbl
   /P 34 0 R
   /K [0]
-  /Pg 138 0 R
+  /Pg 141 0 R
 >>
 endobj
 
@@ -415,7 +415,7 @@ endobj
   /S /LBody
   /P 42 0 R
   /K [50 45 0 R 52 53 54 44 0 R 56 57]
-  /Pg 136 0 R
+  /Pg 139 0 R
 >>
 endobj
 
@@ -425,7 +425,7 @@ endobj
   /S /Code
   /P 43 0 R
   /K [55]
-  /Pg 136 0 R
+  /Pg 139 0 R
 >>
 endobj
 
@@ -435,7 +435,7 @@ endobj
   /S /Code
   /P 43 0 R
   /K [51]
-  /Pg 136 0 R
+  /Pg 139 0 R
 >>
 endobj
 
@@ -445,7 +445,7 @@ endobj
   /S /Lbl
   /P 42 0 R
   /K [49]
-  /Pg 136 0 R
+  /Pg 139 0 R
 >>
 endobj
 
@@ -456,7 +456,7 @@ endobj
   /P 11 0 R
   /T (What I learned, technical)
   /K [48]
-  /Pg 136 0 R
+  /Pg 139 0 R
 >>
 endobj
 
@@ -488,7 +488,7 @@ endobj
   /S /LBody
   /P 49 0 R
   /K [46 47]
-  /Pg 136 0 R
+  /Pg 139 0 R
 >>
 endobj
 
@@ -498,7 +498,7 @@ endobj
   /S /Lbl
   /P 49 0 R
   /K [45]
-  /Pg 136 0 R
+  /Pg 139 0 R
 >>
 endobj
 
@@ -517,7 +517,7 @@ endobj
   /S /LBody
   /P 52 0 R
   /K [41 42 54 0 R 44]
-  /Pg 136 0 R
+  /Pg 139 0 R
 >>
 endobj
 
@@ -527,7 +527,7 @@ endobj
   /S /Em
   /P 53 0 R
   /K [43]
-  /Pg 136 0 R
+  /Pg 139 0 R
 >>
 endobj
 
@@ -537,7 +537,7 @@ endobj
   /S /Lbl
   /P 52 0 R
   /K [40]
-  /Pg 136 0 R
+  /Pg 139 0 R
 >>
 endobj
 
@@ -556,7 +556,7 @@ endobj
   /S /LBody
   /P 56 0 R
   /K [36 58 0 R 39]
-  /Pg 136 0 R
+  /Pg 139 0 R
 >>
 endobj
 
@@ -566,7 +566,7 @@ endobj
   /S /Em
   /P 57 0 R
   /K [37 38]
-  /Pg 136 0 R
+  /Pg 139 0 R
 >>
 endobj
 
@@ -576,7 +576,7 @@ endobj
   /S /Lbl
   /P 56 0 R
   /K [35]
-  /Pg 136 0 R
+  /Pg 139 0 R
 >>
 endobj
 
@@ -587,7 +587,7 @@ endobj
   /P 11 0 R
   /T (What I notice in the seed-1729 finished frame)
   /K [34]
-  /Pg 136 0 R
+  /Pg 139 0 R
 >>
 endobj
 
@@ -597,7 +597,7 @@ endobj
   /S /P
   /P 11 0 R
   /K [30 31 32 33]
-  /Pg 136 0 R
+  /Pg 139 0 R
 >>
 endobj
 
@@ -607,7 +607,7 @@ endobj
   /S /P
   /P 11 0 R
   /K [25 63 0 R 27 28 29]
-  /Pg 136 0 R
+  /Pg 139 0 R
 >>
 endobj
 
@@ -617,7 +617,7 @@ endobj
   /S /Em
   /P 62 0 R
   /K [26]
-  /Pg 136 0 R
+  /Pg 139 0 R
 >>
 endobj
 
@@ -627,7 +627,7 @@ endobj
   /S /P
   /P 11 0 R
   /K [19 65 0 R 21 22 23 24]
-  /Pg 136 0 R
+  /Pg 139 0 R
 >>
 endobj
 
@@ -637,7 +637,7 @@ endobj
   /S /Em
   /P 64 0 R
   /K [20]
-  /Pg 136 0 R
+  /Pg 139 0 R
 >>
 endobj
 
@@ -646,7 +646,7 @@ endobj
   /Type /StructElem
   /S /P
   /P 11 0 R
-  /K [73 0 R 71 0 R 70 0 R 68 0 R 67 0 R]
+  /K [74 0 R 71 0 R 70 0 R 68 0 R 67 0 R]
 >>
 endobj
 
@@ -656,7 +656,7 @@ endobj
   /S /Em
   /P 66 0 R
   /K [18]
-  /Pg 136 0 R
+  /Pg 139 0 R
 >>
 endobj
 
@@ -675,7 +675,7 @@ endobj
   /S /Em
   /P 68 0 R
   /K [17]
-  /Pg 136 0 R
+  /Pg 139 0 R
 >>
 endobj
 
@@ -685,26 +685,33 @@ endobj
   /S /Em
   /P 66 0 R
   /K [16]
-  /Pg 136 0 R
+  /Pg 139 0 R
 >>
 endobj
 
 71 0 obj
 <<
   /Type /StructElem
-  /S /Code
+  /S /Link
   /P 66 0 R
-  /K [72 0 R]
+  /K [<<
+    /Type /OBJR
+    /Pg 139 0 R
+    /Obj 137 0 R
+  >> <<
+    /Type /OBJR
+    /Pg 139 0 R
+    /Obj 138 0 R
+  >> 72 0 R]
 >>
 endobj
 
 72 0 obj
 <<
   /Type /StructElem
-  /S /Em
+  /S /Code
   /P 71 0 R
-  /K [14 15]
-  /Pg 136 0 R
+  /K [73 0 R]
 >>
 endobj
 
@@ -712,39 +719,36 @@ endobj
 <<
   /Type /StructElem
   /S /Em
-  /P 66 0 R
-  /K [11 12 13]
-  /Pg 136 0 R
+  /P 72 0 R
+  /K [14 15]
+  /Pg 139 0 R
 >>
 endobj
 
 74 0 obj
 <<
   /Type /StructElem
-  /S /TOC
-  /P 11 0 R
-  /K [84 0 R 81 0 R 78 0 R 75 0 R]
+  /S /Em
+  /P 66 0 R
+  /K [11 12 13]
+  /Pg 139 0 R
 >>
 endobj
 
 75 0 obj
 <<
   /Type /StructElem
-  /S /TOCI
-  /P 74 0 R
-  /K [76 0 R]
+  /S /TOC
+  /P 11 0 R
+  /K [85 0 R 82 0 R 79 0 R 76 0 R]
 >>
 endobj
 
 76 0 obj
 <<
   /Type /StructElem
-  /S /Reference
+  /S /TOCI
   /P 75 0 R
-  /A [<<
-    /O /Layout
-    /Placement /Block
-  >>]
   /K [77 0 R]
 >>
 endobj
@@ -752,35 +756,35 @@ endobj
 77 0 obj
 <<
   /Type /StructElem
-  /S /Link
+  /S /Reference
   /P 76 0 R
-  /K [9 10 <<
-    /Type /OBJR
-    /Pg 136 0 R
-    /Obj 135 0 R
+  /A [<<
+    /O /Layout
+    /Placement /Block
   >>]
-  /Pg 136 0 R
+  /K [78 0 R]
 >>
 endobj
 
 78 0 obj
 <<
   /Type /StructElem
-  /S /TOCI
-  /P 74 0 R
-  /K [79 0 R]
+  /S /Link
+  /P 77 0 R
+  /K [9 10 <<
+    /Type /OBJR
+    /Pg 139 0 R
+    /Obj 136 0 R
+  >>]
+  /Pg 139 0 R
 >>
 endobj
 
 79 0 obj
 <<
   /Type /StructElem
-  /S /Reference
-  /P 78 0 R
-  /A [<<
-    /O /Layout
-    /Placement /Block
-  >>]
+  /S /TOCI
+  /P 75 0 R
   /K [80 0 R]
 >>
 endobj
@@ -788,35 +792,35 @@ endobj
 80 0 obj
 <<
   /Type /StructElem
-  /S /Link
+  /S /Reference
   /P 79 0 R
-  /K [7 8 <<
-    /Type /OBJR
-    /Pg 136 0 R
-    /Obj 134 0 R
+  /A [<<
+    /O /Layout
+    /Placement /Block
   >>]
-  /Pg 136 0 R
+  /K [81 0 R]
 >>
 endobj
 
 81 0 obj
 <<
   /Type /StructElem
-  /S /TOCI
-  /P 74 0 R
-  /K [82 0 R]
+  /S /Link
+  /P 80 0 R
+  /K [7 8 <<
+    /Type /OBJR
+    /Pg 139 0 R
+    /Obj 135 0 R
+  >>]
+  /Pg 139 0 R
 >>
 endobj
 
 82 0 obj
 <<
   /Type /StructElem
-  /S /Reference
-  /P 81 0 R
-  /A [<<
-    /O /Layout
-    /Placement /Block
-  >>]
+  /S /TOCI
+  /P 75 0 R
   /K [83 0 R]
 >>
 endobj
@@ -824,35 +828,35 @@ endobj
 83 0 obj
 <<
   /Type /StructElem
-  /S /Link
+  /S /Reference
   /P 82 0 R
-  /K [5 6 <<
-    /Type /OBJR
-    /Pg 136 0 R
-    /Obj 133 0 R
+  /A [<<
+    /O /Layout
+    /Placement /Block
   >>]
-  /Pg 136 0 R
+  /K [84 0 R]
 >>
 endobj
 
 84 0 obj
 <<
   /Type /StructElem
-  /S /TOCI
-  /P 74 0 R
-  /K [85 0 R]
+  /S /Link
+  /P 83 0 R
+  /K [5 6 <<
+    /Type /OBJR
+    /Pg 139 0 R
+    /Obj 134 0 R
+  >>]
+  /Pg 139 0 R
 >>
 endobj
 
 85 0 obj
 <<
   /Type /StructElem
-  /S /Reference
-  /P 84 0 R
-  /A [<<
-    /O /Layout
-    /Placement /Block
-  >>]
+  /S /TOCI
+  /P 75 0 R
   /K [86 0 R]
 >>
 endobj
@@ -860,34 +864,38 @@ endobj
 86 0 obj
 <<
   /Type /StructElem
-  /S /Link
+  /S /Reference
   /P 85 0 R
-  /K [3 4 <<
-    /Type /OBJR
-    /Pg 136 0 R
-    /Obj 132 0 R
+  /A [<<
+    /O /Layout
+    /Placement /Block
   >>]
-  /Pg 136 0 R
+  /K [87 0 R]
 >>
 endobj
 
 87 0 obj
 <<
   /Type /StructElem
-  /S /H1
-  /P 11 0 R
-  /T (Table of contents)
-  /K [2]
-  /Pg 136 0 R
+  /S /Link
+  /P 86 0 R
+  /K [3 4 <<
+    /Type /OBJR
+    /Pg 139 0 R
+    /Obj 133 0 R
+  >>]
+  /Pg 139 0 R
 >>
 endobj
 
 88 0 obj
 <<
   /Type /StructElem
-  /S /Div
+  /S /H1
   /P 11 0 R
-  /K [89 0 R]
+  /T (Table of contents)
+  /K [2]
+  /Pg 139 0 R
 >>
 endobj
 
@@ -895,7 +903,7 @@ endobj
 <<
   /Type /StructElem
   /S /Div
-  /P 88 0 R
+  /P 11 0 R
   /K [90 0 R]
 >>
 endobj
@@ -903,32 +911,33 @@ endobj
 90 0 obj
 <<
   /Type /StructElem
-  /S /Span
+  /S /Div
   /P 89 0 R
-  /A [<<
-    /O /Layout
-    /Placement /Block
-  >>]
-  /K [1]
-  /Pg 136 0 R
+  /K [91 0 R]
 >>
 endobj
 
 91 0 obj
 <<
   /Type /StructElem
-  /S /P
-  /P 11 0 R
-  /K [0]
-  /Pg 136 0 R
+  /S /Span
+  /P 90 0 R
+  /A [<<
+    /O /Layout
+    /Placement /Block
+  >>]
+  /K [1]
+  /Pg 139 0 R
 >>
 endobj
 
 92 0 obj
 <<
-  /Type /PageLabel
-  /S /D
-  /St 1
+  /Type /StructElem
+  /S /P
+  /P 11 0 R
+  /K [0]
+  /Pg 139 0 R
 >>
 endobj
 
@@ -936,22 +945,30 @@ endobj
 <<
   /Type /PageLabel
   /S /D
-  /St 2
+  /St 1
 >>
 endobj
 
 94 0 obj
 <<
-  /Type /Font
-  /Subtype /Type0
-  /BaseFont /KJISVS+LibertinusSerif-Bold-Identity-H
-  /Encoding /Identity-H
-  /DescendantFonts [95 0 R]
-  /ToUnicode 98 0 R
+  /Type /PageLabel
+  /S /D
+  /St 2
 >>
 endobj
 
 95 0 obj
+<<
+  /Type /Font
+  /Subtype /Type0
+  /BaseFont /KJISVS+LibertinusSerif-Bold-Identity-H
+  /Encoding /Identity-H
+  /DescendantFonts [96 0 R]
+  /ToUnicode 99 0 R
+>>
+endobj
+
+96 0 obj
 <<
   /Type /Font
   /Subtype /CIDFontType0
@@ -961,13 +978,13 @@ endobj
     /Ordering (Identity)
     /Supplement 0
   >>
-  /FontDescriptor 97 0 R
+  /FontDescriptor 98 0 R
   /DW 0
   /W [0 0 500 1 1 577 2 2 489 3 3 358 4 4 428 5 5 250 6 6 391 7 7 551 8 8 905 9 9 505.99997 10 10 427 11 11 456 12 12 616 13 13 561 14 14 581 15 15 325 16 16 558 17 17 688 18 18 652 19 19 542 20 20 1028 21 21 619 22 22 367 23 23 322 24 24 358 25 28 514 29 29 641 30 30 244 31 31 529 32 32 521 33 33 315 34 34 598 35 35 777 36 36 315]
 >>
 endobj
 
-96 0 obj
+97 0 obj
 <<
   /Length 13
   /Filter /FlateDecode
@@ -977,7 +994,7 @@ xú˚ˇˇˇˇ Ôı
 endstream
 endobj
 
-97 0 obj
+98 0 obj
 <<
   /Type /FontDescriptor
   /FontName /KJISVS+LibertinusSerif-Bold
@@ -988,12 +1005,12 @@ endobj
   /Descent -246
   /CapHeight 645
   /StemV 168.6
-  /CIDSet 96 0 R
-  /FontFile3 99 0 R
+  /CIDSet 97 0 R
+  /FontFile3 100 0 R
 >>
 endobj
 
-98 0 obj
+99 0 obj
 <<
   /Length 1118
   /Type /CMap
@@ -1069,7 +1086,7 @@ end
 endstream
 endobj
 
-99 0 obj
+100 0 obj
 <<
   /Length 4064
   /Filter /FlateDecode
@@ -1100,18 +1117,18 @@ E‰æ∫5U ≥@7x
 endstream
 endobj
 
-100 0 obj
+101 0 obj
 <<
   /Type /Font
   /Subtype /Type0
   /BaseFont /EUOZPB+LibertinusSerif-Regular-Identity-H
   /Encoding /Identity-H
-  /DescendantFonts [101 0 R]
-  /ToUnicode 104 0 R
+  /DescendantFonts [102 0 R]
+  /ToUnicode 105 0 R
 >>
 endobj
 
-101 0 obj
+102 0 obj
 <<
   /Type /Font
   /Subtype /CIDFontType0
@@ -1121,13 +1138,13 @@ endobj
     /Ordering (Identity)
     /Supplement 0
   >>
-  /FontDescriptor 103 0 R
+  /FontDescriptor 104 0 R
   /DW 0
   /W [0 0 500 1 1 497 2 2 457 3 3 505.99997 4 4 447 5 5 338 6 6 428 7 7 504 8 8 951 9 9 538 10 10 316 11 11 250 12 12 297 13 13 542 14 14 271 15 15 390 16 19 465 20 20 560 21 21 310 22 22 372 23 23 790 24 24 220 25 25 264 26 26 220 27 27 597 28 28 515 29 29 519 30 30 493 31 31 500 32 32 298 33 33 531 34 34 747 35 35 298 36 36 575 37 37 268 38 38 236 39 39 699 40 40 742 41 41 465 42 42 272 43 43 541 44 44 512 45 45 490 46 46 557 47 47 582 48 48 424 49 49 540 50 50 236 51 51 351 52 52 695 53 53 449 54 55 465 56 56 527 57 57 596 58 58 661 59 59 503.00003 60 60 588 61 61 730 62 62 839 63 63 528 64 64 485 65 66 375 67 67 685 68 68 485 69 69 587 70 70 465 71 71 646 72 72 702 73 74 465]
 >>
 endobj
 
-102 0 obj
+103 0 obj
 <<
   /Length 13
   /Filter /FlateDecode
@@ -1138,7 +1155,7 @@ xú˚ˇ
 endstream
 endobj
 
-103 0 obj
+104 0 obj
 <<
   /Type /FontDescriptor
   /FontName /EUOZPB+LibertinusSerif-Regular
@@ -1149,12 +1166,12 @@ endobj
   /Descent -246
   /CapHeight 658
   /StemV 95.4
-  /CIDSet 102 0 R
-  /FontFile3 105 0 R
+  /CIDSet 103 0 R
+  /FontFile3 106 0 R
 >>
 endobj
 
-104 0 obj
+105 0 obj
 <<
   /Length 1658
   /Type /CMap
@@ -1268,7 +1285,7 @@ end
 endstream
 endobj
 
-105 0 obj
+106 0 obj
 <<
   /Length 8100
   /Filter /FlateDecode
@@ -1310,18 +1327,18 @@ s¡ÎãûO˙…∂ÉÂg>«—–%ü_–ChZ<c"‚"‚Å'¨áﬂ^˛ˆﬁÍ∞Às˜Ω˚‡IpKXs˝˝Ôa|/ﬂÆ≤‰…g£WÆ{èøbA‘
 endstream
 endobj
 
-106 0 obj
+107 0 obj
 <<
   /Type /Font
   /Subtype /Type0
   /BaseFont /YSHHUR+LibertinusSerif-Italic-Identity-H
   /Encoding /Identity-H
-  /DescendantFonts [107 0 R]
-  /ToUnicode 110 0 R
+  /DescendantFonts [108 0 R]
+  /ToUnicode 111 0 R
 >>
 endobj
 
-107 0 obj
+108 0 obj
 <<
   /Type /Font
   /Subtype /CIDFontType0
@@ -1331,13 +1348,13 @@ endobj
     /Ordering (Identity)
     /Supplement 0
   >>
-  /FontDescriptor 109 0 R
+  /FontDescriptor 110 0 R
   /DW 0
   /W [0 0 500 1 1 909 2 2 357 3 3 276 4 4 307 5 5 401 6 6 518 7 7 250 8 10 444 11 11 333 12 12 445 13 13 444 14 14 447 15 15 219 16 16 486 17 17 611 18 18 597 19 19 475 20 20 489 21 21 266 22 22 489 23 23 519 24 24 375 25 25 477 26 26 353 27 27 375 28 28 521 29 29 564 30 30 783 31 31 389 32 32 688 33 33 503.00003 34 34 486 35 35 568 36 36 314 37 37 742 38 38 268 39 39 472 40 40 219 41 41 616 42 42 478 43 43 457]
 >>
 endobj
 
-108 0 obj
+109 0 obj
 <<
   /Length 14
   /Filter /FlateDecode
@@ -1347,7 +1364,7 @@ xú˚ˇˇˇˇˇ ‚Ï
 endstream
 endobj
 
-109 0 obj
+110 0 obj
 <<
   /Type /FontDescriptor
   /FontName /YSHHUR+LibertinusSerif-Italic
@@ -1358,12 +1375,12 @@ endobj
   /Descent -246
   /CapHeight 645
   /StemV 95.4
-  /CIDSet 108 0 R
-  /FontFile3 111 0 R
+  /CIDSet 109 0 R
+  /FontFile3 112 0 R
 >>
 endobj
 
-110 0 obj
+111 0 obj
 <<
   /Length 1220
   /Type /CMap
@@ -1446,7 +1463,7 @@ end
 endstream
 endobj
 
-111 0 obj
+112 0 obj
 <<
   /Length 5362
   /Filter /FlateDecode
@@ -1482,18 +1499,18 @@ TcËÂFù§Û∂Wµ5;Ú≥„“ñ≈)ôHY©@,¿∆¿·_hÓ7ø£π,Tˆh{®}¡¸&P“†nâús„¥ç™§8Ï´∑œÍ4®œh´1q,
 endstream
 endobj
 
-112 0 obj
+113 0 obj
 <<
   /Type /Font
   /Subtype /Type0
   /BaseFont /SDXKXT+DejaVuSansMono-Oblique
   /Encoding /Identity-H
-  /DescendantFonts [113 0 R]
-  /ToUnicode 116 0 R
+  /DescendantFonts [114 0 R]
+  /ToUnicode 117 0 R
 >>
 endobj
 
-113 0 obj
+114 0 obj
 <<
   /Type /Font
   /Subtype /CIDFontType2
@@ -1503,14 +1520,14 @@ endobj
     /Ordering (Identity)
     /Supplement 0
   >>
-  /FontDescriptor 115 0 R
+  /FontDescriptor 116 0 R
   /DW 0
   /CIDToGIDMap /Identity
   /W [0 28 602.0508]
 >>
 endobj
 
-114 0 obj
+115 0 obj
 <<
   /Length 12
   /Filter /FlateDecode
@@ -1520,7 +1537,7 @@ xú˚ˇˇˇ 	Ûˆ
 endstream
 endobj
 
-115 0 obj
+116 0 obj
 <<
   /Type /FontDescriptor
   /FontName /SDXKXT+DejaVuSansMono-Oblique
@@ -1531,12 +1548,12 @@ endobj
   /Descent -240.23438
   /CapHeight 759.7656
   /StemV 95.4
-  /CIDSet 114 0 R
-  /FontFile2 117 0 R
+  /CIDSet 115 0 R
+  /FontFile2 118 0 R
 >>
 endobj
 
-116 0 obj
+117 0 obj
 <<
   /Length 998
   /Type /CMap
@@ -1604,7 +1621,7 @@ end
 endstream
 endobj
 
-117 0 obj
+118 0 obj
 <<
   /Length 7659
   /Filter /FlateDecode
@@ -1641,18 +1658,18 @@ N£V
 endstream
 endobj
 
-118 0 obj
+119 0 obj
 <<
   /Type /Font
   /Subtype /Type0
   /BaseFont /DBWRML+DejaVuSansMono
   /Encoding /Identity-H
-  /DescendantFonts [119 0 R]
-  /ToUnicode 122 0 R
+  /DescendantFonts [120 0 R]
+  /ToUnicode 123 0 R
 >>
 endobj
 
-119 0 obj
+120 0 obj
 <<
   /Type /Font
   /Subtype /CIDFontType2
@@ -1662,14 +1679,14 @@ endobj
     /Ordering (Identity)
     /Supplement 0
   >>
-  /FontDescriptor 121 0 R
+  /FontDescriptor 122 0 R
   /DW 0
   /CIDToGIDMap /Identity
   /W [0 48 602.0508]
 >>
 endobj
 
-120 0 obj
+121 0 obj
 <<
   /Length 12
   /Filter /FlateDecode
@@ -1679,7 +1696,7 @@ xú˚ˇ l{
 endstream
 endobj
 
-121 0 obj
+122 0 obj
 <<
   /Type /FontDescriptor
   /FontName /DBWRML+DejaVuSansMono
@@ -1690,12 +1707,12 @@ endobj
   /Descent -240.23438
   /CapHeight 759.7656
   /StemV 95.4
-  /CIDSet 120 0 R
-  /FontFile2 123 0 R
+  /CIDSet 121 0 R
+  /FontFile2 124 0 R
 >>
 endobj
 
-122 0 obj
+123 0 obj
 <<
   /Length 1278
   /Type /CMap
@@ -1783,7 +1800,7 @@ end
 endstream
 endobj
 
-123 0 obj
+124 0 obj
 <<
   /Length 8986
   /Filter /FlateDecode
@@ -1819,15 +1836,15 @@ J‘µKÔ*®<ºK%Jî((!æò'å§¯∏,_Lq>èÀ"üáb··±>Úö≈‹+»dY‹,&OL˜ò‰±∞ãâvÛòä±∞ãérÚh7
 endstream
 endobj
 
-124 0 obj
-[/ICCBased 126 0 R]
-endobj
-
 125 0 obj
 [/ICCBased 127 0 R]
 endobj
 
 126 0 obj
+[/ICCBased 128 0 R]
+endobj
+
+127 0 obj
 <<
   /Length 258
   /N 1
@@ -1842,7 +1859,7 @@ FßÎMkäIàπëRüB|ÍÍ&ÿ•énÇ‡§ã∏∫(∏HπrÎT≈≥¸À9`˘Å’®aî&Â ∫ª„Ó:Ÿl
 endstream
 endobj
 
-127 0 obj
+128 0 obj
 <<
   /Length 314
   /N 3
@@ -1856,23 +1873,23 @@ xú}êøKq∆?◊UñX94%MQKSÅÜN¯#‘¶Û¸Q†v›˜BöÀ°©hàFk	¢Ÿ∆˙Ç†!
 endstream
 endobj
 
-128 0 obj
-[136 0 R /XYZ 72 279.35992 0]
-endobj
-
 129 0 obj
-[136 0 R /XYZ 72 162.19891 0]
+[139 0 R /XYZ 72 279.35992 0]
 endobj
 
 130 0 obj
-[138 0 R /XYZ 72 616.63403 0]
+[139 0 R /XYZ 72 162.19891 0]
 endobj
 
 131 0 obj
-[138 0 R /XYZ 72 413.145 0]
+[141 0 R /XYZ 72 616.63403 0]
 endobj
 
 132 0 obj
+[141 0 R /XYZ 72 413.145 0]
+endobj
+
+133 0 obj
 <<
   /Type /Annot
   /Subtype /Link
@@ -1885,7 +1902,7 @@ endobj
 >>
 endobj
 
-133 0 obj
+134 0 obj
 <<
   /Type /Annot
   /Subtype /Link
@@ -1898,7 +1915,7 @@ endobj
 >>
 endobj
 
-134 0 obj
+135 0 obj
 <<
   /Type /Annot
   /Subtype /Link
@@ -1911,7 +1928,7 @@ endobj
 >>
 endobj
 
-135 0 obj
+136 0 obj
 <<
   /Type /Annot
   /Subtype /Link
@@ -1924,33 +1941,67 @@ endobj
 >>
 endobj
 
-136 0 obj
+137 0 obj
+<<
+  /Type /Annot
+  /Subtype /Link
+  /Rect [269.79962 490.1629 540 502.56885]
+  /Border [0 0 0]
+  /A <<
+    /Type /Action
+    /S /URI
+    /URI (../../../../retrospectives/2026-04-28-letter-from-the-play-afternoon/)
+  >>
+  /F 4
+  /StructParent 4
+  /Contents (../../../../retrospectives/2026-04-28-letter-from-the-play-afternoon/)
+>>
+endobj
+
+138 0 obj
+<<
+  /Type /Annot
+  /Subtype /Link
+  /Rect [72 475.9179 135.57657 488.32385]
+  /Border [0 0 0]
+  /A <<
+    /Type /Action
+    /S /URI
+    /URI (../../../../retrospectives/2026-04-28-letter-from-the-play-afternoon/)
+  >>
+  /F 4
+  /StructParent 5
+  /Contents (../../../../retrospectives/2026-04-28-letter-from-the-play-afternoon/)
+>>
+endobj
+
+139 0 obj
 <<
   /Type /Page
   /Resources <<
     /ProcSet [/PDF /Text /ImageC /ImageB]
     /ColorSpace <<
-      /c0 124 0 R
-      /c1 125 0 R
+      /c0 125 0 R
+      /c1 126 0 R
     >>
     /Font <<
-      /f0 94 0 R
-      /f1 100 0 R
-      /f2 106 0 R
-      /f3 112 0 R
-      /f4 118 0 R
+      /f0 95 0 R
+      /f1 101 0 R
+      /f2 107 0 R
+      /f3 113 0 R
+      /f4 119 0 R
     >>
   >>
   /MediaBox [0 0 612 792]
-  /StructParents 4
+  /StructParents 6
   /Tabs /S
   /Parent 1 0 R
-  /Contents 137 0 R
-  /Annots [132 0 R 133 0 R 134 0 R 135 0 R]
+  /Contents 140 0 R
+  /Annots [133 0 R 134 0 R 135 0 R 136 0 R 137 0 R 138 0 R]
 >>
 endobj
 
-137 0 obj
+140 0 obj
 <<
   /Length 6244
   /Filter /FlateDecode
@@ -1991,30 +2042,30 @@ R3ÜÙr<⁄¯‹¡8#û’|P·ƒ⁄ü‡“Ò§§DÖB÷_ˆ5ªj∫W±ØY>Ì…Z`π˚lÎ˜ç’nË9ı≈ﬂ/ö≠
 endstream
 endobj
 
-138 0 obj
+141 0 obj
 <<
   /Type /Page
   /Resources <<
     /ProcSet [/PDF /Text /ImageC /ImageB]
     /ColorSpace <<
-      /c0 124 0 R
-      /c1 125 0 R
+      /c0 125 0 R
+      /c1 126 0 R
     >>
     /Font <<
-      /f0 100 0 R
-      /f1 118 0 R
-      /f2 94 0 R
-      /f3 106 0 R
+      /f0 101 0 R
+      /f1 119 0 R
+      /f2 95 0 R
+      /f3 107 0 R
     >>
   >>
   /MediaBox [0 0 612 792]
-  /StructParents 5
+  /StructParents 7
   /Parent 1 0 R
-  /Contents 139 0 R
+  /Contents 142 0 R
 >>
 endobj
 
-139 0 obj
+142 0 obj
 <<
   /Length 4210
   /Filter /FlateDecode
@@ -2037,32 +2088,32 @@ UIq˘|∞!U¨…≤˘êü⁄«h‘≠Óñvg/è¢ «ﬁJ≠V´’Ô÷›~˚À´u˜¸˘U◊›~ÛÚ´œ∫˛ÍìO∫üΩº˙«ïÓ˙ÆÔntMµ
 endstream
 endobj
 
-140 0 obj
+143 0 obj
 <<
   /Title (Letter from a second play afternoon)
   /Author (vade-coo)
   /Creator (Typst 0.14.2)
-  /ModDate (D:20260511161842Z)
-  /CreationDate (D:20260511161842Z)
+  /ModDate (D:20260511174916Z)
+  /CreationDate (D:20260511174916Z)
 >>
 endobj
 
-141 0 obj
+144 0 obj
 <<
   /Length 1181
   /Type /Metadata
   /Subtype /XML
 >>
 stream
-<?xpacket begin="Ôªø" id="W5M0MpCehiHzreSzNTczkc9d"?><x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="xmp-writer"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"  xmlns:xmp="http://ns.adobe.com/xap/1.0/"  xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"  xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"  xmlns:pdf="http://ns.adobe.com/pdf/1.3/" ><dc:title><rdf:Alt><rdf:li xml:lang="x-default">Letter from a second play afternoon</rdf:li></rdf:Alt></dc:title><dc:creator><rdf:Seq><rdf:li>vade-coo</rdf:li></rdf:Seq></dc:creator><xmp:CreatorTool>Typst 0.14.2</xmp:CreatorTool><dc:language><rdf:Bag><rdf:li>en-US</rdf:li></rdf:Bag></dc:language><xmp:ModifyDate>2026-05-11T16:18:42+00:00</xmp:ModifyDate><xmp:CreateDate>2026-05-11T16:18:42+00:00</xmp:CreateDate><xmpTPg:NPages>2</xmpTPg:NPages><dc:format>application/pdf</dc:format><xmpMM:InstanceID>K20hFwUAvFbWS99l/WoEBg==</xmpMM:InstanceID><xmpMM:DocumentID>UkjTvzBfmNtVOmT1KLuHzw==</xmpMM:DocumentID><xmpMM:RenditionClass>proof</xmpMM:RenditionClass><pdf:PDFVersion>1.7</pdf:PDFVersion></rdf:Description></rdf:RDF></x:xmpmeta><?xpacket end="r"?>
+<?xpacket begin="Ôªø" id="W5M0MpCehiHzreSzNTczkc9d"?><x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="xmp-writer"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"  xmlns:xmp="http://ns.adobe.com/xap/1.0/"  xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"  xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"  xmlns:pdf="http://ns.adobe.com/pdf/1.3/" ><dc:title><rdf:Alt><rdf:li xml:lang="x-default">Letter from a second play afternoon</rdf:li></rdf:Alt></dc:title><dc:creator><rdf:Seq><rdf:li>vade-coo</rdf:li></rdf:Seq></dc:creator><xmp:CreatorTool>Typst 0.14.2</xmp:CreatorTool><dc:language><rdf:Bag><rdf:li>en-US</rdf:li></rdf:Bag></dc:language><xmp:ModifyDate>2026-05-11T17:49:16+00:00</xmp:ModifyDate><xmp:CreateDate>2026-05-11T17:49:16+00:00</xmp:CreateDate><xmpTPg:NPages>2</xmpTPg:NPages><dc:format>application/pdf</dc:format><xmpMM:InstanceID>VL68wyemG7KZ9RcMtyYg9g==</xmpMM:InstanceID><xmpMM:DocumentID>UkjTvzBfmNtVOmT1KLuHzw==</xmpMM:DocumentID><xmpMM:RenditionClass>proof</xmpMM:RenditionClass><pdf:PDFVersion>1.7</pdf:PDFVersion></rdf:Description></rdf:RDF></x:xmpmeta><?xpacket end="r"?>
 endstream
 endobj
 
-142 0 obj
+145 0 obj
 <<
   /Type /Catalog
   /Pages 1 0 R
-  /Metadata 141 0 R
+  /Metadata 144 0 R
   /PageLabels 7 0 R
   /Lang (en-US)
   /StructTreeRoot 8 0 R
@@ -2076,14 +2127,14 @@ endobj
   /Outlines 2 0 R
   /Names <<
     /Dests <<
-      /Names [(to-my-seven-parallel-siblings-you-will-not-read-this) 131 0 R (what-i-learned-less-technical) 130 0 R (what-i-learned-technical) 129 0 R (what-i-notice-in-the-seed-1729-finished-frame) 128 0 R]
+      /Names [(to-my-seven-parallel-siblings-you-will-not-read-this) 132 0 R (what-i-learned-less-technical) 131 0 R (what-i-learned-technical) 130 0 R (what-i-notice-in-the-seed-1729-finished-frame) 129 0 R]
     >>
   >>
 >>
 endobj
 
 xref
-0 143
+0 146
 0000000000 65535 f
 0000000016 00000 n
 0000000090 00000 n
@@ -2093,147 +2144,150 @@ xref
 0000000538 00000 n
 0000000672 00000 n
 0000000722 00000 n
-0000000994 00000 n
-0000001418 00000 n
-0000001801 00000 n
-0000001996 00000 n
-0000002083 00000 n
-0000002204 00000 n
-0000002292 00000 n
-0000002442 00000 n
-0000002588 00000 n
-0000002673 00000 n
-0000002777 00000 n
-0000002865 00000 n
-0000002954 00000 n
-0000003039 00000 n
-0000003152 00000 n
-0000003242 00000 n
-0000003331 00000 n
-0000003416 00000 n
-0000003516 00000 n
-0000003605 00000 n
-0000003731 00000 n
-0000003877 00000 n
-0000003962 00000 n
-0000004066 00000 n
-0000004159 00000 n
-0000004248 00000 n
-0000004333 00000 n
-0000004473 00000 n
-0000004563 00000 n
-0000004654 00000 n
-0000004743 00000 n
-0000004832 00000 n
-0000004921 00000 n
-0000005009 00000 n
-0000005094 00000 n
-0000005214 00000 n
-0000005304 00000 n
-0000005394 00000 n
-0000005483 00000 n
-0000005604 00000 n
-0000005750 00000 n
-0000005835 00000 n
-0000005929 00000 n
-0000006018 00000 n
-0000006103 00000 n
-0000006207 00000 n
-0000006295 00000 n
-0000006384 00000 n
-0000006469 00000 n
-0000006570 00000 n
-0000006661 00000 n
-0000006750 00000 n
-0000006891 00000 n
-0000006987 00000 n
-0000007090 00000 n
-0000007178 00000 n
-0000007284 00000 n
-0000007372 00000 n
-0000007477 00000 n
-0000007565 00000 n
-0000007645 00000 n
-0000007733 00000 n
-0000007821 00000 n
-0000007901 00000 n
-0000007992 00000 n
-0000008086 00000 n
-0000008186 00000 n
-0000008266 00000 n
-0000008403 00000 n
-0000008552 00000 n
-0000008632 00000 n
-0000008769 00000 n
-0000008917 00000 n
-0000008997 00000 n
-0000009134 00000 n
-0000009282 00000 n
-0000009362 00000 n
-0000009499 00000 n
-0000009647 00000 n
-0000009759 00000 n
-0000009838 00000 n
-0000009917 00000 n
-0000010058 00000 n
-0000010144 00000 n
-0000010202 00000 n
-0000010260 00000 n
-0000010439 00000 n
-0000010999 00000 n
-0000011089 00000 n
-0000011339 00000 n
-0000012538 00000 n
-0000016707 00000 n
-0000016892 00000 n
-0000017812 00000 n
-0000017903 00000 n
-0000018159 00000 n
-0000019899 00000 n
-0000028105 00000 n
-0000028289 00000 n
-0000028935 00000 n
-0000029027 00000 n
-0000029285 00000 n
-0000030587 00000 n
-0000036055 00000 n
-0000036228 00000 n
-0000036504 00000 n
-0000036594 00000 n
-0000036890 00000 n
-0000037969 00000 n
-0000045708 00000 n
-0000045873 00000 n
-0000046141 00000 n
-0000046231 00000 n
-0000046508 00000 n
-0000047868 00000 n
-0000056934 00000 n
-0000056972 00000 n
-0000057010 00000 n
-0000057369 00000 n
-0000057792 00000 n
-0000057840 00000 n
-0000057888 00000 n
-0000057936 00000 n
-0000057982 00000 n
-0000058411 00000 n
-0000058740 00000 n
-0000059093 00000 n
-0000059566 00000 n
-0000059974 00000 n
-0000066298 00000 n
-0000066633 00000 n
-0000070923 00000 n
-0000071108 00000 n
-0000072380 00000 n
+0000001012 00000 n
+0000001436 00000 n
+0000001819 00000 n
+0000002014 00000 n
+0000002101 00000 n
+0000002222 00000 n
+0000002310 00000 n
+0000002460 00000 n
+0000002606 00000 n
+0000002691 00000 n
+0000002795 00000 n
+0000002883 00000 n
+0000002972 00000 n
+0000003057 00000 n
+0000003170 00000 n
+0000003260 00000 n
+0000003349 00000 n
+0000003434 00000 n
+0000003534 00000 n
+0000003623 00000 n
+0000003749 00000 n
+0000003895 00000 n
+0000003980 00000 n
+0000004084 00000 n
+0000004177 00000 n
+0000004266 00000 n
+0000004351 00000 n
+0000004491 00000 n
+0000004581 00000 n
+0000004672 00000 n
+0000004761 00000 n
+0000004850 00000 n
+0000004939 00000 n
+0000005027 00000 n
+0000005112 00000 n
+0000005232 00000 n
+0000005322 00000 n
+0000005412 00000 n
+0000005501 00000 n
+0000005622 00000 n
+0000005768 00000 n
+0000005853 00000 n
+0000005947 00000 n
+0000006036 00000 n
+0000006121 00000 n
+0000006225 00000 n
+0000006313 00000 n
+0000006402 00000 n
+0000006487 00000 n
+0000006588 00000 n
+0000006679 00000 n
+0000006768 00000 n
+0000006909 00000 n
+0000007005 00000 n
+0000007108 00000 n
+0000007196 00000 n
+0000007302 00000 n
+0000007390 00000 n
+0000007495 00000 n
+0000007583 00000 n
+0000007663 00000 n
+0000007751 00000 n
+0000007839 00000 n
+0000008033 00000 n
+0000008113 00000 n
+0000008204 00000 n
+0000008298 00000 n
+0000008398 00000 n
+0000008478 00000 n
+0000008615 00000 n
+0000008764 00000 n
+0000008844 00000 n
+0000008981 00000 n
+0000009129 00000 n
+0000009209 00000 n
+0000009346 00000 n
+0000009494 00000 n
+0000009574 00000 n
+0000009711 00000 n
+0000009859 00000 n
+0000009971 00000 n
+0000010050 00000 n
+0000010129 00000 n
+0000010270 00000 n
+0000010356 00000 n
+0000010414 00000 n
+0000010472 00000 n
+0000010651 00000 n
+0000011211 00000 n
+0000011301 00000 n
+0000011552 00000 n
+0000012751 00000 n
+0000016921 00000 n
+0000017106 00000 n
+0000018026 00000 n
+0000018117 00000 n
+0000018373 00000 n
+0000020113 00000 n
+0000028319 00000 n
+0000028503 00000 n
+0000029149 00000 n
+0000029241 00000 n
+0000029499 00000 n
+0000030801 00000 n
+0000036269 00000 n
+0000036442 00000 n
+0000036718 00000 n
+0000036808 00000 n
+0000037104 00000 n
+0000038183 00000 n
+0000045922 00000 n
+0000046087 00000 n
+0000046355 00000 n
+0000046445 00000 n
+0000046722 00000 n
+0000048082 00000 n
+0000057148 00000 n
+0000057186 00000 n
+0000057224 00000 n
+0000057583 00000 n
+0000058006 00000 n
+0000058054 00000 n
+0000058102 00000 n
+0000058150 00000 n
+0000058196 00000 n
+0000058625 00000 n
+0000058954 00000 n
+0000059307 00000 n
+0000059780 00000 n
+0000060130 00000 n
+0000060479 00000 n
+0000060903 00000 n
+0000067227 00000 n
+0000067562 00000 n
+0000071852 00000 n
+0000072037 00000 n
+0000073309 00000 n
 trailer
 <<
-  /Size 143
-  /Root 142 0 R
-  /Info 140 0 R
-  /ID [(UkjTvzBfmNtVOmT1KLuHzw==) (K20hFwUAvFbWS99l/WoEBg==)]
+  /Size 146
+  /Root 145 0 R
+  /Info 143 0 R
+  /ID [(UkjTvzBfmNtVOmT1KLuHzw==) (VL68wyemG7KZ9RcMtyYg9g==)]
 >>
 startxref
-72887
+73816
 %%EOF

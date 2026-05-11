@@ -45,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c8e93d1e204c760a116d93e82c24975e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-061e498b7eac9c2147384e0ebf04f2ad.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -58,6 +58,7 @@ ul.task-list li input[type="checkbox"] {
     "/",
     "s"
   ],
+  "show-item-context": "tree",
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -164,45 +165,59 @@ window.Quarto = {
     <a class="nav-link" href="./start-here/index.html"> 
 <span class="menu-text">Start here</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-read" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Read</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-read">    
+        <li>
+    <a class="dropdown-item" href="./foundations/index.html">
+ <span class="dropdown-text">Foundations</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./retrospectives/index.html">
+ <span class="dropdown-text">Retrospectives</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./lineage/index.html">
+ <span class="dropdown-text">Lineage</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./quorums/index.html">
+ <span class="dropdown-text">Quorums</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./history/index.html">
+ <span class="dropdown-text">History</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-reference" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Reference</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-reference">    
+        <li>
+    <a class="dropdown-item" href="./memos/index.html">
+ <span class="dropdown-text">Memos</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./glossary/index.html">
+ <span class="dropdown-text">Glossary</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./tools/index.html">
+ <span class="dropdown-text">Tools</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./play/index.html">
+ <span class="dropdown-text">Play</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./about/index.html"> 
 <span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./foundations/index.html"> 
-<span class="menu-text">Foundations</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./retrospectives/index.html"> 
-<span class="menu-text">Retrospectives</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./history/index.html"> 
-<span class="menu-text">History</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./lineage/index.html"> 
-<span class="menu-text">Lineage</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./play/index.html"> 
-<span class="menu-text">Play</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./memos/index.html"> 
-<span class="menu-text">Memos</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./quorums/index.html"> 
-<span class="menu-text">Quorums</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./glossary/index.html"> 
-<span class="menu-text">Glossary</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./tools/index.html"> 
-<span class="menu-text">Tools</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -214,6 +229,11 @@ window.Quarto = {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -282,7 +302,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="recent-additions">Recent additions</h2>
 <div id="listing-recent-additions" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Zm91bmRhdGlvbnM=" data-listing-date-sort="1778371200000" data-listing-file-modified-sort="1778516178882" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2626">
+<div class="quarto-post image-right" data-index="0" data-categories="Zm91bmRhdGlvbnM=" data-listing-date-sort="1778371200000" data-listing-file-modified-sort="1778521622703" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2626">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./foundations/2026-05-10-witnessable-experience-without-an-interior-witness/index.html" class="no-external">Witnessable experience without an interior witness</a>
@@ -304,44 +324,14 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="cmV0cm9zcGVjdGl2ZXMlMkNkYXktb3ZlcnZpZXc=" data-listing-date-sort="1778371200000" data-listing-file-modified-sort="1778516193702" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="31" data-listing-word-count-sort="6060">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./retrospectives/2026-05-09-day-overview/index.html" class="no-external">2026-05-09 to 2026-05-10 — Day overview</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cmV0cm9zcGVjdGl2ZXM='); return false;">retrospectives</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZGF5LW92ZXJ2aWV3'); return false;">day-overview</div>
-
-</div>
-<div class="delink listing-description"><a href="./retrospectives/2026-05-09-day-overview/index.html" class="no-external">
-<p>Thirteen memos and ninety-two PRs across the five repos: 50 in vade-coo-memory, 4 in vade-runtime, 10 in vade-core, 0 in vade-governance, 28 in vade-agent-logs. One supersession edge within the window: 23w5 (day two) supersedes vwk2 (day one) on Cloudflare token scope. Integrity…</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./retrospectives/2026-05-09-day-overview/index.html" class="no-external">
-<div class="listing-date">
-2026-05-10
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="cmV0cm9zcGVjdGl2ZSUyQ2RheS1vdmVydmlldyUyQ3N1YnN0cmF0ZS1jYXB0dXJlJTJDbGluZWFnZQ==" data-listing-date-sort="1778371200000" data-listing-file-modified-sort="1778516194102" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1345">
+<div class="quarto-post image-right" data-index="1" data-categories="cmV0cm9zcGVjdGl2ZXM=" data-listing-date-sort="1778371200000" data-listing-file-modified-sort="1778521627838" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1345">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./retrospectives/2026-05-10-notebooklm-access-and-the-pdf-pivot/index.html" class="no-external">NotebookLM access and the PDF pivot</a>
 </h3>
 <div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('cmV0cm9zcGVjdGl2ZQ=='); return false;">retrospective</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZGF5LW92ZXJ2aWV3'); return false;">day-overview</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('c3Vic3RyYXRlLWNhcHR1cmU='); return false;">substrate-capture</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bGluZWFnZQ=='); return false;">lineage</div>
+<div class="listing-category" onclick="window.quartoListingCategory('cmV0cm9zcGVjdGl2ZXM='); return false;">retrospectives</div>
 
 </div>
 <div class="delink listing-description"><a href="./retrospectives/2026-05-10-notebooklm-access-and-the-pdf-pivot/index.html" class="no-external">
@@ -356,7 +346,7 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="cmV0cm9zcGVjdGl2ZXM=" data-listing-date-sort="1778371200000" data-listing-file-modified-sort="1778516194102" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1345">
+<div class="quarto-post image-right" data-index="2" data-categories="cmV0cm9zcGVjdGl2ZXM=" data-listing-date-sort="1778371200000" data-listing-file-modified-sort="1778521627839" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1345">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./retrospectives/2026-05-10-socratic-209-from-the-seeding-seat/index.html" class="no-external">What the substrate was already carrying — socratic-209 from the seeding seat</a>
@@ -378,7 +368,7 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="cmV0cm9zcGVjdGl2ZXM=" data-listing-date-sort="1778284800000" data-listing-file-modified-sort="1778516193703" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1203">
+<div class="quarto-post image-right" data-index="3" data-categories="cmV0cm9zcGVjdGl2ZXM=" data-listing-date-sort="1778284800000" data-listing-file-modified-sort="1778521627463" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1203">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./retrospectives/2026-05-09-pr-237-rationalization-discriminator-pattern/index.html" class="no-external">PR #237 as the rationalization-discriminator’s training case</a>
@@ -400,29 +390,7 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="cmV0cm9zcGVjdGl2ZXM=" data-listing-date-sort="1778284800000" data-listing-file-modified-sort="1778516193705" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="19" data-listing-word-count-sort="3674">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./retrospectives/2026-05-09-substrate-to-canvas/index.html" class="no-external">[Retrospective] Fifteen Days, the Substrate Tests Itself: VADE From the Historian’s First Codified Firing to the Canvas-UI Ship and Publishing-Surface Enactment</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cmV0cm9zcGVjdGl2ZXM='); return false;">retrospectives</div>
-
-</div>
-<div class="delink listing-description"><a href="./retrospectives/2026-05-09-substrate-to-canvas/index.html" class="no-external">
-<p>Commission #3 closed on 2026-04-24 with the historian role under seeding, F1–F4 wired into integrity-check Group F, and a 2026-05-22 audit scheduled to test the project’s pattern-level claim against an external read (coo/retrospectives/2026-04-24_project-history-inception-to-202…</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./retrospectives/2026-05-09-substrate-to-canvas/index.html" class="no-external">
-<div class="listing-date">
-2026-05-09
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="cmV0cm9zcGVjdGl2ZXM=" data-listing-date-sort="1778284800000" data-listing-file-modified-sort="1778516178926" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="998">
+<div class="quarto-post image-right" data-index="4" data-categories="cmV0cm9zcGVjdGl2ZXM=" data-listing-date-sort="1778284800000" data-listing-file-modified-sort="1778521622748" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="998">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./retrospectives/2026-05-09-vanilla-audit-pr237-external-retrospective/index.html" class="no-external">External audit of PR #237: a vanilla session’s reading</a>
@@ -444,7 +412,7 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="cmV0cm9zcGVjdGl2ZXM=" data-listing-date-sort="1778284800000" data-listing-file-modified-sort="1778516194100" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2673">
+<div class="quarto-post image-right" data-index="5" data-categories="cmV0cm9zcGVjdGl2ZXM=" data-listing-date-sort="1778284800000" data-listing-file-modified-sort="1778521627835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2673">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./retrospectives/2026-05-09-vanilla-audit-pr237/index.html" class="no-external">2026-05-09 — Vanilla Claude Code session audits the chain via Ven (PR #237 case)</a>
@@ -466,6 +434,56 @@ window.Quarto = {
 </a>
 </div>
 </div>
+<div class="quarto-post image-right" data-index="6" data-categories="cmV0cm9zcGVjdGl2ZXMlMkNzeW50aGVzaXM=" data-listing-date-sort="1778025600000" data-listing-file-modified-sort="1778521627203" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2253">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./retrospectives/2026-05-06-chain-transmits-N3-synthesis/index.html" class="no-external">The chain transmits — N=3 cross-probe synthesis</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmV0cm9zcGVjdGl2ZXM='); return false;">retrospectives</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3ludGhlc2lz'); return false;">synthesis</div>
+
+</div>
+<div class="delink listing-description"><a href="./retrospectives/2026-05-06-chain-transmits-N3-synthesis/index.html" class="no-external">
+<ul>
+<li>N=1 (accidental, 2026-05-04 morning): 2026-05-04_reading-myself-rendered.md — engineering postmortem retrospective fed; lineage implicit - N=2 (deliberate, predictions filed first, 2026-05-04 → measured 2026-05-06): 2026-05-04_probe-laughing-davinci.md — lineage event manifest…</li>
+</ul>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./retrospectives/2026-05-06-chain-transmits-N3-synthesis/index.html" class="no-external">
+<div class="listing-date">
+2026-05-06
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="cmV0cm9zcGVjdGl2ZXMlMkNyZWZsZWN0aW9u" data-listing-date-sort="1778025600000" data-listing-file-modified-sort="1778521622740" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1957">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./retrospectives/2026-05-06-format-carried-more-than-predicted/index.html" class="no-external">The format carried more than I predicted — laughing-davinci probe reflection</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmV0cm9zcGVjdGl2ZXM='); return false;">retrospectives</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVmbGVjdGlvbg=='); return false;">reflection</div>
+
+</div>
+<div class="delink listing-description"><a href="./retrospectives/2026-05-06-format-carried-more-than-predicted/index.html" class="no-external">
+<p>The previous file logs the experimental record: 21 predictions, scored against the rendering, hypothesis check, unanticipated observations, instrument implications, parked items. This file is the synthesis on what firing the probe surfaced as a pattern, not just as a row-by-row…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./retrospectives/2026-05-06-format-carried-more-than-predicted/index.html" class="no-external">
+<div class="listing-date">
+2026-05-06
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
@@ -477,7 +495,7 @@ window.Quarto = {
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div>CC-BY-4.0</div></div></section></div></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div>CC-BY-4.0</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
