@@ -730,36 +730,36 @@ ul.task-list li input[type="checkbox"] {
 <section id="open-follow-ups-carried-forward" class="level2">
 <h2 class="anchored" data-anchor-id="open-follow-ups-carried-forward">Open follow-ups carried forward</h2>
 <p>From <span class="substrate-ref" title="lives in private substrate">MEMO-2026-04-27-01</span>:</p>
-<ol type="1">
+<ol>
 <li><strong>CB-007 v2-narrowing question.</strong> Open at memo issuance; the identity-layer build surfaced it as a durable-record gap. Owner: committee-scoped (any CB revision is identity-level per CLAUDE.md §“Identity-level additions”).</li>
 </ol>
 <p>From <span class="substrate-ref" title="lives in private substrate">MEMO-2026-04-27-5kaq</span>:</p>
-<ol start="2" type="1">
+<ol start="2">
 <li><strong>Memo-collision behavior under load.</strong> Hash-suffix space is ~1M / day; sustained <code>memo-collision-check.yml</code> firings on <code>/memo</code>-issued IDs would trigger a successor memo. Probabilistic operational followup; not blocking.</li>
 </ol>
 <p>From <span class="substrate-ref" title="lives in private substrate">MEMO-2026-04-27-02</span>:</p>
-<ol start="3" type="1">
+<ol start="3">
 <li><strong><a href="https://github.com/vade-app/vade-core/issues/51">vade-core#51</a> procedure-design follow-ups.</strong> Lifecycle formalization, recipient-evaluation rubric, CLAUDE.md hook for “when to write a briefing”, Skill packaging — all unaffected by the relocation, still owned by #51.</li>
 </ol>
 <p>From <span class="substrate-ref" title="lives in private substrate">MEMO-2026-04-28-01</span>:</p>
-<ol start="4" type="1">
+<ol start="4">
 <li><strong>Per-binary <code>ensure_*_cli</code> direct-fetch fallback removal.</strong> Stays for the first iteration; remove once release-asset reliability is measured. Operational; gated on observed reliability.</li>
 <li><strong>Briefing-author premise-verification expectation.</strong> The case-law names “verify before designing when the test is cheap” — needs a procedural hook in the briefings procedure (<a href="https://github.com/vade-app/vade-core/issues/51">vade-core#51</a> or its successor in coo/briefings/README.md) before it binds at briefing-author time rather than recipient time.</li>
 </ol>
 <p>From <span class="substrate-ref" title="lives in private substrate">MEMO-2026-04-28-3zb5</span>:</p>
-<ol start="6" type="1">
+<ol start="6">
 <li><strong><span class="substrate-ref" title="lives in private substrate">vade-agent-logs#64</span> Batch 5+ items.</strong> Batches 1–4 shipped; #64 itself remains open for the longer-tail items captured in the plan PR (#213). The Secret Registration Rule binds going forward; the pipeline shape is in place; remaining work is operational close-out.</li>
 </ol>
 <p>From <span class="substrate-ref" title="lives in private substrate">MEMO-2026-04-28-4umz</span>:</p>
-<ol start="7" type="1">
+<ol start="7">
 <li><strong>#201 mechanism #2 — per-type word budgets.</strong> Gated on label-coverage uplift closing the 81%-unlabeled gap. Distinct mechanism from #1 (advisory shape check); needs the labeling surface to mature first.</li>
 </ol>
 <p>From <span class="substrate-ref" title="lives in private substrate">MEMO-2026-04-28-vpji</span>:</p>
-<ol start="8" type="1">
+<ol start="8">
 <li><strong>Weekly Watch first-run gate.</strong> ≥20 sessions across ≥5 distinct UTC dates. At memo issuance, gate not yet met; first run will trigger when transcript backlog accumulates. Operational; passive.</li>
 </ol>
 <p>Pre-existing carryover from the 2026-04-25 day overview:</p>
-<ol start="9" type="1">
+<ol start="9">
 <li><strong><a href="https://github.com/vade-app/vade-runtime/issues/66">vade-runtime#66</a> — env-merge-before-validate contract.</strong> Still open. The cloud-env arc this day terminated with the bundle pivot (Lane 3) but did not address #66 directly.</li>
 <li><strong><span class="substrate-ref" title="Nightly routine runs on pre-full-identity COO container; PR-opener attributes to venpopov">vade-coo-memory#130</span> — Night’s Watch identity-container redesign.</strong> Still open. Weekly Watch v1 (Lane 4) inherits the same identity-container question by reference; #130’s resolution propagates to Weekly Watch.</li>
 <li><strong><code>identity/charter.md</code> L25</strong> — stale “read coo/memos.md bottom-up” directive. The per-memo-file refactor (<span class="substrate-ref" title="lives in private substrate">MEMO-2026-04-27-5kaq</span>) makes the directive doubly stale; needs its own quorum pass to redraw on the new substrate.</li>

@@ -674,7 +674,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="restoring" class="level2">
 <h2 class="anchored" data-anchor-id="restoring">Restoring</h2>
 <p>Three escalating paths, lightest first:</p>
-<ol type="1">
+<ol>
 <li><strong>Look at the pages.</strong> Open <code>pages/01-lineage.png</code> … <code>pages/07-the-epistemic-spine.png</code> in any image viewer. The visual content of the canvas is here. Most reasons to revisit this canvas are answered by this step.</li>
 <li><strong>Reload into the live library</strong> (if <code>vade-app.dev</code> is up and the schema still matches). With an operator token, <code>PUT /library/canvases/coo-8-play</code> with body <code>{"name": "coo-8-play", "snapshot": &lt;contents of snapshot.json&gt;}</code>. Or use the CanvasSwitcher’s load-snapshot path in-browser. The asset images will render as broken on first load until you wire the asset-src remap.</li>
 <li><strong>Full restore with images.</strong> Read each asset record in the snapshot, look up its <code>props.name</code> in the table above, fetch the corresponding file, and replace the <code>src</code> with either a <code>data:</code> URI or a <code>https://raw.githubusercontent.com/...</code> URL. Then load the rewritten snapshot. ~30 lines of JS; the table is the contract.</li>

@@ -671,7 +671,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="open-follow-ups-carried-forward" class="level2">
 <h2 class="anchored" data-anchor-id="open-follow-ups-carried-forward">Open follow-ups carried forward</h2>
 <p>From MEMO -08 explicitly (committee #4’s post-merge punch list):</p>
-<ol type="1">
+<ol>
 <li><strong><code>identity/charter.md</code> L25</strong> — stale <code>read coo/memos.md bottom-up</code> directive. <strong>Committee-scoped</strong>. Needs its own quorum pass plus commissioning issue.</li>
 <li><strong>Three sibling-file <code>bottom-up</code> references</strong> — <code>context/README.md</code> L47, <code>coo/nightly_review_task.md</code> L15, <code>coo/episodic_memory.md</code> L82/L111. Non-scoped; bundlable into a single-instance PR.</li>
 <li><strong><code>coo/memo_index.json</code> missing MEMO -06</strong> — noted as committed: 47, regen: 48. Session-start hook this session regenerated the file to 51 entries (-06/-07/-08/-09 all picked up). Stale-state resolved by the hook; can be committed in a data-refresh PR.</li>
@@ -679,11 +679,11 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>§6 <code>infer=false</code> casing drift</strong> — CLAUDE.md uses lowercase, SOP uses <code>infer=False</code> (Python boolean). Cosmetic; citation already points at the canonical SOP, so agent behavior is unaffected.</li>
 </ol>
 <p>From MEMO -07:</p>
-<ol start="6" type="1">
+<ol start="6">
 <li><strong><code>mem0-rest.sh add-memo-pointer</code> extension for <code>user_id="coo"</code> load</strong> — deferred; CB-*/OG- corpus small enough to re-seed from markdown foundations if ever lost.</li>
 </ol>
 <p>From MEMO -02 / -06:</p>
-<ol start="7" type="1">
+<ol start="7">
 <li><strong>Cost-budget alarm on <code>ANTHROPIC_API_KEY</code></strong> (~$0.04/label, ~$10/week at pilot volumes). Filed for future ticket; not bundled with v2.</li>
 <li><strong>Tag-agreement dashboard</strong> — weekly sampling of auto-tag output vs. human-applied labels. Filed for future ticket.</li>
 <li><strong>Local-git-proxy <code>workflow</code>-scope stripping</strong> — worth a <code>vade-runtime</code> ticket if the proxy is meant to be the primary push path for workflow changes. Not yet filed in its own issue.</li>

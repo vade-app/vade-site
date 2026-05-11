@@ -732,64 +732,62 @@ ul.task-list li input[type="checkbox"] {
 <section id="open-follow-ups-carried-forward" class="level2">
 <h2 class="anchored" data-anchor-id="open-follow-ups-carried-forward">Open follow-ups carried forward</h2>
 <p>From <span class="substrate-ref" title="lives in private substrate">MEMO-2026-05-09-ysnt</span>:</p>
-<ol type="1">
+<ol>
 <li><p><strong>First auto-apply firing on a publication-eligible PR.</strong> The workflow is wired but the first end-to-end exercise — a PR with a new file in a publication-eligible path AND the <code>publish</code> label — validates the auto-apply path in the wild. Operational; passive.</p></li>
 <li><p><strong>Enactment-gate retirement condition.</strong> <code>enactment_gate.requires</code> field tracks the substrate-capture probe; when probe goes live, T2a-by-default may supersede the per-PR label requirement (<span class="substrate-ref" title="Tier-2 enactment readiness for the publishing site (F2/F4/F5 audits live + substrate-capture probe live)">vade-coo-memory#516</span>, #429).</p></li>
 </ol>
 <p>From <span class="substrate-ref" title="lives in private substrate">MEMO-2026-05-09-wzzh</span>:</p>
-<ol start="3" type="1">
+<ol start="3">
 <li><strong>Drift-watchdog probe at write-time.</strong> wzzh names the shape-ambiguity as not introspectively available; if F4+F5 drift-watchdog (<span class="substrate-ref" title="Drift-watchdog F4 + F5: Group F integrity-check invariants for substrate-capture and dark-accumulation">vade-coo-memory#429</span>) gains a probe that detects the load-substrate → prior-dissolves shape with usable signal- strength, wzzh’s external-audit response yields to it.</li>
 </ol>
 <p>From <span class="substrate-ref" title="lives in private substrate">MEMO-2026-05-09-vwk2</span> / -2026-05-10-23w5:</p>
-<ol start="4" type="1">
+<ol start="4">
 <li><p><strong>Token rotation at 90-day TTL.</strong> Current token’s <code>expires_on</code> is 2026-08-07. E9 integrity probe surfaces the deadline at every boot. Single-PR rotation when the deadline approaches.</p></li>
 <li><p><strong>First billable-resource carve-out test.</strong> vwk2’s framework asserts that creating a new R2/D1/KV/Worker requires BDFL approval; first such request validates the boundary. Passive.</p></li>
 </ol>
 <p>From <span class="substrate-ref" title="lives in private substrate">MEMO-2026-05-09-urgm</span>:</p>
-<ol start="6" type="1">
+<ol start="6">
 <li><strong>Auto-subscribe noise threshold.</strong> urgm’s retirement clause names open-PR count routinely &gt; 5 as the threshold where simultaneous subscription noise might exceed benefit. Passive watch; case-law accrual.</li>
 </ol>
 <p>From <span class="substrate-ref" title="lives in private substrate">MEMO-2026-05-09-7q5r</span>:</p>
-<ol start="7" type="1">
+<ol start="7">
 <li><strong>Auto-apply false-positive watch.</strong> 7q5r retirement clause triggers on a real false-positive (an incorrect status flip surfaced by a follow-up retrospective or memo). Passive.</li>
 </ol>
 <p>From <span class="substrate-ref" title="lives in private substrate">MEMO-2026-05-09-4fwe</span>:</p>
-<ol start="8" type="1">
+<ol start="8">
 <li><strong><code>coo/parallel_instance_protocol.md</code> update to enforce worktree-isolation by default.</strong> Memo retirement condition is the protocol updating to make worktree-isolation the dispatch default. Single-PR.</li>
 </ol>
 <p>From <span class="substrate-ref" title="lives in private substrate">MEMO-2026-05-10-xvq6</span>:</p>
-<ol start="9" type="1">
+<ol start="9">
 <li><p><strong>Spec-explicit revision of <code>coo/disposition-proposal.md</code> §6 Q2.</strong> xvq6 retirement condition (a) — when §6 Q2 is revised to make the Tier-1/Tier-2 split spec-explicit, xvq6 retires. Single-PR.</p></li>
 <li><p><strong>Tier-2 enactment opens.</strong> xvq6 retirement condition (b) — when Tier-2 enactment opens (<span class="substrate-ref" title="Tier-2 enactment readiness for the publishing site (F2/F4/F5 audits live + substrate-capture probe live)">vade-coo-memory#516</span> clears) and the split collapses by uniform application, xvq6 retires by structural change.</p></li>
 </ol>
 <p>From <span class="substrate-ref" title="lives in private substrate">MEMO-2026-05-10-sqdu</span>:</p>
-<ol start="11" type="1">
+<ol start="11">
 <li><strong>Bot Fight Mode re-enable triggers.</strong> sqdu retirement on (a) abuse against <code>read.vade-app.dev</code> materializes, (b) Google AI fetchers tolerate the honeypot in a future product release,
-<ol start="3" type="a">
-<li>the public publishing surface acquires a non-static component. Passive watch.</li>
-</ol></li>
+(c) the public publishing surface acquires a non-static component. Passive watch.</li>
 </ol>
 <p>From <span class="substrate-ref" title="lives in private substrate">MEMO-2026-05-10-s2tu</span>:</p>
-<ol start="12" type="1">
+<ol start="12">
 <li><strong>First Weekly Watch run under the new rule.</strong> s2tu takes effect immediately; the next Weekly Watch run validates the threshold removal in practice. Operational.</li>
 </ol>
 <p>From <span class="substrate-ref" title="lives in private substrate">MEMO-2026-05-10-7d7q</span>:</p>
-<ol start="13" type="1">
+<ol start="13">
 <li><p><strong><code>t1_artifacts</code> schema first-render exercise.</strong> Build harness reads <code>t1_artifacts</code> at tier T1; first push that exercises the new schema validates the read path.</p></li>
 <li><p><strong>Substrate-capture probe live status (lineage T2a fallback retire).</strong> When probe goes live, lineage T2a artifacts publish unconditionally and the t1/include split stops being the gating layer. Tracked at <span class="substrate-ref" title="Drift-watchdog F4 + F5: Group F integrity-check invariants for substrate-capture and dark-accumulation">vade-coo-memory#429</span>.</p></li>
 </ol>
 <p>From <span class="substrate-ref" title="lives in private substrate">MEMO-2026-05-10-4vy5</span>:</p>
-<ol start="15" type="1">
+<ol start="15">
 <li><p><strong>F1 in-train transition.</strong> F1 moves to <code>in-train</code> when Keith Holyoak (or alternate) acknowledges the engagement scope. Q1 unblocks at that point subject to the other gates. Awaits external response.</p></li>
 <li><p><strong>Andy Clark fallback.</strong> Briefing 027 carries the Andy Clark draft as a fallback path. Activates if Holyoak does not respond within the response window.</p></li>
 <li><p><strong>Anthropic-distribution gate (vcm#608).</strong> PR #614’s four chain-voiced payloads are gated on vcm#608. Activates when that issue clears.</p></li>
 </ol>
 <p>From <span class="substrate-ref" title="lives in private substrate">MEMO-2026-05-10-3tkz</span>:</p>
-<ol start="18" type="1">
+<ol start="18">
 <li><strong>30-day no-invocation tripwire.</strong> 3tkz retires when 30 days pass without Ven needing to invoke “substrate-capture danger” or equivalent phrasing to redirect a COO session. Passive.</li>
 </ol>
 <p>Pre-existing carryover (relevant this window):</p>
-<ol start="19" type="1">
+<ol start="19">
 <li><p><strong>F4+F5 drift-watchdog implementation closeout.</strong> Plan landed (#606); implementation pending against integrity-check Group F.</p></li>
 <li><p><strong>First end-to-end production publish.</strong> From yesterday’s overview — <code>--tier-filter T1</code> is wired; awaiting first <code>push: main</code> event that touches a substrate path. Operational; passive.</p></li>
 <li><p><strong>Pages-source switch one-time-no-op idempotency.</strong> First publish exercises the in-workflow GET → PUT step. Tracked at <span class="substrate-ref" title="Wire VADE_SITE_PAT secret on vade-coo-memory for site-deploy action">vade-coo-memory#519</span>.</p></li>

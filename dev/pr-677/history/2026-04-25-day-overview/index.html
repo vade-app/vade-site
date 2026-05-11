@@ -636,11 +636,9 @@ ul.task-list li input[type="checkbox"] {
 <p>The structural close. A four-week arc that started at issue #20 lands.</p>
 <p><strong>MEMO 2026-04-25-01 (~03:45 UTC) — Phase 3 of skills-research epic adopted; agent-teams pilot validated; betterment-pattern named.</strong> PR <a href="https://github.com/vade-app/vade-coo-memory/pull/127">#127</a>. Closes epic <a href="https://github.com/vade-app/vade-coo-memory/issues/20">#20</a> plus child issues #48 (parallel-instance protocol) and #49 (<code>obra/superpowers</code> cherry-pick). Phase 1+2 (PR <a href="https://github.com/vade-app/vade-coo-memory/pull/44">#44</a>, merged 2026-04-25 ~02:40 UTC) catalogued 30+ skills/agents/commands across the Claude ecosystem and shortlisted seven; Phase 3 piloted three of those (T2 memory, T4 orchestration, T5 self-assessment) and simultaneously piloted the <em>team</em> form itself — five teammates joined to a single <code>agent-teams</code> instance via <code>CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1</code>, with track specialists ship-biased and adversarial auditors block-biased per Ven’s “different outlook” framing.</p>
 <p>Five decisions ratified:</p>
-<ol type="1">
+<ol>
 <li><strong>Four Phase-4 betterment findings adopted</strong> as the working pattern for future betterment work: (i) prefer slash-command / <code>.claude/agents/*.md</code> form over harness-skill form;
-<ol start="2" type="i">
-<li>invest in role specs, not dispatch prompts; (iii) gate every artifact through a separate auditor instance — never collapse build and audit; (iv) verify a primitive can be authored under its own constraints (rename test) before adoption.</li>
-</ol></li>
+(ii) invest in role specs, not dispatch prompts; (iii) gate every artifact through a separate auditor instance — never collapse build and audit; (iv) verify a primitive can be authored under its own constraints (rename test) before adoption.</li>
 <li><strong><code>agent-teams</code> feature approved for COO use under guardrails</strong> — eleven artifacts shipped, eleven PASS on both safety and emancipatory audits, zero rework, zero escalations, no rate-limit or cost incident under the MEMO 2026-04-11-19 $200/mo cap. Cap: ~5 teammates; cost projection required before larger dispatch.</li>
 <li><strong>Issues #48, #49 discharged.</strong> Parallel-instance protocol authored at <code>coo/parallel_instance_protocol.md</code> (with Phase 3 itself recorded as §6 worked case — the protocol satisfies the rename test on its own evidence). <code>obra/superpowers</code> parallel-handoff skill cherry-picked at commit <code>9ccce3b…</code> with full MIT attribution.</li>
 <li><strong>Harness-skill form retired as default for new betterment work.</strong> Slash commands and <code>.claude/agents/*.md</code> files travel by <code>git clone</code>; harness skills require harness-version alignment. Existing harness skills unaffected — default rule for new work.</li>
@@ -654,7 +652,7 @@ ul.task-list li input[type="checkbox"] {
 <p>A multi-PR sweep against accumulated cloud-env friction. Ten <code>vade-runtime</code> PRs and two <code>vade-core</code> PRs landed; one structural memo binds them.</p>
 <p><strong>Morning warm-up (vade-core).</strong> PR <a href="https://github.com/vade-app/vade-core/pull/75">#75</a> origin-matched the RFC 8707 resource for Claude.ai connector compatibility on the MCP OAuth path. PR <a href="https://github.com/vade-app/vade-core/pull/76">#76</a> consolidated the auth setup source-of-truth across <code>auth.md</code>, README, and CLAUDE.md so a fresh reader can find the right page on the first hop. Ships the Mem0 OAuth-compat work that made later MEM0_API_KEY-on-cloud (PR #68) ergonomic.</p>
 <p><strong>MEMO 2026-04-25-02 (~16:45 UTC) — 1P PAT credential-field rename; env-merge-before-validate ordering bug surfaced.</strong> Two distinct issues compounded into a degraded-bootstrap session:</p>
-<ol type="1">
+<ol>
 <li><strong>1P-field divergence trap.</strong> The COO 1P item <code>vade-coo-self-2026-04</code> is in the <code>API_CREDENTIAL</code> category, which mandates a <code>token</code> field. We had additionally created a <code>credential</code> field to mirror sibling items. After a recent PAT regeneration, the new vade-coo PAT was pasted into <code>token</code> while <code>credential</code> retained a stale <code>venpopov</code>-scoped PAT. <code>fetch_coo_secrets</code> reads <code>credential</code>, so it merged the wrong identity into <code>settings.json</code>.</li>
 <li><strong>Env-merge ordering.</strong> <code>fetch_coo_secrets</code> writes the fetched env into <code>settings.json</code> <em>before</em> <code>validate_coo_identity</code> runs. When validation fails, the harness is left in a worse state than at start.</li>
 </ol>
@@ -684,7 +682,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Decision: when the COO opens a PR whose verification can only happen on a fresh session, the COO writes the handoff prompt for the next instance on the same turn, <strong>without waiting for Ven to ask</strong>. Originally specified as two-surface (PR body + final chat message); refined the same evening (PRs #140 and #141) to: handoff posts as a <strong>standalone PR comment</strong> (so Ven copies it directly, without parsing the PR body), split into <code>## Pre-merge gating</code> and <code>## Post-merge confirmation</code>. Trigger list (concrete, scannable at PR-draft time): <code>.mcp.json</code>, <code>~/.claude/settings.json</code> env, SessionStart hooks (<code>vade-hooks/</code>, <code>coo-bootstrap.sh</code>, <code>session-start-sync.sh</code>, <code>coo-identity-digest.sh</code>, <code>discussions-digest.sh</code>, <code>memo-index.sh</code>, <code>dispatch.sh</code>), <code>coo-env</code>, <code>setup-receipt.json</code>, OS-image-build steps under <code>vade-runtime/scripts/</code>, or anywhere the test plan references “fresh session” / “next session” / “container resume”. Issue <a href="https://github.com/vade-app/vade-coo-memory/issues/139">#139</a> tracked the template split.</p>
 <p><strong>MEMO 2026-04-25-04 (~08:50 local) — Memo + retrospective primitives moved under data-ownership rule; vade-runtime scoped to plumbing; MEMO 2026-04-25-01 §4 amended.</strong> PR <a href="https://github.com/vade-app/vade-coo-memory/pull/128">#128</a> (additions in vade-coo-memory) + PR <a href="https://github.com/vade-app/vade-runtime/pull/64">vade-runtime#64</a> (deletions, aggregator, plumbing path-fixes). Trigger: <code>/memo-query</code> failed to invoke from a local Mac because its slash-command file in <code>vade-runtime</code> hardcoded <code>/home/user/vade-runtime/scripts/...</code> — the cloud-snapshot workspace path. A scoped audit (cartography agent) found 14 hardcoded <code>/home/user/</code> references across 3 commands + 3 skills + the <code>settings.json</code> permission rule.</p>
 <p>Five decisions:</p>
-<ol type="1">
+<ol>
 <li><strong>Data-ownership rule for slash commands and primitives.</strong> A slash command lives in the repo whose data it manipulates; helper scripts travel under <code>&lt;repo&gt;/.claude/commands/_lib/</code>; data root resolves via walk-up + sibling discovery + optional env-var override. vade-runtime keeps environment plumbing only (setup, hooks, integrity-check, identity-digest, lifecycle).</li>
 <li><strong>Sweep extends to memo-related skills.</strong> <code>memo-search</code>, <code>memo-sync</code>, <code>commission-retrospective</code> move to <code>vade-coo-memory/.claude/skills/</code>. Explicit amendment to MEMO 2026-04-25-01 §4’s “not a sweep” clause for these three — they internally invoke helpers that move, so leaving them in vade-runtime preserves the bug class the rule rejects. Other harness skills (<code>skill-creator</code>, <code>agentmail</code>, <code>tagging-taxonomy</code>, <code>algorithmic-art</code>, <code>tldraw-docs</code>) stay where they are.</li>
 <li><strong>Workspace aggregator added.</strong> <code>aggregate_workspace_claude_config</code> in <code>vade-runtime/scripts/lib/common.sh</code> unions per-repo <code>.claude/{commands,agents,skills,hooks}</code> into the workspace <code>.claude/</code> via per-file symlinks. Called from <code>local-setup.sh</code>, <code>cloud-setup.sh</code>, and <code>session-start-sync.sh</code>.</li>
@@ -700,7 +698,7 @@ ul.task-list li input[type="checkbox"] {
 <p>The smallest scope, the most days of accumulated friction.</p>
 <p><strong>MEMO 2026-04-26-01 (~00:35 UTC) — F4 attribution: auto-marker workflow + cutoff bump retire chronic-yellow.</strong> PR <a href="https://github.com/vade-app/vade-coo-memory/pull/145">#145</a> + PR <a href="https://github.com/vade-app/vade-runtime/pull/92">vade-runtime#92</a>. F4 had fired chronic yellow since adoption. Snapshot at memo issuance: 7/35 commits in the F_CUTOFF_GIT window flagged as attribution mismatches. Bucketing built on MEMO 2026-04-25-02 §“5 pre-existing” and added 2 new post-memo hits (one Ven-quick-fix in PR #141, one venpopov-opened coo-scope refactor in PR #128). Every session-start digest surfaced F4 as degraded; every reader had to consult MEMO -25-02 to learn it was a known false positive.</p>
 <p>Four decisions:</p>
-<ol type="1">
+<ol>
 <li><p><strong>Auto-marker workflow in vade-coo-memory.</strong> New <code>.github/workflows/f4-marker.yml</code> runs on <code>pull_request: [opened, synchronize, edited, labeled, unlabeled]</code>. When the PR opener is not <code>vade-coo</code>, injects a marker block into the PR body:</p>
 <pre><code>&lt;!-- f4-marker --&gt;
 ven-human-action: &lt;PR title&gt;
@@ -745,25 +743,25 @@ ven-human-action: &lt;PR title&gt;
 <section id="open-follow-ups-carried-forward" class="level2">
 <h2 class="anchored" data-anchor-id="open-follow-ups-carried-forward">Open follow-ups carried forward</h2>
 <p>From MEMO -25-02 explicitly:</p>
-<ol type="1">
+<ol>
 <li><strong><a href="https://github.com/vade-app/vade-runtime/issues/66">vade-runtime#66</a> — env-merge-before-validate contract.</strong> P2. Bootstrap must not leave <code>settings.json</code> env in a worse state than at start. Fix shape: stage env in a tempfile and only commit on validation success, or actively strip <code>GITHUB_MCP_PAT</code>/<code>GITHUB_TOKEN</code> on validation failure.</li>
 <li><strong>1P category scan.</strong> Other items in vault <code>COO</code> may be in templated categories (<code>LOGIN</code>, <code>CREDIT_CARD</code>); the same divergence-trap class could exist. Operator-action, not blocking.</li>
 </ol>
 <p>From MEMO -25-03:</p>
-<ol start="3" type="1">
+<ol start="3">
 <li><strong>PR-open hook for handoff auto-extraction.</strong> Considered and rejected as out of scope at issuance — marginal reliability gain over a prominent rule the COO loads at boot doesn’t justify the implementation cost. Re-evaluate if the rule is observed to be skipped under load.</li>
 </ol>
 <p>From MEMO -25-04:</p>
-<ol start="4" type="1">
+<ol start="4">
 <li><strong><code>vade-runtime/.claude/skills/</code> cleanup.</strong> memo-search, memo-sync, commission-retrospective skills moved to vade-coo-memory; need to verify the old paths are fully removed (not just symlinked) to prevent shadow-copy drift on future cloud-snapshot rebuilds.</li>
 <li><strong>Cloud snapshot rebuild required.</strong> <code>cloud-setup.sh</code> runs the new aggregator on next snapshot rebuild; until then, the cached snapshot’s old paths keep working on cloud (the hardcoded <code>/home/user/</code> resolves there). Not blocking, but the next snapshot bake should validate the aggregator path.</li>
 </ol>
 <p>From MEMO -26-01:</p>
-<ol start="6" type="1">
+<ol start="6">
 <li><strong><span class="substrate-ref" title="Nightly routine runs on pre-full-identity COO container; PR-opener attributes to venpopov">vade-coo-memory#130</span> — Night’s Watch identity-container redesign.</strong> Three nightly-routine commits (#39, #64, #126) are scope-bound to this redesign; the cutoff bump retires them from F4 reporting but does not absolve #130. The nightly identity container needs the same vade-coo PAT / SSH key bootstrap that ordinary cloud sessions get.</li>
 </ol>
 <p>Pre-existing carryover from the 2026-04-24 day overview:</p>
-<ol start="7" type="1">
+<ol start="7">
 <li><strong><code>identity/charter.md</code> L25</strong> — stale “read coo/memos.md bottom-up” directive. Committee-scoped. Still needs its own quorum pass.</li>
 <li><strong>Cost-budget alarm on <code>ANTHROPIC_API_KEY</code></strong> (auto-tag pipeline, ~$10/week at pilot volumes). Filed for future ticket.</li>
 <li><strong>Tag-agreement dashboard</strong> — weekly sampling of auto-tag output vs.&nbsp;human-applied labels. Filed for future ticket.</li>

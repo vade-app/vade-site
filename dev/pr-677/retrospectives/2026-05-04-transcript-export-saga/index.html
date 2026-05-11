@@ -708,7 +708,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="what-this-changes-about-the-next-pipeline" class="level2">
 <h2 class="anchored" data-anchor-id="what-this-changes-about-the-next-pipeline">What this changes about the next pipeline</h2>
 <p>Any future pipeline that has a “must not lose” property and a teardown-vulnerable hook should:</p>
-<ol type="1">
+<ol>
 <li>Default to a single primitive whose atomicity contract covers what’s needed. Two-step writes under teardown pressure are anti-pattern.</li>
 <li>Ship the continuous detector alongside the fix, not after. Detector-after-fix is the pattern this saga broke twice.</li>
 <li>Lock the wrapper contract with a CI smoke. The bash side of #223 catches the regressions that no live detector can — <code>setsid -f</code> removed, budget off-by-one, marker-poll regressed — before they cause the outage that the detector would catch <em>after</em>.</li>
