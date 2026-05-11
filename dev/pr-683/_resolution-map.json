@@ -14,6 +14,7 @@
   "coo/site/tools/quarto-docs.qmd": "/tools/quarto-docs/",
   "coo/site/tools/tldraw-docs.qmd": "/tools/tldraw-docs/",
   "coo/site/tools/canvas-ui.qmd": "/tools/canvas-ui/",
+  "coo/site/tools/peer-review.qmd": "/tools/peer-review/",
   "coo/site/index.qmd": "/",
   "coo/site/start-here.qmd": "/start-here/",
   "coo/site/lineage/index.qmd": "/lineage/",

@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="vade-coo">
-<meta name="dcterms.date" content="2026-05-09">
-<meta name="description" content="An interpretive-history sub-role that argues a thesis about what a cultural corpus IS as a cultural form, not what it claims about itself — Wootton/Harari mode.">
+<meta name="dcterms.date" content="2026-05-11">
+<meta name="description" content="A Claude Code skill that commissions N independent peer reviewers in parallel on a long-form authored artifact (essay, paper, RFC, plan) and synthesizes findings — optionally decomposing into a trackable GitHub issue tree plus a re-runnable implementer briefing.">
 
-<title>Lineage-interpreter – VADE substrate</title>
+<title>Peer-review skill – VADE substrate</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -75,8 +75,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../quarto-overrides.css">
-<meta property="og:title" content="Lineage-interpreter – VADE substrate">
-<meta property="og:description" content="An interpretive-history sub-role that argues a thesis about what a cultural corpus IS as a cultural form, not what it claims about itself — Wootton/Harari mode.">
+<meta property="og:title" content="Peer-review skill – VADE substrate">
+<meta property="og:description" content="A Claude Code skill that commissions N independent peer reviewers in parallel on a long-form authored artifact (essay, paper, RFC, plan) and synthesizes findings — optionally decomposing into a trackable GitHub issue tree plus a re-runnable implementer briefing.">
 <meta property="og:site_name" content="VADE substrate">
 </head>
 
@@ -182,7 +182,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Lineage-interpreter</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Peer-review skill</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -228,19 +228,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#what-it-does" id="toc-what-it-does" class="nav-link active" data-scroll-target="#what-it-does">What it does</a></li>
-  <li><a href="#when-its-commissioned" id="toc-when-its-commissioned" class="nav-link" data-scroll-target="#when-its-commissioned">When it’s commissioned</a></li>
-  <li><a href="#why-it-exists" id="toc-why-it-exists" class="nav-link" data-scroll-target="#why-it-exists">Why it exists</a></li>
-  <li><a href="#related" id="toc-related" class="nav-link" data-scroll-target="#related">Related</a></li>
+  <li><a href="#provenance" id="toc-provenance" class="nav-link active" data-scroll-target="#provenance">Provenance</a></li>
+  <li><a href="#install" id="toc-install" class="nav-link" data-scroll-target="#install">Install</a></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="lineage-interpreter.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="peer-review.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Lineage-interpreter</h1>
+<h1 class="title">Peer-review skill</h1>
   <div class="quarto-categories">
     <div class="quarto-category">tools</div>
   </div>
@@ -248,7 +246,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    An interpretive-history sub-role that argues a thesis about what a cultural corpus IS as a cultural form, not what it claims about itself — Wootton/Harari mode.
+    A Claude Code skill that commissions N independent peer reviewers in parallel on a long-form authored artifact (essay, paper, RFC, plan) and synthesizes findings — optionally decomposing into a trackable GitHub issue tree plus a re-runnable implementer briefing.
   </div>
 </div>
 
@@ -265,7 +263,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2026-05-09</p>
+      <p class="date">2026-05-11</p>
     </div>
   </div>
   
@@ -278,27 +276,17 @@ ul.task-list li input[type="checkbox"] {
 
 
 <blockquote class="blockquote">
-<p><strong>Open source:</strong> <a href="https://github.com/vade-app/skills/tree/v0.2.0/agents/lineage-interpreter.md">vade-app/skills@v0.2.0/agents/lineage-interpreter.md</a></p>
+<p><strong>Open source:</strong> <a href="https://github.com/vade-app/skills/tree/v0.2.0/skills/peer-review">vade-app/skills@v0.2.0/skills/peer-review</a></p>
 </blockquote>
-<p>The lineage-interpreter is a sub-role for interpretive-history work on a cultural corpus. It does not document and it does not summarize. It argues a thesis about what the corpus <em>is</em> as a cultural form — not what the corpus claims about itself, but what an outside reader would recognize the corpus as doing.</p>
-<section id="what-it-does" class="level2">
-<h2 class="anchored" data-anchor-id="what-it-does">What it does</h2>
-<p>The pipeline is fixed: commission a research-investigator to map the corpus (timeline, load-bearing artifacts, inflection points, gaps), then read the surfaced primary sources directly, propose candidate thesis-shapes, write the synthesis essay, and submit it to a three-instance peer-review pass. The deliverable is one essay that takes a defended stance.</p>
+<p>The peer-review skill packages a recurring substrate pattern: when a long-form authored artifact (essay, paper, foundation doc, RFC, design proposal, plan) is at the polish-before-publish stage, commission three (or N) independent reviewers in parallel, each with a different lens (analytic philosophy of mind + frontier-lab ML researcher + historian of science for a philosophy essay; senior systems engineer + security/ops + product strategy for an engineering RFC; defaults adapt to the document type), and have each return strongest-moves / weak-points / missing-considerations / 3–5 concrete revision suggestions. The skill then synthesizes the three reviews into a convergence report.</p>
+<p>Phase 2 — only on explicit user confirmation — decomposes the synthesis into a trackable atomic-issue revision pipeline on GitHub: parent epic + per-reviewer sub-epic + N atom issues + a re-runnable implementer briefing for asynchronous per-atom PR sessions. The pattern lets revision work happen across many sessions without losing context per atom.</p>
+<section id="provenance" class="level2">
+<h2 class="anchored" data-anchor-id="provenance">Provenance</h2>
+<p>The skill was extracted from the substrate’s <em>De-centering Mind</em> review workflow (May 2026, paired with the chain’s foundations-essay review track). The canonical reference issues sit in the private substrate; the skill body links to them as shape-templates for what a fully-decomposed review pipeline looks like.</p>
 </section>
-<section id="when-its-commissioned" class="level2">
-<h2 class="anchored" data-anchor-id="when-its-commissioned">When it’s commissioned</h2>
-<p>When the project (or any cultural corpus) needs a <em>theory</em> of itself rather than a survey. The role is reusable across any corpus, not just VADE’s own.</p>
-</section>
-<section id="why-it-exists" class="level2">
-<h2 class="anchored" data-anchor-id="why-it-exists">Why it exists</h2>
-<p>The genre is Wootton’s <em>Invention of Science</em>, Harari’s <em>Sapiens</em>, Caro’s <em>Power Broker</em> — argumentative, defamiliarizing, written for outsiders, declared as one reading rather than the reading. A project that only ever reads itself in its own frame loses the ability to see what it is.</p>
-</section>
-<section id="related" class="level2">
-<h2 class="anchored" data-anchor-id="related">Related</h2>
-<ul>
-<li><a href="../../tools/historian/">Project historian</a></li>
-<li><a href="../../glossary/lineage-event/">Lineage event</a></li>
-</ul>
+<section id="install" class="level2">
+<h2 class="anchored" data-anchor-id="install">Install</h2>
+<p>Drop the skill directory into your project’s <code>.claude/skills/</code>. The <a href="https://github.com/vade-app/skills/tree/v0.2.0/setup/cloud-setup.sh">setup script</a> in the public repo does this for you.</p>
 
 
 </section>
