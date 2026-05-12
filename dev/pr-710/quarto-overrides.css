@@ -60,19 +60,27 @@ header#title-block-header .description {
    * own grid; both render `main` with `column-page` / `column-page-
    * right` and remain wide by design. */
   #quarto-content.page-layout-article {
+    /* Symmetric template: equal fixed widths on the left (sidebar
+     * slot) and right (TOC / margin slot) so the body lands at
+     * viewport center. Quarto's defaults are asymmetric — sidebar
+     * minmax(64,192) on the left vs TOC minmax(50,150) on the right
+     * — which shifts the body right of center and makes the left
+     * empty space look noticeably wider than the right on pages
+     * without a sidebar. Matched minmax(64,192) on both sides fixes
+     * the visual lopsidedness. */
     grid-template-columns:
       [screen-start] 1.5em
-      [screen-start-inset] 5fr
+      [screen-start-inset] 1fr
       [page-start] minmax(32px, 64px)
       [page-start-inset] minmax(64px, 192px)
       [body-start-outset] minmax(32px, 64px)
       [body-start] 1.5em
       [body-content-start] minmax(500px, calc(760px - 3em))
       [body-content-end] 1.5em
-      [body-end] minmax(25px, 50px)
-      [body-end-outset] minmax(50px, 150px)
-      [page-end-inset] minmax(25px, 50px)
-      [page-end] 5fr
+      [body-end] minmax(32px, 64px)
+      [body-end-outset] minmax(64px, 192px)
+      [page-end-inset] minmax(32px, 64px)
+      [page-end] 1fr
       [screen-end-inset] 1.5em
       [screen-end];
   }
