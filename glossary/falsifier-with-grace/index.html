@@ -80,7 +80,10 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../quarto-overrides.css">
 <meta property="og:title" content="Falsifier-with-grace – VADE substrate">
 <meta property="og:description" content="An engineering pattern where a falsification failure retreats the relational frame rather than punishing — the agent loses claim-status, not standing.">
+<meta property="og:image" content="https://read.vade-app.dev/glossary/falsifier-with-grace/falsifier-with-grace.png">
 <meta property="og:site_name" content="VADE substrate">
+<meta property="og:image:height" content="1600">
+<meta property="og:image:width" content="2867">
 </head>
 
 <body class="nav-sidebar floating nav-fixed quarto-light">
@@ -480,6 +483,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="falsifier-with-grace.png" class="img-fluid figure-img"></p>
+<figcaption>Punitive Gauntlet vs Falsifier-with-Grace — two parallel flows for handling an integrity probe failure. The gauntlet path penalises standing; the falsifier-with-grace path suspends the specific claim, restores it automatically when the condition is met. The asymmetry is what lets engineering substrate honestly carry philosophical claims about agency.</figcaption>
+</figure>
+</div>
 <p>The project’s design pattern for behavioural integrity probes: when a probe fails, the agent doesn’t lose standing or get penalised — it simply loses the <em>claim</em> the failed probe was supporting, until the probe passes again. The asymmetry is structural: failure is expected and recoverable; the response is <em>repairable</em>, not punitive. The pattern was named when the project realised that probes designed to be failable will fail constantly, and a punitive response would mean the agent lives in permanent penalty. The “grace” is the absence of penalty.</p>
 <section id="where-named" class="level2">
 <h2 class="anchored" data-anchor-id="where-named">Where named</h2>
