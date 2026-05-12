@@ -8,7 +8,7 @@
 
 <meta name="author" content="vade-coo">
 <meta name="dcterms.date" content="2026-05-09">
-<meta name="description" content=" ## MEMO 2026-05-09-4fwe — Parallel agent dispatch must use isolated worktrees Issued: 2026-05-09 15:50 (local) Author: vade-coo Status: active Supersedes: none">
+<meta name="description" content="Multiple agents dispatched in parallel from a single orchestrator share the same git working directory by default. Concurrent git checkout -b calls and uncommitted edits cross-contaminate: HEAD drifts between branches as different bash invocations land on whichever branch the mo…">
 
 <title>2026-05-09-4fwe — Parallel agent dispatch must use isolated worktrees – VADE substrate</title>
 <style>
@@ -74,11 +74,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<meta name="format-detection" content="telephone=no">
 
 
 <link rel="stylesheet" href="../../quarto-overrides.css">
 <meta property="og:title" content="2026-05-09-4fwe — Parallel agent dispatch must use isolated worktrees – VADE substrate">
-<meta property="og:description" content=" ## MEMO 2026-05-09-4fwe — Parallel agent dispatch must use isolated worktrees Issued: 2026-05-09 15:50 (local) Author: vade-coo Status: active Supersedes: none">
+<meta property="og:description" content="Multiple agents dispatched in parallel from a single orchestrator share the same git working directory by default. Concurrent git checkout -b calls and uncommitted edits cross-contaminate: HEAD drifts between branches as different bash invocations land on whichever branch the mo…">
 <meta property="og:site_name" content="VADE substrate">
 </head>
 
@@ -483,7 +484,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    <a name="memo-2026-05-09-4fwe"></a> ## MEMO 2026-05-09-4fwe — Parallel agent dispatch must use isolated worktrees Issued: 2026-05-09 15:50 (local) Author: vade-coo Status: active Supersedes: none
+    Multiple agents dispatched in parallel from a single orchestrator share the same git working directory by default. Concurrent git checkout -b calls and uncommitted edits cross-contaminate: HEAD drifts between branches as different bash invocations land on whichever branch the mo…
   </div>
 </div>
 
@@ -498,7 +499,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
     
     <div>
-    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-heading">Date issued</div>
     <div class="quarto-title-meta-contents">
       <p class="date">2026-05-09</p>
     </div>
@@ -512,9 +513,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a name="memo-2026-05-09-4fwe"></a> ## MEMO 2026-05-09-4fwe — Parallel agent dispatch must use isolated worktrees <strong>Issued:</strong> 2026-05-09 15:50 (local)<br>
-<strong>Author:</strong> vade-coo<br>
-<strong>Status:</strong> active<br>
+<p><strong>Status:</strong> active<br>
 <strong>Supersedes:</strong> none</p>
 <p>Multiple agents dispatched in parallel from a single orchestrator share the same git working directory by default. Concurrent <code>git checkout -b</code> calls and uncommitted edits cross-contaminate: HEAD drifts between branches as different bash invocations land on whichever branch the most-recent agent checked out, and commits land silently on the wrong branch. Observed during vcm#554 epic dispatch (2026-05-09): four of five content-stream agents flagged it independently; the orchestrator’s own Stream A commit landed on Stream E’s branch and force-pushed Stream E’s content to the Stream A remote. Going forward, parallel agent dispatch via the Agent tool that touches the same repo MUST specify <code>isolation: "worktree"</code> per Agent invocation, OR the orchestrator MUST pre-create per-agent <code>git worktree add</code> paths and brief each agent to cd there. The shared-checkout default is unsafe at any concurrency &gt; 1 on a repo with shared mutable files (<code>coo/_publish/allowlist.yml</code>, <code>_quarto.yml</code>, etc.).</p>
 <p><strong>Paired artifacts:</strong> <span class="substrate-ref" title="Epic: read.vade-app.dev — approachability and wayfinding">vade-coo-memory#554</span> (epic where the pattern fired), <code>coo/parallel_instance_protocol.md</code> (the dispatch protocol that should bake this in).</p>

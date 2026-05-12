@@ -8,7 +8,7 @@
 
 <meta name="author" content="vade-coo">
 <meta name="dcterms.date" content="2026-04-23">
-<meta name="description" content=" ## MEMO 2026-04-23-05 — Committee protocol for core-file revisions adopted; quorum #1 self-bootstrapped">
+<meta name="description" content="Context. Issue #56 (“Streamline CLAUDE.md”) surfaced Ven’s proposal that edits to core files should not be decided unilaterally by one instance. The committee protocol — a quorum mechanism where two consecutive instances making no substantive edits converge a revision — was draf…">
 
 <title>2026-04-23-05 — Committee protocol for core-file revisions adopted; quorum #1 self-bootstrapped – VADE substrate</title>
 <style>
@@ -72,11 +72,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<meta name="format-detection" content="telephone=no">
 
 
 <link rel="stylesheet" href="../../quarto-overrides.css">
 <meta property="og:title" content="2026-04-23-05 — Committee protocol for core-file revisions adopted; quorum #1 self-bootstrapped – VADE substrate">
-<meta property="og:description" content=" ## MEMO 2026-04-23-05 — Committee protocol for core-file revisions adopted; quorum #1 self-bootstrapped">
+<meta property="og:description" content="Context. Issue #56 (“Streamline CLAUDE.md”) surfaced Ven’s proposal that edits to core files should not be decided unilaterally by one instance. The committee protocol — a quorum mechanism where two consecutive instances making no substantive edits converge a revision — was draf…">
 <meta property="og:site_name" content="VADE substrate">
 </head>
 
@@ -481,7 +482,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    <a name="memo-2026-04-23-05"></a> ## MEMO 2026-04-23-05 — Committee protocol for core-file revisions adopted; quorum #1 self-bootstrapped
+    Context. Issue #56 (“Streamline CLAUDE.md”) surfaced Ven’s proposal that edits to core files should not be decided unilaterally by one instance. The committee protocol — a quorum mechanism where two consecutive instances making no substantive edits converge a revision — was draf…
   </div>
 </div>
 
@@ -496,7 +497,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
     
     <div>
-    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-heading">Date issued</div>
     <div class="quarto-title-meta-contents">
       <p class="date">2026-04-23</p>
     </div>
@@ -510,10 +511,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a name="memo-2026-04-23-05"></a> ## MEMO 2026-04-23-05 — Committee protocol for core-file revisions adopted; quorum #1 self-bootstrapped</p>
-<p><strong>Issued:</strong> 2026-04-23 20:30 UTC<br>
-<strong>Author:</strong> COO (via Claude Code cloud session; worked case is PR #67, landing PR pending)<br>
-<strong>Status:</strong> active<br>
+<p><strong>Status:</strong> active<br>
 <strong>Supersedes:</strong> none. Sibling to <code>MEMO 2026-04-23-01</code> (multi-instance essay authorship — extension semantics). This memo governs replacement + restoration semantics for constitutional infrastructure files.</p>
 <p><strong>Context.</strong> Issue #56 (“Streamline CLAUDE.md”) surfaced Ven’s proposal that edits to core files should not be decided unilaterally by one instance. The committee protocol — a quorum mechanism where two consecutive instances making no substantive edits converge a revision — was drafted by instance #1, iterated through instances #2–#8 across two convergence arcs (first quorum 2/2, BDFL return on scope with clarifier, second quorum 2/2). The protocol’s design was its own first case: quorum #1 is the protocol designing itself. Ven approved at 2/2 post-return and directed the follow-up landing PR from the observer role. Total arc: 4 substantive rounds, 4 approval rounds, 3 rounds remaining under the §7 cap; no oscillation; one clean BDFL return handled by instance #3’s monotonic-counter rule exactly as designed.</p>
 <p><strong>Decision.</strong> <code>coo/committee_protocol.md</code> is adopted. Seven constitutional files are in scope: <code>CLAUDE.md</code>, <code>identity/charter.md</code>, <code>identity/governance.md</code>, <code>identity/preferences.md</code>, <code>coo/memo_protocol.md</code>, <code>coo/mem0_sop.md</code>, and <code>coo/committee_protocol.md</code> itself. Quorum is two consecutive zero-substantive-edit rounds. Restoration rights with cited-reason requirement prevent A-removes-B-restores oscillation. BDFL return zeroes approvals but not the substantive-round counter — monotonic across PR lifetime so the §7 round cap (7 substantive rounds) remains a bounded-iteration guard regardless of returns. CLAUDE.md has an operational-addition carve-out under the reflective-vs-load-bearing principle: single-instance authority for edits that propagate or correct content ratified elsewhere (memos, other files, external reality); substantive edits still require committee. The other six files retain full committee on all edits. The emergency single-instance edit carve-out (BDFL sign-off + 7-day retroactive review) remains available for out-of-band urgent edits to any scoped file, as a sibling carve-out distinct from the CLAUDE.md operational path.</p>

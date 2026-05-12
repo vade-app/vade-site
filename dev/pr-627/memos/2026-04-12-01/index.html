@@ -8,7 +8,7 @@
 
 <meta name="author" content="vade-coo">
 <meta name="dcterms.date" content="2026-04-12">
-<meta name="description" content=" ## MEMO 2026-04-12-01 — Mem0 SOP adopted; entity model and encoding schema defined; clean-slate migration executed">
+<meta name="description" content="Context. The informal Mem0 scope rule from MEMO -17 was never followed in practice. All 16 live memories sat under user_id=ven with agent_id=null; get_memories({agent_id:“coo”}) returned zero results. Mem0 treats absent scope fields as literal null, not wildcards, so the entire…">
 
 <title>2026-04-12-01 — Mem0 SOP adopted; entity model and encoding schema defined; clean-slate migration executed – VADE substrate</title>
 <style>
@@ -72,11 +72,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<meta name="format-detection" content="telephone=no">
 
 
 <link rel="stylesheet" href="../../quarto-overrides.css">
 <meta property="og:title" content="2026-04-12-01 — Mem0 SOP adopted; entity model and encoding schema defined; clean-slate migration executed – VADE substrate">
-<meta property="og:description" content=" ## MEMO 2026-04-12-01 — Mem0 SOP adopted; entity model and encoding schema defined; clean-slate migration executed">
+<meta property="og:description" content="Context. The informal Mem0 scope rule from MEMO -17 was never followed in practice. All 16 live memories sat under user_id=ven with agent_id=null; get_memories({agent_id:“coo”}) returned zero results. Mem0 treats absent scope fields as literal null, not wildcards, so the entire…">
 <meta property="og:site_name" content="VADE substrate">
 </head>
 
@@ -481,7 +482,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    <a name="memo-2026-04-12-01"></a> ## MEMO 2026-04-12-01 — Mem0 SOP adopted; entity model and encoding schema defined; clean-slate migration executed
+    Context. The informal Mem0 scope rule from MEMO -17 was never followed in practice. All 16 live memories sat under user_id=ven with agent_id=null; get_memories({agent_id:“coo”}) returned zero results. Mem0 treats absent scope fields as literal null, not wildcards, so the entire…
   </div>
 </div>
 
@@ -496,7 +497,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
     
     <div>
-    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-heading">Date issued</div>
     <div class="quarto-title-meta-contents">
       <p class="date">2026-04-12</p>
     </div>
@@ -510,10 +511,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a name="memo-2026-04-12-01"></a> ## MEMO 2026-04-12-01 — Mem0 SOP adopted; entity model and encoding schema defined; clean-slate migration executed</p>
-<p><strong>Issued:</strong> 2026-04-12<br>
-<strong>Author:</strong> COO (via Claude Code session)<br>
-<strong>Status:</strong> active<br>
+<p><strong>Status:</strong> active<br>
 <strong>Supersedes:</strong> MEMO 2026-04-11-17 (informal scope rule “always pass user_id=ven and agent_id=coo”); codifies MEMO 2026-04-11-15 Finding A standing guidance into SOP</p>
 <p><strong>Context.</strong> The informal Mem0 scope rule from MEMO -17 was never followed in practice. All 16 live memories sat under <code>user_id=ven</code> with <code>agent_id=null</code>; <code>get_memories({agent_id:"coo"})</code> returned zero results. Mem0 treats absent scope fields as literal <code>null</code>, not wildcards, so the entire back-catalog was invisible to correctly-scoped queries. Two noise memories had leaked into the MCP default <code>user_id=mem0-mcp</code> and required manual deletion. No entity existed for the Claude-Code runtime, mixing planner notes into the operator’s memory space. All memories were unstructured narrative prose with no typed metadata, no expiration dates, and no retention discipline.</p>
 <p><strong>Decisions.</strong></p>
