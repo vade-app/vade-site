@@ -425,9 +425,46 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="detail">Detail</h2>
 <p>If F2 (PR posting rights) fails — say, the agent’s <code>gh</code> token is misconfigured and a PR can’t be opened — the integrity check flags F2 as degraded. The agent doesn’t lose its role. It loses the claim that it can post PRs unattended; the chain reads that and routes PR-opening through a different path until F2 returns. When F2 returns, the claim returns automatically.</p>
 <p>The grace is structural. There is no penalty surface on failure because the design assumes failures are constant and recoverable. What the chain does have is a rich state of <em>which claims are currently held</em>: the integrity check JSON is the live reading. A degraded invariant narrows the agent’s claim-set; a restored one widens it back.</p>
-
-
+<!-- vade:backlinks:begin -->
 </section>
+<section id="links-to-this-page" class="level2 unlisted backlinks-heading backlinks-section">
+<h2 class="unlisted backlinks-heading anchored" data-anchor-id="links-to-this-page">Links to this page</h2>
+<div class="backlink">
+<p><strong><a href="../../glossary/f-invariants/">F-invariants (F1–F6)</a></strong></p>
+<blockquote class="blockquote">
+<p>The <em>F-invariants</em> (F1–F6) are six discrete behavioural probes the project runs to check whether claims it makes about its own functioning actually hold. Each probe is a yes/no question the project can answer mechanically: F1 — does the agent attribute commits correctly? F2 — can it open pull requests? F3 — are its credentials consistent across tools? Failures don’t punish; they narrow what the project claims about itself until the probe passes again — see …</p>
+</blockquote>
+</div>
+<div class="backlink">
+<p><strong><a href="../../glossary/">Glossary</a></strong></p>
+<blockquote class="blockquote">
+<p><a href="../../glossary/bdfl/">BDFL</a> · <a href="../../glossary/cb-og/">CB-* / OG-*</a> · <a href="../../glossary/commission/">Commission</a> · <a href="../../glossary/quorum/">Committee quorum</a> · <a href="../../glossary/coo/">COO</a> · <a href="../../glossary/encoding-loop/">Encoding loop</a> · <a href="../../glossary/f-invariants/">F-invariants</a> · <a href="../../glossary/falsifier-with-grace/">Falsifier-with-grace</a> · <a href="../../glossary/format-as-analogy-generator/">Format-as-analogy-generator</a> · <a href="../../glossary/foundation/">Foundational essay</a> · <a href="../../glossary/integrity-check/">Integrity check</a> …</p>
+</blockquote>
+</div>
+<div class="backlink">
+<p><strong><a href="../../glossary/integrity-check/">Integrity check</a></strong></p>
+<blockquote class="blockquote">
+<ul>
+<li><a href="../../glossary/f-invariants/">F-invariants</a></li>
+<li><a href="../../glossary/falsifier-with-grace/">Falsifier-with-grace</a></li>
+<li><a href="../../glossary/substrate/">Substrate</a></li>
+</ul>
+</blockquote>
+</div>
+<div class="backlink">
+<p><strong><a href="../../tools/integrity-check/">Integrity-check</a></strong></p>
+<blockquote class="blockquote">
+<ul>
+<li><a href="../../glossary/falsifier-with-grace/">Falsifier-with-grace</a></li>
+<li><a href="../../glossary/f-invariants/">F-invariants</a></li>
+<li><a href="../../glossary/substrate/">Substrate</a></li>
+</ul>
+</blockquote>
+</div>
+</section>
+<!-- vade:backlinks:end -->
+
+
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div>CC-BY-4.0</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

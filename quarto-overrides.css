@@ -105,3 +105,83 @@ nav.sidebar.sidebar-navigation:not(.rollup) {
   background-color: transparent;
   border-right: none !important;
 }
+
+/* Backlinks section — "Links to this page" footer.
+ *
+ * Appended to every content page by `bin/publish-site/backlinks.py`,
+ * after the article body. The section is a sibling block inside
+ * `<main>`; we style it as clearly secondary surface — top rule,
+ * lighter heading, smaller-text snippets — so a reader can tell at a
+ * glance that the article ends above and a meta-section follows.
+ *
+ * Pattern reference: Matuschak's "Links to this note" on
+ * notes.andymatuschak.org. Each backlink is a source-page link plus a
+ * blockquote of the paragraph in which the link appeared.
+ */
+.backlinks-section {
+  margin-top: 4em;
+  padding-top: 1.5em;
+  border-top: 1px solid var(--bs-border-color, #dee2e6);
+  font-size: 0.92em;
+}
+
+.backlinks-section .backlinks-heading {
+  font-size: 1.05em;
+  font-weight: 600;
+  color: var(--bs-secondary, #6c757d);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 1.2em;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+/* Quarto's anchorjs adds a hover-`#` to every `anchored` heading at
+ * runtime. Suppress it on the backlinks heading — this is meta-section
+ * navigation, not a stable target a reader would deep-link to. */
+.backlinks-section .anchorjs-link {
+  display: none;
+}
+
+.backlinks-section .backlink {
+  margin-bottom: 1.6em;
+}
+
+.backlinks-section .backlink:last-child {
+  margin-bottom: 0;
+}
+
+/* The bolded link to the source page sits as a paragraph above its
+ * snippet. We tighten the paragraph margin so the link and blockquote
+ * read as one unit. */
+.backlinks-section .backlink > p:first-child {
+  margin-bottom: 0.35em;
+}
+
+.backlinks-section .backlink > p:first-child a {
+  text-decoration: none;
+}
+
+.backlinks-section .backlink > p:first-child a:hover {
+  text-decoration: underline;
+}
+
+/* Snippet blockquote: keep Quarto's left border but slightly muted, and
+ * reduce vertical margin so the card stays tight. */
+.backlinks-section .backlink blockquote {
+  margin: 0;
+  padding-left: 1em;
+  border-left: 3px solid var(--bs-border-color, #dee2e6);
+  color: var(--bs-body-color, #212529);
+  opacity: 0.85;
+  font-size: 0.97em;
+}
+
+.backlinks-section .backlink blockquote p {
+  margin-bottom: 0.4em;
+}
+
+.backlinks-section .backlink blockquote p:last-child {
+  margin-bottom: 0;
+}
