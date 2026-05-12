@@ -46,5 +46,6 @@
   "vade-coo-memory#554": "Epic: read.vade-app.dev \u2014 approachability and wayfinding",
   "vade-coo-memory#623": "Foundations: witnessable experience without an interior witness",
   "vade-coo-memory#624": "Fix vcm#622: PAT-fallback for affordance commit + multi-day day-overview date",
-  "vade-coo-memory#625": "Foundations: peer-review patch \u2014 witness-ratified attention"
+  "vade-coo-memory#625": "Foundations: peer-review patch \u2014 witness-ratified attention",
+  "vade-coo-memory#627": "Publish-disposition audit: memos + identity layer (BDFL adjudication needed)"
 }

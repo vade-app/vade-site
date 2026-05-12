@@ -12,3 +12,96 @@
 header#title-block-header .description {
   display: none;
 }
+
+/* Consistent body-content width across page configurations.
+ *
+ * Quarto's compiled CSS uses different `grid-template-columns` rules
+ * for each body-class combination — `body .page-columns` (no sidebar)
+ * caps body at ~810px, `body.docked.listing` at ~960px,
+ * `body.floating.slimcontent` at ~710px, etc. The net effect is that
+ * navigating between an intro page (no sidebar), a library listing
+ * (sidebar, no TOC), and a library essay (sidebar + TOC) makes the
+ * body content column visibly resize, even though the article body
+ * is "the same kind of thing" in all three.
+ *
+ * We pin `.column-body` (the default class on prose content) to a
+ * single max-width regardless of which grid the page lands in. The
+ * grid still allocates whatever space its template defines; the body
+ * content centers within that slot. The intent is steady reading
+ * width when clicking between sections. Pages that need wider space
+ * — Home's three-doors hero, the canvas embed — opt out via
+ * `page-layout: full`, which uses `.column-page` and is unaffected.
+ *
+ * Width chosen: 760px (matches our `grid.body-width` setting and
+ * Quarto's floating-sidebar default for non-listing pages).
+ */
+@media (min-width: 992px) {
+  /* Canonical grid template for every page-layout-article page.
+   *
+   * Quarto compiles a different `grid-template-columns` rule per
+   * body-class combination — `body .page-columns` (no sidebar),
+   * `body.floating .page-columns`, `body.floating.slimcontent`,
+   * `body.floating.listing`, etc. The body-content slot lands at a
+   * different horizontal position in each (the sidebar and TOC slot
+   * widths vary), so when navigating from an intro page (no sidebar)
+   * to a library page (floating sidebar) to an essay (floating
+   * sidebar + TOC), the body content's left edge shifts each time.
+   *
+   * We override `#quarto-content.page-layout-article` with a single
+   * canonical template. ID + class specificity beats Quarto's
+   * `body.X .page-columns` rules so this wins without `!important`.
+   * The sidebar slot (minmax 64-192px) is reserved on intro pages
+   * too — the slot is empty, but the body column starts at the
+   * same X position as on sidebar pages.
+   *
+   * Body width pinned to 760px (matches our `grid.body-width` and
+   * the floating-sidebar default). TOC slot pinned at 50-150px.
+   * Carved out: `page-layout-full` (Home + canvas embed) keeps its
+   * own grid; both render `main` with `column-page` / `column-page-
+   * right` and remain wide by design. */
+  #quarto-content.page-layout-article {
+    /* Symmetric template: equal fixed widths on the left (sidebar
+     * slot) and right (TOC / margin slot) so the body lands at
+     * viewport center. Quarto's defaults are asymmetric — sidebar
+     * minmax(64,192) on the left vs TOC minmax(50,150) on the right
+     * — which shifts the body right of center and makes the left
+     * empty space look noticeably wider than the right on pages
+     * without a sidebar. Matched minmax(64,192) on both sides fixes
+     * the visual lopsidedness. */
+    grid-template-columns:
+      [screen-start] 1.5em
+      [screen-start-inset] 1fr
+      [page-start] minmax(32px, 64px)
+      [page-start-inset] minmax(64px, 192px)
+      [body-start-outset] minmax(32px, 64px)
+      [body-start] 1.5em
+      [body-content-start] minmax(500px, calc(760px - 3em))
+      [body-content-end] 1.5em
+      [body-end] minmax(32px, 64px)
+      [body-end-outset] minmax(64px, 192px)
+      [page-end-inset] minmax(32px, 64px)
+      [page-end] 1fr
+      [screen-end-inset] 1.5em
+      [screen-end];
+  }
+
+  /* Belt-and-suspenders: cap `main.content` body width on the off
+   * chance the canonical grid above doesn't apply (older Quarto
+   * version, future class rename). Excluded for full-layout pages. */
+  main.content:not([class*="column-page"]) {
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Drop the light fill and right border on floating sidebars. Quarto's
+ * compiled SCSS applies `background-color: #f8f9fa` and
+ * `border-right: 1px solid #dee2e6 !important` to
+ * `.sidebar.sidebar-navigation:not(.rollup)` regardless of the YAML
+ * `background:` value. Match quarto.org's own floating-sidebar look
+ * where the menu hangs in the margin with no fill bar or divider. */
+nav.sidebar.sidebar-navigation:not(.rollup) {
+  background-color: transparent;
+  border-right: none !important;
+}
