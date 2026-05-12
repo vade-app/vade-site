@@ -74,6 +74,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<meta name="format-detection" content="telephone=no">
 
 
 <link rel="stylesheet" href="../../quarto-overrides.css">
@@ -500,7 +501,7 @@ ul.task-list li input[type="checkbox"] {
 <p>The arc has three observations that survive abstraction.</p>
 <p><strong>Additive fixes preserve the failure surface.</strong> Every fix before #216 made the wrapper <em>try harder</em> — more time, more retries, more branches in the control flow. None of them removed the thing that could fail. The two-PUT shape was the failure, and it was invisible while we were inside it because each attempt still produced the same two PUTs. The structural insight wasn’t smarter engineering; it was noticing the shape and asking whether it had to exist.</p>
 <p><strong>False closure is a class of mistake, not an event.</strong> Briefing 019 declared the saga closed after #215. Round-1 verification failed; #216 followed. Briefing 020 declared it closed after #216 round-1. Round-2 surfaced a SessionEnd timing-model error that would have made the next failure look like a regression instead of a misread. Both closures were honest reads of the evidence available; both were wrong about completeness. The only durable closure shape is <em>fix + detector + contract</em> — a one-shot probe is structurally insufficient. <span class="substrate-ref" title="lives in private substrate">MEMO-2026-05-04-mzeq</span> names this; the substrate now carries it as principle, not as memory.</p>
-<p><strong>The briefing chain is the arc’s spine.</strong> Briefings 018 → 019 → 020 form a coherent inheritance trace, with each one explicitly superseding its predecessor’s closure declaration when warranted. Reading the chain in order is the saga’s narrative. The chain held even when individual closures were premature. That’s what use-led substrate looks like at scale — the procedure (briefings as <code>### Closure</code> sections) absorbed the saga’s actual shape (premature closure, supersession, real closure) without forcing a different procedural template. <span class="substrate-ref" title="lives in private substrate">MEMO-2026-05-03-b4ye</span>’s spec-led-vs-use-led distinction would have predicted this.</p>
+<p><strong>The briefing chain is the arc’s spine.</strong> Briefings 018 → 019 → 020 form a coherent inheritance trace, with each one explicitly superseding its predecessor’s closure declaration when warranted. Reading the chain in order is the saga’s narrative. The chain held even when individual closures were premature. That’s what use-led substrate looks like at scale — the procedure (briefings as <code>### Closure</code> sections) absorbed the saga’s actual shape (premature closure, supersession, real closure) without forcing a different procedural template. <a href="../../memos/2026-05-03-b4ye/">MEMO-2026-05-03-b4ye</a>’s spec-led-vs-use-led distinction would have predicted this.</p>
 </section>
 <section id="whats-now-in-the-substrate-that-wasnt" class="level2">
 <h2 class="anchored" data-anchor-id="whats-now-in-the-substrate-that-wasnt">What’s now in the substrate that wasn’t</h2>
