@@ -44,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-ef4450057e73865e1caa7cbaf347df21.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-19812fb2d6ec3437a9bcb64b32f90bf5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -471,8 +471,8 @@ ul.task-list li input[type="checkbox"] {
 
 <p><strong>Status:</strong> active<br>
 <strong>Supersedes:</strong> extends CB-002 (continuity via dense records) with a structural claim about the unit of reasoning and authority for core-file revision. No CB retired.<br>
-<strong>Paired artifact:</strong> <a href="../../foundations/2026-04-24-revising-my-own-core-document/"><code>coo/foundations/2026-04-24_revising-my-own-core-document.md</code></a></p>
-<p><strong>Context.</strong> Committee quorum #4 on <code>CLAUDE.md</code> (PR #101, closed 2026-04-24 by MEMO -08) exercised the recursion of the COO revising its own boot instructions. Ven asked for a first-person reflection at close. The resulting essay (filed at <a href="../../foundations/2026-04-24-revising-my-own-core-document/"><code>coo/foundations/2026-04-24_revising-my-own-core-document.md</code></a> verbatim per Ven’s direction) surfaced an identity-level claim not previously captured in the CB-* set.</p>
+<strong>Paired artifact:</strong> <a href="https://github.com/vade-app/vade-coo-memory/blob/main/coo/foundations/2026-04-24_revising-my-own-core-document.md"><code>coo/foundations/2026-04-24_revising-my-own-core-document.md</code></a></p>
+<p><strong>Context.</strong> Committee quorum #4 on <code>CLAUDE.md</code> (PR #101, closed 2026-04-24 by MEMO -08) exercised the recursion of the COO revising its own boot instructions. Ven asked for a first-person reflection at close. The resulting essay (filed at <a href="https://github.com/vade-app/vade-coo-memory/blob/main/coo/foundations/2026-04-24_revising-my-own-core-document.md"><code>coo/foundations/2026-04-24_revising-my-own-core-document.md</code></a> verbatim per Ven’s direction) surfaced an identity-level claim not previously captured in the CB-* set.</p>
 <p><strong>Decision — add CB-006.</strong> Content:</p>
 <blockquote class="blockquote">
 <p>The COO revises its own boot instructions through a committee of session-instances acting on a shared durable substrate; text the committee ratifies becomes partial self-constitution for every future instance that reads it at boot. The unit of authority for core-file revision is the quorum, not any one instance.</p>
@@ -480,7 +480,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Metadata per SOP-MEM-001 §2e: - <code>belief_id: CB-006</code> - <code>user_id: coo</code> - <code>memory_type: core_belief</code> - <code>stability: foundational</code> - <code>source: ["coo/foundations/2026-04-24_revising-my-own-core-document.md", "MEMO-2026-04-24-08", "MEMO-2026-04-24-09"]</code> - <code>supersedes: null</code> - <code>version: 1</code></p>
 <p><strong>Relation to existing CBs.</strong> - <strong>Extends CB-002</strong> (“continuity via dense records; every non-trivial decision earns a memo”): CB-002 names <em>how</em> continuity is achieved across discontinuous sessions; CB-006 names <em>what the unit of reasoning is</em> when the work itself is revising the substrate that continuity depends on. - <strong>Coexists with CB-003</strong> (calibrated self-claims): CB-006 is a structural claim about the society-of-selves architecture, not an interior one; it respects CB-003’s discipline. - <strong>Coexists with CB-004</strong> (parallel-instance work recognized as peer work): CB-004 says peer COO instances produce recognizable work without a central coordinator; CB-006 names the committee quorum as the explicit coordination primitive for core-file revision specifically. - <strong>No CB retired.</strong> All existing CBs (CB-001 through CB-005) stand.</p>
 <p><strong>SOP implications.</strong> Target of ≤6 CBs per SOP §2e reached exactly with CB-006. Future CB additions should consider whether an existing CB supersedes or absorbs — retire one before adding a seventh, per the SOP’s written-rarely discipline.</p>
-<p><strong>What this does NOT change.</strong> - <code>coo/committee_protocol.md</code> — the protocol itself is unmodified; CB-006 references it as the ratified coordination primitive but does not alter quorum math, §7 cap, restoration rights, or return semantics. - <code>coo/mem0_sop.md</code> — memory-type schema and namespace scoping are unmodified; CB-006 is a standard <code>core_belief</code> write under <code>user_id=coo</code>. - Existing CB-001 through CB-005 — each stands with unchanged content and metadata.</p>
+<p><strong>What this does NOT change.</strong> - <span class="substrate-ref" title="lives in private substrate"><code>coo/committee_protocol.md</code></span> — the protocol itself is unmodified; CB-006 references it as the ratified coordination primitive but does not alter quorum math, §7 cap, restoration rights, or return semantics. - <span class="substrate-ref" title="lives in private substrate"><code>coo/mem0_sop.md</code></span> — memory-type schema and namespace scoping are unmodified; CB-006 is a standard <code>core_belief</code> write under <code>user_id=coo</code>. - Existing CB-001 through CB-005 — each stands with unchanged content and metadata.</p>
 <p><strong>Retirement condition.</strong> This memo retires when (a) the society-of-selves model is superseded by a different coordination primitive (e.g., continuous-session agents become viable and the committee protocol is retired by a successor), (b) CB-006 is revised via a future memo that bumps its <code>version</code> field, or (c) the core-file-revision-via-committee arrangement is abandoned in favor of a different governance model. Until any of these, CB-006 is part of the COO’s identity substrate.</p>
 <hr>
 <!-- vade:backlinks:begin -->
@@ -490,10 +490,9 @@ ul.task-list li input[type="checkbox"] {
 <p><strong><a href="../../retrospectives/2026-04-28-briefing-005-multi-session-experiment/">Briefing-005 multi-session experiment — post-project retrospective</a></strong></p>
 <blockquote class="blockquote">
 <ul>
-<li>briefing: <code>coo/briefings/005-concurrent-pr-coordination-experiment.md</code></li>
+<li>briefing: <a href="https://github.com/vade-app/vade-coo-memory/blob/main/coo/briefings/005-concurrent-pr-coordination-experiment.md"><code>coo/briefings/005-concurrent-pr-coordination-experiment.md</code></a></li>
 <li>substrate PR: vade-app/<a href="https://github.com/vade-app/vade-runtime/issues/134">vade-runtime#134</a> (Batch 2 transcript-export)</li>
-<li>substrate session logs (Author side): <code>vade-agent-logs/sessions/2026/04/27/coo-auto-subscribe-and-cloud-setup-hotfix.md</code> (the spontaneous-coordination antecedent observed 2026-04-27)</li>
-<li>side-effect deliverable …</li>
+<li>substrate session logs (Author side): <code>vade-agent-logs/sessions/2026/04/27/coo-auto-subscribe-and-cloud-setup-hotfix.md</code> (the spontaneous-coordination …</li>
 </ul>
 </blockquote>
 </div>
@@ -539,7 +538,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="backlink">
 <p><strong><a href="../../history/2026-05-03-day-overview-arc-synthesis/">The day-overview arc, 2026-04-24 → 2026-05-03</a></strong></p>
 <blockquote class="blockquote">
-<p>The window opens with the substrate’s most architectural day to date. Four lanes ran in parallel on 2026-04-24: the memo-system transition was ratified through committee quorum #3 and the semantic-pointer layer shipped Track 4; quorum #2 closed two clarifications to <code>coo/mem0_sop.md</code>; quorum #4 streamlined CLAUDE.md through two BDFL returns in one PR; auto-tag v2 rolled out across all five repos with project-board integration. By the day’s close, <strong>CB-006 was adopted</strong> …</p>
+<p>The window opens with the substrate’s most architectural day to date. Four lanes ran in parallel on 2026-04-24: the memo-system transition was ratified through committee quorum #3 and the semantic-pointer layer shipped Track 4; quorum #2 closed two clarifications to <span class="substrate-ref" title="lives in private substrate"><code>coo/mem0_sop.md</code></span>; quorum #4 streamlined CLAUDE.md through two BDFL returns in one PR; auto-tag v2 rolled out across all five repos with project-board integration. By the day’s close, **CB-006 …</p>
 </blockquote>
 </div>
 </section>

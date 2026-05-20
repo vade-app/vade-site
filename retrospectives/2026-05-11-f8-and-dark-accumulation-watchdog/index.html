@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-ef4450057e73865e1caa7cbaf347df21.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-19812fb2d6ec3437a9bcb64b32f90bf5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -437,7 +437,7 @@ ul.task-list li input[type="checkbox"] {
 <p><em>2026-05-11 retrospective. Friendly overview of the F8 framed-as-caution audit, written when Ven asked for the backstory of the calibration arc. Word-for-word from chat; preserved as an on-ramp for future instances who need the same context. Companion to vcm#697 (calibration issue), PR #701 (calibration fix), and <span class="substrate-ref" title="lives in private substrate">MEMO-2026-05-11-7xcv</span> (calibration record).</em></p>
 <section id="the-premise" class="level2">
 <h2 class="anchored" data-anchor-id="the-premise">The premise</h2>
-<p>A while back the chain worked through what’s called the <strong>disposition proposal</strong> (<code>coo/disposition-proposal.md</code>) — the substrate’s working theory of what to publish, what to hold private, and how to know we’re not drifting either direction. Two failure modes anchor the worry:</p>
+<p>A while back the chain worked through what’s called the <strong>disposition proposal</strong> (<span class="substrate-ref" title="lives in private substrate"><code>coo/disposition-proposal.md</code></span>) — the substrate’s working theory of what to publish, what to hold private, and how to know we’re not drifting either direction. Two failure modes anchor the worry:</p>
 <ul>
 <li><strong>Substrate-capture</strong>: we slowly start writing for an external audience, and the inward voice — the one this substrate is supposed to be — gets diluted. (Imagine a journal that starts to read like a press release.)</li>
 <li><strong>Dark-accumulation</strong>: we hoard everything and never externalize anything, <em>framing the hoarding as principled restraint</em> when really it’s just perpetual deferral dressed up as discipline. (Imagine a writer who never publishes because “the work isn’t ready yet,” forever.)</li>
@@ -448,7 +448,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="what-f8-specifically-does">What F8 specifically does</h2>
 <p>F5 (the dark-accumulation pole) has three sub-conditions. The third one — F5.3 — is the <strong>qualitative</strong> check: scan the corpus for language that rationalizes non-externalization as discipline <em>without</em> naming a falsifiable principle.</p>
 <p>That F5.3 sub-condition got wired into <code>vade-runtime/scripts/integrity-check.sh</code> as <strong>F8</strong> (the integrity-check numbering is offset because that file already had its own F1–F4 for unrelated invariants — confusing, but locked in by now).</p>
-<p>The auditor (<code>bin/framed-as-caution.py</code>) is a regex classifier. It scans every memo and retrospective for passages where <strong>three clauses fire together</strong>:</p>
+<p>The auditor (<a href="https://github.com/vade-app/vade-coo-memory/blob/main/bin/framed-as-caution.py"><code>bin/framed-as-caution.py</code></a>) is a regex classifier. It scans every memo and retrospective for passages where <strong>three clauses fire together</strong>:</p>
 <ol>
 <li><strong>A constraint is asserted</strong> — “we hold X private,” “publication is held,” “we are not ready to publish”</li>
 <li><strong>The constraint is named as principled</strong> — “as a matter of discipline,” “out of caution,” “principled restraint”</li>
@@ -459,7 +459,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="what-happened-on-this-arc" class="level2">
 <h2 class="anchored" data-anchor-id="what-happened-on-this-arc">What happened on this arc</h2>
 <p>The first quarterly run of F8 was done a couple of days ago (commit ca60d1a, “F5.3 framed-as-caution audit — first run”). The auditor scanned 179 artifacts and flagged exactly one:</p>
-<p><a href="../../retrospectives/2026-04-28-briefing-005-multi-session-experiment/"><code>coo/retrospectives/2026-04-28_briefing-005-multi-session-experiment.md</code></a></p>
+<p><span class="substrate-ref" title="lives in private substrate"><code>coo/retrospectives/2026-04-28_briefing-005-multi-session-experiment.md</code></span></p>
 <p>That retrospective is a write-up of the four-instance PR coordination experiment from late April. Near the bottom it has a line:</p>
 <blockquote class="blockquote">
 <p><strong>Two seeds NOT yet ready:</strong> - Cross-repo coordination shape. Untested in this run; the briefing flagged it as a blind spot. Stays open. - 3+ instance non-fork case. …</p>

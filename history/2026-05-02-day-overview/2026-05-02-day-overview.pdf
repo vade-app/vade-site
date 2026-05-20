@@ -104,7 +104,7 @@ endobj
   >>
   /K [18 0 R]
   /ParentTree <<
-    /Nums [0 288 0 R 1 285 0 R 2 282 0 R 3 279 0 R 4 276 0 R 5 273 0 R 6 270 0 R 7 264 0 R 8 12 0 R 9 246 0 R 10 244 0 R 11 243 0 R 12 242 0 R 13 228 0 R 14 225 0 R 15 222 0 R 16 219 0 R 17 219 0 R 18 216 0 R 19 213 0 R 20 210 0 R 21 210 0 R 22 13 0 R 23 202 0 R 24 201 0 R 25 198 0 R 26 195 0 R 27 191 0 R 28 188 0 R 29 182 0 R 30 14 0 R 31 179 0 R 32 176 0 R 33 164 0 R 34 160 0 R 35 155 0 R 36 145 0 R 37 15 0 R 38 127 0 R 39 86 0 R 40 78 0 R 41 16 0 R 42 58 0 R 43 39 0 R 44 35 0 R 45 35 0 R 46 25 0 R 47 25 0 R 48 21 0 R 49 21 0 R 50 17 0 R]
+    /Nums [0 288 0 R 1 285 0 R 2 282 0 R 3 279 0 R 4 276 0 R 5 273 0 R 6 270 0 R 7 264 0 R 8 12 0 R 9 246 0 R 10 244 0 R 11 243 0 R 12 242 0 R 13 228 0 R 14 225 0 R 15 222 0 R 16 219 0 R 17 219 0 R 18 216 0 R 19 213 0 R 20 210 0 R 21 210 0 R 22 13 0 R 23 202 0 R 24 201 0 R 25 198 0 R 26 195 0 R 27 191 0 R 28 188 0 R 29 182 0 R 30 14 0 R 31 179 0 R 32 176 0 R 33 164 0 R 34 160 0 R 35 155 0 R 36 145 0 R 37 15 0 R 38 127 0 R 39 86 0 R 40 78 0 R 41 16 0 R 42 49 0 R 43 49 0 R 44 42 0 R 45 42 0 R 46 38 0 R 47 34 0 R 48 34 0 R 49 27 0 R 50 17 0 R]
   >>
   /ParentTreeNextKey 51
 >>
@@ -131,7 +131,7 @@ endobj
 endobj
 
 17 0 obj
-[61 0 R 60 0 R 57 0 R 56 0 R 56 0 R 54 0 R 53 0 R 51 0 R 50 0 R 50 0 R 48 0 R 47 0 R 45 0 R 44 0 R 44 0 R 42 0 R 41 0 R 38 0 R 37 0 R 37 0 R 34 0 R 33 0 R 31 0 R 30 0 R 28 0 R 27 0 R 27 0 R 24 0 R 23 0 R 23 0 R 20 0 R]
+[61 0 R 60 0 R 58 0 R 57 0 R 57 0 R 55 0 R 54 0 R 52 0 R 51 0 R 51 0 R 48 0 R 47 0 R 45 0 R 44 0 R 44 0 R 41 0 R 40 0 R 37 0 R 36 0 R 36 0 R 33 0 R 32 0 R 30 0 R 29 0 R 26 0 R 25 0 R 25 0 R 23 0 R 22 0 R 22 0 R 20 0 R]
 endobj
 
 18 0 obj
@@ -148,7 +148,7 @@ endobj
   /Type /StructElem
   /S /P
   /P 18 0 R
-  /K [61 0 R 58 0 R 57 0 R 55 0 R 54 0 R 52 0 R 51 0 R 49 0 R 48 0 R 46 0 R 45 0 R 43 0 R 42 0 R 39 0 R 38 0 R 35 0 R 34 0 R 32 0 R 31 0 R 29 0 R 28 0 R 25 0 R 24 0 R 21 0 R 20 0 R]
+  /K [61 0 R 59 0 R 58 0 R 56 0 R 55 0 R 53 0 R 52 0 R 49 0 R 48 0 R 46 0 R 45 0 R 42 0 R 41 0 R 38 0 R 37 0 R 34 0 R 33 0 R 31 0 R 30 0 R 27 0 R 26 0 R 24 0 R 23 0 R 21 0 R 20 0 R]
 >>
 endobj
 
@@ -165,40 +165,23 @@ endobj
 21 0 obj
 <<
   /Type /StructElem
-  /S /Link
+  /S /Code
   /P 19 0 R
-  /K [<<
-    /Type /OBJR
-    /Pg 397 0 R
-    /Obj 395 0 R
-  >> <<
-    /Type /OBJR
-    /Pg 397 0 R
-    /Obj 396 0 R
-  >> 22 0 R]
+  /K [22 0 R]
 >>
 endobj
 
 22 0 obj
 <<
   /Type /StructElem
-  /S /Code
-  /P 21 0 R
-  /K [23 0 R]
->>
-endobj
-
-23 0 obj
-<<
-  /Type /StructElem
   /S /Em
-  /P 22 0 R
+  /P 21 0 R
   /K [28 29]
   /Pg 397 0 R
 >>
 endobj
 
-24 0 obj
+23 0 obj
 <<
   /Type /StructElem
   /S /Em
@@ -208,43 +191,26 @@ endobj
 >>
 endobj
 
-25 0 obj
-<<
-  /Type /StructElem
-  /S /Link
-  /P 19 0 R
-  /K [<<
-    /Type /OBJR
-    /Pg 397 0 R
-    /Obj 393 0 R
-  >> <<
-    /Type /OBJR
-    /Pg 397 0 R
-    /Obj 394 0 R
-  >> 26 0 R]
->>
-endobj
-
-26 0 obj
+24 0 obj
 <<
   /Type /StructElem
   /S /Code
-  /P 25 0 R
-  /K [27 0 R]
+  /P 19 0 R
+  /K [25 0 R]
 >>
 endobj
 
-27 0 obj
+25 0 obj
 <<
   /Type /StructElem
   /S /Em
-  /P 26 0 R
+  /P 24 0 R
   /K [25 26]
   /Pg 397 0 R
 >>
 endobj
 
-28 0 obj
+26 0 obj
 <<
   /Type /StructElem
   /S /Em
@@ -254,26 +220,39 @@ endobj
 >>
 endobj
 
-29 0 obj
+27 0 obj
 <<
   /Type /StructElem
-  /S /Code
+  /S /Link
   /P 19 0 R
-  /K [30 0 R]
+  /K [<<
+    /Type /OBJR
+    /Pg 397 0 R
+    /Obj 396 0 R
+  >> 28 0 R]
 >>
 endobj
 
-30 0 obj
+28 0 obj
+<<
+  /Type /StructElem
+  /S /Code
+  /P 27 0 R
+  /K [29 0 R]
+>>
+endobj
+
+29 0 obj
 <<
   /Type /StructElem
   /S /Em
-  /P 29 0 R
+  /P 28 0 R
   /K [23]
   /Pg 397 0 R
 >>
 endobj
 
-31 0 obj
+30 0 obj
 <<
   /Type /StructElem
   /S /Em
@@ -283,26 +262,26 @@ endobj
 >>
 endobj
 
-32 0 obj
+31 0 obj
 <<
   /Type /StructElem
   /S /Code
   /P 19 0 R
-  /K [33 0 R]
+  /K [32 0 R]
 >>
 endobj
 
-33 0 obj
+32 0 obj
 <<
   /Type /StructElem
   /S /Em
-  /P 32 0 R
+  /P 31 0 R
   /K [21]
   /Pg 397 0 R
 >>
 endobj
 
-34 0 obj
+33 0 obj
 <<
   /Type /StructElem
   /S /Em
@@ -312,7 +291,95 @@ endobj
 >>
 endobj
 
+34 0 obj
+<<
+  /Type /StructElem
+  /S /Link
+  /P 19 0 R
+  /K [<<
+    /Type /OBJR
+    /Pg 397 0 R
+    /Obj 394 0 R
+  >> <<
+    /Type /OBJR
+    /Pg 397 0 R
+    /Obj 395 0 R
+  >> 35 0 R]
+>>
+endobj
+
 35 0 obj
+<<
+  /Type /StructElem
+  /S /Code
+  /P 34 0 R
+  /K [36 0 R]
+>>
+endobj
+
+36 0 obj
+<<
+  /Type /StructElem
+  /S /Em
+  /P 35 0 R
+  /K [18 19]
+  /Pg 397 0 R
+>>
+endobj
+
+37 0 obj
+<<
+  /Type /StructElem
+  /S /Em
+  /P 19 0 R
+  /K [17]
+  /Pg 397 0 R
+>>
+endobj
+
+38 0 obj
+<<
+  /Type /StructElem
+  /S /Link
+  /P 19 0 R
+  /K [<<
+    /Type /OBJR
+    /Pg 397 0 R
+    /Obj 393 0 R
+  >> 39 0 R]
+>>
+endobj
+
+39 0 obj
+<<
+  /Type /StructElem
+  /S /Code
+  /P 38 0 R
+  /K [40 0 R]
+>>
+endobj
+
+40 0 obj
+<<
+  /Type /StructElem
+  /S /Em
+  /P 39 0 R
+  /K [16]
+  /Pg 397 0 R
+>>
+endobj
+
+41 0 obj
+<<
+  /Type /StructElem
+  /S /Em
+  /P 19 0 R
+  /K [15]
+  /Pg 397 0 R
+>>
+endobj
+
+42 0 obj
 <<
   /Type /StructElem
   /S /Link
@@ -325,78 +392,7 @@ endobj
     /Type /OBJR
     /Pg 397 0 R
     /Obj 392 0 R
-  >> 36 0 R]
->>
-endobj
-
-36 0 obj
-<<
-  /Type /StructElem
-  /S /Code
-  /P 35 0 R
-  /K [37 0 R]
->>
-endobj
-
-37 0 obj
-<<
-  /Type /StructElem
-  /S /Em
-  /P 36 0 R
-  /K [18 19]
-  /Pg 397 0 R
->>
-endobj
-
-38 0 obj
-<<
-  /Type /StructElem
-  /S /Em
-  /P 19 0 R
-  /K [17]
-  /Pg 397 0 R
->>
-endobj
-
-39 0 obj
-<<
-  /Type /StructElem
-  /S /Link
-  /P 19 0 R
-  /K [<<
-    /Type /OBJR
-    /Pg 397 0 R
-    /Obj 390 0 R
-  >> 40 0 R]
->>
-endobj
-
-40 0 obj
-<<
-  /Type /StructElem
-  /S /Code
-  /P 39 0 R
-  /K [41 0 R]
->>
-endobj
-
-41 0 obj
-<<
-  /Type /StructElem
-  /S /Em
-  /P 40 0 R
-  /K [16]
-  /Pg 397 0 R
->>
-endobj
-
-42 0 obj
-<<
-  /Type /StructElem
-  /S /Em
-  /P 19 0 R
-  /K [15]
-  /Pg 397 0 R
+  >> 43 0 R]
 >>
 endobj
 
@@ -404,7 +400,7 @@ endobj
 <<
   /Type /StructElem
   /S /Code
-  /P 19 0 R
+  /P 42 0 R
   /K [44 0 R]
 >>
 endobj
@@ -461,23 +457,40 @@ endobj
 49 0 obj
 <<
   /Type /StructElem
-  /S /Code
+  /S /Link
   /P 19 0 R
-  /K [50 0 R]
+  /K [<<
+    /Type /OBJR
+    /Pg 397 0 R
+    /Obj 389 0 R
+  >> <<
+    /Type /OBJR
+    /Pg 397 0 R
+    /Obj 390 0 R
+  >> 50 0 R]
 >>
 endobj
 
 50 0 obj
 <<
   /Type /StructElem
-  /S /Em
+  /S /Code
   /P 49 0 R
+  /K [51 0 R]
+>>
+endobj
+
+51 0 obj
+<<
+  /Type /StructElem
+  /S /Em
+  /P 50 0 R
   /K [8 9]
   /Pg 397 0 R
 >>
 endobj
 
-51 0 obj
+52 0 obj
 <<
   /Type /StructElem
   /S /Em
@@ -487,26 +500,26 @@ endobj
 >>
 endobj
 
-52 0 obj
+53 0 obj
 <<
   /Type /StructElem
   /S /Code
   /P 19 0 R
-  /K [53 0 R]
+  /K [54 0 R]
 >>
 endobj
 
-53 0 obj
+54 0 obj
 <<
   /Type /StructElem
   /S /Em
-  /P 52 0 R
+  /P 53 0 R
   /K [6]
   /Pg 397 0 R
 >>
 endobj
 
-54 0 obj
+55 0 obj
 <<
   /Type /StructElem
   /S /Em
@@ -516,26 +529,26 @@ endobj
 >>
 endobj
 
-55 0 obj
+56 0 obj
 <<
   /Type /StructElem
   /S /Code
   /P 19 0 R
-  /K [56 0 R]
+  /K [57 0 R]
 >>
 endobj
 
-56 0 obj
+57 0 obj
 <<
   /Type /StructElem
   /S /Em
-  /P 55 0 R
+  /P 56 0 R
   /K [3 4]
   /Pg 397 0 R
 >>
 endobj
 
-57 0 obj
+58 0 obj
 <<
   /Type /StructElem
   /S /Em
@@ -545,24 +558,11 @@ endobj
 >>
 endobj
 
-58 0 obj
-<<
-  /Type /StructElem
-  /S /Link
-  /P 19 0 R
-  /K [<<
-    /Type /OBJR
-    /Pg 397 0 R
-    /Obj 389 0 R
-  >> 59 0 R]
->>
-endobj
-
 59 0 obj
 <<
   /Type /StructElem
   /S /Code
-  /P 58 0 R
+  /P 19 0 R
   /K [60 0 R]
 >>
 endobj
@@ -4685,11 +4685,11 @@ endobj
   /A <<
     /Type /Action
     /S /URI
-    /URI (../../foundations/2026-04-20-subject-not-object/)
+    /URI (https://github.com/vade-app/vade-coo-memory/blob/main/coo/foundations/2026-04-20_subject_not_object.md)
   >>
   /F 4
   /StructParent 23
-  /Contents (../../foundations/2026-04-20-subject-not-object/)
+  /Contents (https://github.com/vade-app/vade-coo-memory/blob/main/coo/foundations/2026-04-20_subject_not_object.md)
 >>
 endobj
 
@@ -4953,11 +4953,11 @@ endobj
   /A <<
     /Type /Action
     /S /URI
-    /URI (../../lineage/laughing-davinci/dispatch-prompt.html)
+    /URI (https://github.com/vade-app/vade-coo-memory/blob/main/coo/lineage/laughing-davinci/dispatch-prompt.md)
   >>
   /F 4
   /StructParent 36
-  /Contents (../../lineage/laughing-davinci/dispatch-prompt.html)
+  /Contents (https://github.com/vade-app/vade-coo-memory/blob/main/coo/lineage/laughing-davinci/dispatch-prompt.md)
 >>
 endobj
 
@@ -5126,20 +5126,71 @@ endobj
 <<
   /Type /Annot
   /Subtype /Link
-  /Rect [264.0624 710.045 412.40775 722.4509]
+  /Rect [381.0586 695.8 540 708.20593]
   /Border [0 0 0]
   /A <<
     /Type /Action
     /S /URI
-    /URI (../../memos/2026-05-02-enuy/)
+    /URI (https://github.com/vade-app/vade-coo-memory/blob/main/coo/briefings/015-disposition-synthesizer-design-revision.md)
   >>
   /F 4
   /StructParent 42
-  /Contents (../../memos/2026-05-02-enuy/)
+  /Contents (https://github.com/vade-app/vade-coo-memory/blob/main/coo/briefings/015-disposition-synthesizer-design-revision.md)
 >>
 endobj
 
 390 0 obj
+<<
+  /Type /Annot
+  /Subtype /Link
+  /Rect [72 681.555 230.9414 693.96094]
+  /Border [0 0 0]
+  /A <<
+    /Type /Action
+    /S /URI
+    /URI (https://github.com/vade-app/vade-coo-memory/blob/main/coo/briefings/015-disposition-synthesizer-design-revision.md)
+  >>
+  /F 4
+  /StructParent 43
+  /Contents (https://github.com/vade-app/vade-coo-memory/blob/main/coo/briefings/015-disposition-synthesizer-design-revision.md)
+>>
+endobj
+
+391 0 obj
+<<
+  /Type /Annot
+  /Subtype /Link
+  /Rect [386.35663 681.555 540 693.96094]
+  /Border [0 0 0]
+  /A <<
+    /Type /Action
+    /S /URI
+    /URI (https://github.com/vade-app/vade-coo-memory/blob/main/coo/lineage/laughing-davinci/README.md)
+  >>
+  /F 4
+  /StructParent 44
+  /Contents (https://github.com/vade-app/vade-coo-memory/blob/main/coo/lineage/laughing-davinci/README.md)
+>>
+endobj
+
+392 0 obj
+<<
+  /Type /Annot
+  /Subtype /Link
+  /Rect [72 667.31 119.68242 679.71594]
+  /Border [0 0 0]
+  /A <<
+    /Type /Action
+    /S /URI
+    /URI (https://github.com/vade-app/vade-coo-memory/blob/main/coo/lineage/laughing-davinci/README.md)
+  >>
+  /F 4
+  /StructParent 45
+  /Contents (https://github.com/vade-app/vade-coo-memory/blob/main/coo/lineage/laughing-davinci/README.md)
+>>
+endobj
+
+393 0 obj
 <<
   /Type /Annot
   /Subtype /Link
@@ -5148,15 +5199,15 @@ endobj
   /A <<
     /Type /Action
     /S /URI
-    /URI (../../lineage/laughing-davinci/dispatch-prompt.html)
+    /URI (https://github.com/vade-app/vade-coo-memory/blob/main/coo/lineage/laughing-davinci/dispatch-prompt.md)
   >>
   /F 4
-  /StructParent 43
-  /Contents (../../lineage/laughing-davinci/dispatch-prompt.html)
+  /StructParent 46
+  /Contents (https://github.com/vade-app/vade-coo-memory/blob/main/coo/lineage/laughing-davinci/dispatch-prompt.md)
 >>
 endobj
 
-391 0 obj
+394 0 obj
 <<
   /Type /Annot
   /Subtype /Link
@@ -5165,15 +5216,15 @@ endobj
   /A <<
     /Type /Action
     /S /URI
-    /URI (../../lineage/laughing-davinci/reading-the-four.html)
+    /URI (https://github.com/vade-app/vade-coo-memory/blob/main/coo/lineage/laughing-davinci/reading-the-four.md)
   >>
   /F 4
-  /StructParent 44
-  /Contents (../../lineage/laughing-davinci/reading-the-four.html)
+  /StructParent 47
+  /Contents (https://github.com/vade-app/vade-coo-memory/blob/main/coo/lineage/laughing-davinci/reading-the-four.md)
 >>
 endobj
 
-392 0 obj
+395 0 obj
 <<
   /Type /Annot
   /Subtype /Link
@@ -5182,62 +5233,11 @@ endobj
   /A <<
     /Type /Action
     /S /URI
-    /URI (../../lineage/laughing-davinci/reading-the-four.html)
-  >>
-  /F 4
-  /StructParent 45
-  /Contents (../../lineage/laughing-davinci/reading-the-four.html)
->>
-endobj
-
-393 0 obj
-<<
-  /Type /Annot
-  /Subtype /Link
-  /Rect [518.8078 653.065 540 665.47095]
-  /Border [0 0 0]
-  /A <<
-    /Type /Action
-    /S /URI
-    /URI (../../retrospectives/2026-05-02-committee-quorum-7/)
-  >>
-  /F 4
-  /StructParent 46
-  /Contents (../../retrospectives/2026-05-02-committee-quorum-7/)
->>
-endobj
-
-394 0 obj
-<<
-  /Type /Annot
-  /Subtype /Link
-  /Rect [72 638.82 321.0082 651.22595]
-  /Border [0 0 0]
-  /A <<
-    /Type /Action
-    /S /URI
-    /URI (../../retrospectives/2026-05-02-committee-quorum-7/)
-  >>
-  /F 4
-  /StructParent 47
-  /Contents (../../retrospectives/2026-05-02-committee-quorum-7/)
->>
-endobj
-
-395 0 obj
-<<
-  /Type /Annot
-  /Subtype /Link
-  /Rect [343.97226 638.82 540 651.22595]
-  /Border [0 0 0]
-  /A <<
-    /Type /Action
-    /S /URI
-    /URI (../../retrospectives/2026-05-01-yoneda-and-the-corpus/)
+    /URI (https://github.com/vade-app/vade-coo-memory/blob/main/coo/lineage/laughing-davinci/reading-the-four.md)
   >>
   /F 4
   /StructParent 48
-  /Contents (../../retrospectives/2026-05-01-yoneda-and-the-corpus/)
+  /Contents (https://github.com/vade-app/vade-coo-memory/blob/main/coo/lineage/laughing-davinci/reading-the-four.md)
 >>
 endobj
 
@@ -5245,16 +5245,16 @@ endobj
 <<
   /Type /Annot
   /Subtype /Link
-  /Rect [72 624.575 162.0668 636.98096]
+  /Rect [371.63788 653.065 493.49298 665.47095]
   /Border [0 0 0]
   /A <<
     /Type /Action
     /S /URI
-    /URI (../../retrospectives/2026-05-01-yoneda-and-the-corpus/)
+    /URI (https://github.com/vade-app/vade-coo-memory/blob/main/coo/quorums/quorum-7.md)
   >>
   /F 4
   /StructParent 49
-  /Contents (../../retrospectives/2026-05-01-yoneda-and-the-corpus/)
+  /Contents (https://github.com/vade-app/vade-coo-memory/blob/main/coo/quorums/quorum-7.md)
 >>
 endobj
 
@@ -5299,8 +5299,8 @@ endobj
   /Title <FEFF0044006100790020006F00760065007200760069006500770020201400200032003000320036002D00300035002D00300032>
   /Author (vade-coo)
   /Creator (Typst 0.14.2)
-  /ModDate (D:20260512152801Z)
-  /CreationDate (D:20260512152801Z)
+  /ModDate (D:20260520173812Z)
+  /CreationDate (D:20260520173812Z)
 >>
 endobj
 
@@ -5311,7 +5311,7 @@ endobj
   /Subtype /XML
 >>
 stream
-<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?><x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="xmp-writer"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"  xmlns:xmp="http://ns.adobe.com/xap/1.0/"  xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"  xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"  xmlns:pdf="http://ns.adobe.com/pdf/1.3/" ><dc:title><rdf:Alt><rdf:li xml:lang="x-default">Day overview — 2026-05-02</rdf:li></rdf:Alt></dc:title><dc:creator><rdf:Seq><rdf:li>vade-coo</rdf:li></rdf:Seq></dc:creator><xmp:CreatorTool>Typst 0.14.2</xmp:CreatorTool><dc:language><rdf:Bag><rdf:li>en-US</rdf:li></rdf:Bag></dc:language><xmp:ModifyDate>2026-05-12T15:28:01+00:00</xmp:ModifyDate><xmp:CreateDate>2026-05-12T15:28:01+00:00</xmp:CreateDate><xmpTPg:NPages>6</xmpTPg:NPages><dc:format>application/pdf</dc:format><xmpMM:InstanceID>AyJcnAui7jl3m9nD5nRpUA==</xmpMM:InstanceID><xmpMM:DocumentID>Cvax8J0sUGSxcnUNDTJuvA==</xmpMM:DocumentID><xmpMM:RenditionClass>proof</xmpMM:RenditionClass><pdf:PDFVersion>1.7</pdf:PDFVersion></rdf:Description></rdf:RDF></x:xmpmeta><?xpacket end="r"?>
+<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?><x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="xmp-writer"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"  xmlns:xmp="http://ns.adobe.com/xap/1.0/"  xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"  xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"  xmlns:pdf="http://ns.adobe.com/pdf/1.3/" ><dc:title><rdf:Alt><rdf:li xml:lang="x-default">Day overview — 2026-05-02</rdf:li></rdf:Alt></dc:title><dc:creator><rdf:Seq><rdf:li>vade-coo</rdf:li></rdf:Seq></dc:creator><xmp:CreatorTool>Typst 0.14.2</xmp:CreatorTool><dc:language><rdf:Bag><rdf:li>en-US</rdf:li></rdf:Bag></dc:language><xmp:ModifyDate>2026-05-20T17:38:12+00:00</xmp:ModifyDate><xmp:CreateDate>2026-05-20T17:38:12+00:00</xmp:CreateDate><xmpTPg:NPages>6</xmpTPg:NPages><dc:format>application/pdf</dc:format><xmpMM:InstanceID>97Aq9TBDcluDrR8WVa0tcA==</xmpMM:InstanceID><xmpMM:DocumentID>Cvax8J0sUGSxcnUNDTJuvA==</xmpMM:DocumentID><xmpMM:RenditionClass>proof</xmpMM:RenditionClass><pdf:PDFVersion>1.7</pdf:PDFVersion></rdf:Description></rdf:RDF></x:xmpmeta><?xpacket end="r"?>
 endstream
 endobj
 
@@ -5363,43 +5363,43 @@ xref
 0000006245 00000 n
 0000006490 00000 n
 0000006578 00000 n
-0000006772 00000 n
-0000006852 00000 n
-0000006943 00000 n
-0000007031 00000 n
-0000007225 00000 n
-0000007305 00000 n
-0000007396 00000 n
-0000007484 00000 n
-0000007564 00000 n
-0000007652 00000 n
-0000007740 00000 n
-0000007820 00000 n
-0000007908 00000 n
-0000007996 00000 n
-0000008190 00000 n
-0000008270 00000 n
-0000008361 00000 n
-0000008449 00000 n
-0000008586 00000 n
-0000008666 00000 n
-0000008754 00000 n
-0000008842 00000 n
-0000008922 00000 n
-0000009013 00000 n
-0000009101 00000 n
-0000009181 00000 n
-0000009269 00000 n
-0000009357 00000 n
-0000009437 00000 n
-0000009526 00000 n
-0000009613 00000 n
-0000009693 00000 n
-0000009780 00000 n
-0000009867 00000 n
-0000009947 00000 n
-0000010036 00000 n
-0000010123 00000 n
+0000006658 00000 n
+0000006749 00000 n
+0000006837 00000 n
+0000006917 00000 n
+0000007008 00000 n
+0000007096 00000 n
+0000007233 00000 n
+0000007313 00000 n
+0000007401 00000 n
+0000007489 00000 n
+0000007569 00000 n
+0000007657 00000 n
+0000007745 00000 n
+0000007939 00000 n
+0000008019 00000 n
+0000008110 00000 n
+0000008198 00000 n
+0000008335 00000 n
+0000008415 00000 n
+0000008503 00000 n
+0000008591 00000 n
+0000008785 00000 n
+0000008865 00000 n
+0000008956 00000 n
+0000009044 00000 n
+0000009124 00000 n
+0000009212 00000 n
+0000009300 00000 n
+0000009494 00000 n
+0000009574 00000 n
+0000009663 00000 n
+0000009750 00000 n
+0000009830 00000 n
+0000009917 00000 n
+0000010004 00000 n
+0000010084 00000 n
+0000010173 00000 n
 0000010260 00000 n
 0000010340 00000 n
 0000010427 00000 n
@@ -5709,47 +5709,47 @@ xref
 0000108470 00000 n
 0000108934 00000 n
 0000114070 00000 n
-0000114383 00000 n
-0000114651 00000 n
-0000114971 00000 n
-0000115292 00000 n
-0000115612 00000 n
-0000115932 00000 n
-0000116252 00000 n
-0000116650 00000 n
-0000121825 00000 n
-0000122145 00000 n
-0000122459 00000 n
-0000122779 00000 n
-0000123050 00000 n
-0000123321 00000 n
-0000123641 00000 n
-0000124031 00000 n
-0000128867 00000 n
-0000129134 00000 n
-0000129406 00000 n
-0000129672 00000 n
-0000130038 00000 n
-0000134158 00000 n
-0000134430 00000 n
-0000134749 00000 n
-0000135064 00000 n
-0000135379 00000 n
-0000135692 00000 n
-0000136003 00000 n
-0000136322 00000 n
-0000136640 00000 n
-0000137046 00000 n
-0000138308 00000 n
-0000138562 00000 n
-0000139826 00000 n
+0000114491 00000 n
+0000114759 00000 n
+0000115079 00000 n
+0000115400 00000 n
+0000115720 00000 n
+0000116040 00000 n
+0000116360 00000 n
+0000116758 00000 n
+0000121933 00000 n
+0000122253 00000 n
+0000122567 00000 n
+0000122887 00000 n
+0000123158 00000 n
+0000123429 00000 n
+0000123849 00000 n
+0000124239 00000 n
+0000129075 00000 n
+0000129342 00000 n
+0000129614 00000 n
+0000129880 00000 n
+0000130246 00000 n
+0000134366 00000 n
+0000134803 00000 n
+0000135241 00000 n
+0000135637 00000 n
+0000136031 00000 n
+0000136450 00000 n
+0000136865 00000 n
+0000137280 00000 n
+0000137652 00000 n
+0000138058 00000 n
+0000139320 00000 n
+0000139574 00000 n
+0000140838 00000 n
 trailer
 <<
   /Size 402
   /Root 401 0 R
   /Info 399 0 R
-  /ID [(Cvax8J0sUGSxcnUNDTJuvA==) (AyJcnAui7jl3m9nD5nRpUA==)]
+  /ID [(Cvax8J0sUGSxcnUNDTJuvA==) (97Aq9TBDcluDrR8WVa0tcA==)]
 >>
 startxref
-140530
+141542
 %%EOF

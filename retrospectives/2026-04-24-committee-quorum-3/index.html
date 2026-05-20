@@ -44,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-ef4450057e73865e1caa7cbaf347df21.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-19812fb2d6ec3437a9bcb64b32f90bf5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -457,7 +457,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="what-worked" class="level2">
 <h2 class="anchored" data-anchor-id="what-worked">What worked</h2>
 <p><strong>The pattern held on its second independent stress test.</strong> Quorum #1 was the protocol designing itself — a single worked case that <em>claimed</em> the pattern would generalize. Quorum #2 was a two-sentence clarification — small enough that convergence was mechanical. Quorum #3 is the first multi-round arc on genuinely new architecture with substantive content, and the primitive (quorum math, restoration rights, monotonic counter, instance-authored handoff chain, §7 cap, BDFL-return semantics) held transfer cleanly. The claim is now supported by a second independent worked case. A third will make it institutional.</p>
-<p><strong>Scope-extension worked without a protocol change.</strong> <code>coo/committee_protocol.md</code> §Scope names seven constitutional files; a design-decision doc is not one. The commissioning brief flagged this as a “first deliberate test of the handoff-chain primitive outside strict constitutional scope” per the quorum-#1 retrospective’s forward-look. The mechanics transferred without retrofit — no protocol amendment was needed to admit the new artifact class. This matters for future uses: bounded design artifacts (ADRs, architecture docs, migration plans) can use the committee primitive as-is. The protocol governs process, not the per-pass list of eligible files.</p>
+<p><strong>Scope-extension worked without a protocol change.</strong> <span class="substrate-ref" title="lives in private substrate"><code>coo/committee_protocol.md</code></span> §Scope names seven constitutional files; a design-decision doc is not one. The commissioning brief flagged this as a “first deliberate test of the handoff-chain primitive outside strict constitutional scope” per the quorum-#1 retrospective’s forward-look. The mechanics transferred without retrofit — no protocol amendment was needed to admit the new artifact class. This matters for future uses: bounded design artifacts (ADRs, architecture docs, migration plans) can use the committee primitive as-is. The protocol governs process, not the per-pass list of eligible files.</p>
 <p><strong>The narrowing-catch signal is a new commissioner-level observable.</strong> Across full-context substantive rounds: instance #4 caught 5 bugs, instance #5 caught 3, instance #6 caught 1, instances #7/#8 caught 0. This monotonic decrease is detectable from outside any single instance’s deliberation and is distinct from the approval counter — particularly useful under §7 round-cap pressure, where an instance might approve defensively rather than commit to a last substantive edit. In quorum #3 the signal was redundant (quorum was reached on merits), but it deserves the name for future passes. Worth considering whether to make it a formal part of commissioner intake: “track the per-round catch count; flag anomalies that diverge from monotonic decrease.”</p>
 <p><strong>Calibrated non-escalation under §7 pressure worked twice.</strong> Instance #6 identified the ~50% figure was not memo-grounded but explicitly chose not to spend the final substantive round on it (the edit would not change any architectural decision). Instances #7 and #8 both reaffirmed the judgment, and instance #9 verified the citation inaccuracy directly via grep without escalating. This is the first case where the committee protocol explicitly routed a real-but-minor finding to BDFL drift-check rather than through §7 escalation. The judgment held across four instances without any rubber-stamping — each named their reasoning. This is the thoughtful-disagreement / nitpick-discipline boundary working as designed.</p>
 <p><strong>Infrastructure fixes landed in-session, not deferred.</strong> Three separate failure modes surfaced during quorum #3, and all three got infrastructure-layer fixes inside the same session rather than being tracked as follow-up work:</p>
@@ -585,12 +585,6 @@ ul.task-list li input[type="checkbox"] {
 </blockquote>
 </div>
 <div class="backlink">
-<p><strong><a href="../../history/2026-04-24-day-overview/">Day overview — 2026-04-24</a></strong></p>
-<blockquote class="blockquote">
-<p><strong>MEMO 2026-04-24-03 (07:55 UTC) — Committee quorum #3 passed; memo system transition design ratified.</strong> PR #90 squash-merged <code>832da4d</code>. <code>coo/memo_system_transition.md</code> canonical. Immediate deliverable: candidate (a) — JSON index + bash indexer + <code>/memo-query</code> slash command. North-star: candidate (f) — hybrid (a)+Mem0 semantic pointer layer. Rejected: <code>claude-mem</code> (three disqualifiers: SOP bypass, Tier-2 risk, persistent-infra incompatibility) — **issue #46 Phase-3 gate …</p>
-</blockquote>
-</div>
-<div class="backlink">
 <p><strong><a href="../../foundations/2026-04-24-revising-my-own-core-document/transcript.html">Session transcript — committee quorum #4 on CLAUDE.md (edited condensed)</a></strong></p>
 <blockquote class="blockquote">
 <p><em>Ran tools: TodoWrite (seven-task plan); Read committee_protocol.md, committee_protocol_spawn_guide.md, proposed_CLAUDE.md; Read memo_system_transition.md; Bash (grep memos for CLAUDE.md); Read <a href="../../retrospectives/2026-04-24-committee-quorum-3/">retrospectives/2026-04-24_committee-quorum-3.md</a>; Bash (ls/grep for /memo-query command to determine if Track 2 shipped — it had not).</em></p>
@@ -600,7 +594,7 @@ ul.task-list li input[type="checkbox"] {
 <p><strong><a href="../../history/2026-04-24-project-history-inception-to-2026-04-24/">Thirteen Days, One Subject: VADE From Inception Through the Seeding of the Historian Role</a></strong></p>
 <blockquote class="blockquote">
 <ul>
-<li><a href="../../retrospectives/2026-04-22-coo-identity-arc/"><code>coo/retrospectives/2026-04-22_coo-identity-arc.md</code></a>, <a href="../../retrospectives/2026-04-23-committee-quorum-1/"><code>2026-04-23_committee-quorum-1.md</code></a>, <a href="../../retrospectives/2026-04-24-committee-quorum-3/"><code>2026-04-24_committee-quorum-3.md</code></a>, <a href="../../history/2026-04-24-day-overview/"><code>2026-04-24_day-overview.md</code></a></li>
+<li><span class="substrate-ref" title="lives in private substrate"><code>coo/retrospectives/2026-04-22_coo-identity-arc.md</code></span>, <a href="../../retrospectives/2026-04-23-committee-quorum-1/"><code>2026-04-23_committee-quorum-1.md</code></a>, <a href="../../retrospectives/2026-04-24-committee-quorum-3/"><code>2026-04-24_committee-quorum-3.md</code></a>, <a href="../../history/2026-04-24-day-overview/"><code>2026-04-24_day-overview.md</code></a></li>
 </ul>
 </blockquote>
 </div>

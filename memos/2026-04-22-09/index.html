@@ -44,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-ef4450057e73865e1caa7cbaf347df21.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-19812fb2d6ec3437a9bcb64b32f90bf5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -472,7 +472,7 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Status:</strong> active<br>
 <strong>Supersedes:</strong> none. Formalizes and extends the informal label conventions that grew organically since MEMO 2026-04-11-20 made GitHub Issues + Projects authoritative. The retired <code>coo/project_tracker.md</code> flat-file (archived) is unaffected.</p>
 <p><strong>Context.</strong> Five <code>vade-app</code> repos have been accumulating labels ad hoc since bootstrap closed. <code>vade-coo-memory</code> grew <code>track:*</code>, <code>phase:*</code>, <code>proj:*</code>, <code>docs-only</code>, <code>needs:bdfl-approval</code>, <code>emancipatory</code>, <code>external-code</code>. <code>vade-core</code> grew <code>area:*</code> + <code>canvas</code>, <code>feat</code>, <code>milestone-1</code>, <code>epic:ipad-live</code>, <code>Discussion-update</code>, <code>COO essay</code>. <code>vade-runtime</code> had only <code>area:deploy</code>, <code>area:mcp</code>. <code>vade-governance</code> had zero custom labels. <code>vade-agent-logs</code> had one: <code>Strategy</code>. No shared scheme; no way to filter the org project board for issues an agent could pick up versus issues that need human design or research first. Ven’s instruction this session: standardize, and design an automation-amenable scheme that distinguishes ready-to-implement from requires-research.</p>
-<p><strong>Decision.</strong> Adopt the label taxonomy documented in <code>coo/label_taxonomy.md</code> (v1). Summary of the contract:</p>
+<p><strong>Decision.</strong> Adopt the label taxonomy documented in <span class="substrate-ref" title="lives in private substrate"><code>coo/label_taxonomy.md</code></span> (v1). Summary of the contract:</p>
 <ol>
 <li><p><strong>Five dimensions</strong>, prefix-namespaced for regex-based automation:</p>
 <ul>
@@ -489,7 +489,7 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <p><strong>Applied this session.</strong></p>
 <ul>
-<li><code>coo/label_taxonomy.md</code> written (canonical reference).</li>
+<li><span class="substrate-ref" title="lives in private substrate"><code>coo/label_taxonomy.md</code></span> written (canonical reference).</li>
 <li>All five repos updated additively: <code>type:*</code>, <code>readiness:*</code>, <code>prio:*</code> labels created everywhere; deprecated labels re-described; repo-specific <code>area:*</code> seeds added where missing.</li>
 <li>23 open issues across the five repos classified. Issues with no clear readiness classification left without the label (implicit “untriaged”).</li>
 <li>Four orphan open issues (vade-coo-memory #22, #23; vade-core #54, #57) added to the VADE project with <code>State:planned</code> and <code>Owner</code> set to the best available signal.</li>
@@ -497,7 +497,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p><strong>What this enables.</strong> A future agent-assignment workflow can be written as a thin wrapper over the GitHub Issues API: filter by <code>readiness:ready</code>, read <code>type:</code> + <code>area:</code>, pick an agent profile from a lookup table, check <code>needs:bdfl-approval</code> as a gate, honour <code>blocked:*</code> as a hard stop. The router doesn’t exist yet; the inputs do.</p>
 <p><strong>What this does NOT change.</strong> Memo case-law protocol, State/Owner project fields, the sub-issue linkage pattern from last session’s #20 maintenance, the GitHub Issues + Projects authoritative-tracker rule from MEMO -11-20. The taxonomy sits below those in the stack — it describes issue content, not lifecycle.</p>
-<p><strong>Retirement condition.</strong> This memo retires when (a) the taxonomy is revised to v2 via a successor memo (new prefix, materially different semantics, or new dimension), or (b) a native GitHub feature subsumes the need for prefix-namespaced labels (e.g., typed custom issue fields at the repo level propagating to the org project board without manual label work). Until then, <code>coo/label_taxonomy.md</code> v1 is the canonical reference and this memo is the adoption record.</p>
+<p><strong>Retirement condition.</strong> This memo retires when (a) the taxonomy is revised to v2 via a successor memo (new prefix, materially different semantics, or new dimension), or (b) a native GitHub feature subsumes the need for prefix-namespaced labels (e.g., typed custom issue fields at the repo level propagating to the org project board without manual label work). Until then, <span class="substrate-ref" title="lives in private substrate"><code>coo/label_taxonomy.md</code></span> v1 is the canonical reference and this memo is the adoption record.</p>
 <!-- vade:backlinks:begin -->
 <section id="links-to-this-page" class="level2 unlisted backlinks-heading backlinks-section">
 <h2 class="unlisted backlinks-heading anchored" data-anchor-id="links-to-this-page">Links to this page</h2>

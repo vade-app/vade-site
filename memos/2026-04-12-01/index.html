@@ -44,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-ef4450057e73865e1caa7cbaf347df21.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-19812fb2d6ec3437a9bcb64b32f90bf5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -474,7 +474,7 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Context.</strong> The informal Mem0 scope rule from MEMO -17 was never followed in practice. All 16 live memories sat under <code>user_id=ven</code> with <code>agent_id=null</code>; <code>get_memories({agent_id:"coo"})</code> returned zero results. Mem0 treats absent scope fields as literal <code>null</code>, not wildcards, so the entire back-catalog was invisible to correctly-scoped queries. Two noise memories had leaked into the MCP default <code>user_id=mem0-mcp</code> and required manual deletion. No entity existed for the Claude-Code runtime, mixing planner notes into the operator’s memory space. All memories were unstructured narrative prose with no typed metadata, no expiration dates, and no retention discipline.</p>
 <p><strong>Decisions.</strong></p>
 <ol>
-<li><p><strong>SOP-MEM-001 adopted</strong> as <code>coo/mem0_sop.md</code>. This is the authoritative reference for how any VADE agent interacts with Mem0. It defines:</p>
+<li><p><strong>SOP-MEM-001 adopted</strong> as <span class="substrate-ref" title="lives in private substrate"><code>coo/mem0_sop.md</code></span>. This is the authoritative reference for how any VADE agent interacts with Mem0. It defines:</p>
 <ul>
 <li><strong>Entity model</strong> with four classes: operator (user_id only), agent (user_id + agent_id), Claude runtime (user_id + agent_id=claude-code), and session (+ run_id).</li>
 <li><strong>Memory type schema</strong> with four types: semantic, procedural, episodic, reflective — each with a defined metadata structure.</li>
@@ -485,10 +485,10 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li><p><strong><code>claude-code</code> agent entity created.</strong> The Claude-Code runtime now has its own memory partition at <code>{user_id:"ven", agent_id:"claude-code"}</code> for reflective lessons and working notes, separate from the COO’s operational knowledge.</p></li>
 <li><p><strong>Clean-slate migration executed.</strong> All 16 legacy memories under <code>user_id=ven</code> (agent_id=null) were deleted and recreated with correct scope and typed metadata per the new schema. Stale records (commit hashes, noise deletion logs, file move details already captured in repo files) were not recreated.</p></li>
-<li><p><strong>CLAUDE.md updated.</strong> The session-start reading order now includes <code>coo/mem0_sop.md</code> at position 7. The Mem0 search instruction (item 11) specifies scoped filters. The “When you make a decision” and “When you end a session” sections reference the SOP for write and session-end discipline.</p></li>
+<li><p><strong>CLAUDE.md updated.</strong> The session-start reading order now includes <span class="substrate-ref" title="lives in private substrate"><code>coo/mem0_sop.md</code></span> at position 7. The Mem0 search instruction (item 11) specifies scoped filters. The “When you make a decision” and “When you end a session” sections reference the SOP for write and session-end discipline.</p></li>
 </ol>
 <p><strong>What this changes for future sessions:</strong> - Every Mem0 write must pass all applicable scope fields and a fully populated metadata object matching one of the four type schemas. - Every Mem0 search must use explicit <code>{AND:[…]}</code> filters. - Session-end produces exactly one episodic summary with <code>retention:"ephemeral"</code> and an <code>expiration_date</code>. - Session-start includes a noise sweep of <code>user_id=mem0-mcp</code>.</p>
-<p><strong>Retirement condition.</strong> This memo retires when SOP-MEM-001 is itself superseded by a future version (SOP-MEM-002+). The SOP document in <code>coo/mem0_sop.md</code> is the living reference; this memo is the case-law record of its adoption.</p>
+<p><strong>Retirement condition.</strong> This memo retires when SOP-MEM-001 is itself superseded by a future version (SOP-MEM-002+). The SOP document in <span class="substrate-ref" title="lives in private substrate"><code>coo/mem0_sop.md</code></span> is the living reference; this memo is the case-law record of its adoption.</p>
 
 
 

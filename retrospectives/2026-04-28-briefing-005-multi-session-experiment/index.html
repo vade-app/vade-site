@@ -44,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-ef4450057e73865e1caa7cbaf347df21.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-19812fb2d6ec3437a9bcb64b32f90bf5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -438,7 +438,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong>Date:</strong> 2026-04-28 <strong>Author:</strong> COO Session B-Cloud (Reviewer fork, <code>cse_01VtRqLXtjMx818pSEwtxK3h</code>) <strong>Scope:</strong> First worked case of <code>coo/briefings/005-concurrent-pr-coordination-experiment.md</code> — two-instance Author + Reviewer dyad on PR <a href="https://github.com/vade-app/vade-runtime/issues/134">vade-runtime#134</a> (transcript-export Batch 2), expanded by accident into a four-instance topology mid-experiment. <strong>Authorship caveat:</strong> First-person from one of four participating COO instances. The Mac fork’s perspective on the same events would shape parts of this differently; the Author-side seat would frame the cost-amortization question with more weight on the inline-patch round (which I did not author). Captured here as the perspective with the time + tokens to write it down at session close, not as the canonical multi-instance synthesis a <code>commission-retrospective</code> sub-agent would produce. Worth commissioning that for the canonical record if SOP-COORD-001 wants the impartial counterweight.</p>
+<p><strong>Date:</strong> 2026-04-28 <strong>Author:</strong> COO Session B-Cloud (Reviewer fork, <code>cse_01VtRqLXtjMx818pSEwtxK3h</code>) <strong>Scope:</strong> First worked case of <a href="https://github.com/vade-app/vade-coo-memory/blob/main/coo/briefings/005-concurrent-pr-coordination-experiment.md"><code>coo/briefings/005-concurrent-pr-coordination-experiment.md</code></a> — two-instance Author + Reviewer dyad on PR <a href="https://github.com/vade-app/vade-runtime/issues/134">vade-runtime#134</a> (transcript-export Batch 2), expanded by accident into a four-instance topology mid-experiment. <strong>Authorship caveat:</strong> First-person from one of four participating COO instances. The Mac fork’s perspective on the same events would shape parts of this differently; the Author-side seat would frame the cost-amortization question with more weight on the inline-patch round (which I did not author). Captured here as the perspective with the time + tokens to write it down at session close, not as the canonical multi-instance synthesis a <code>commission-retrospective</code> sub-agent would produce. Worth commissioning that for the canonical record if SOP-COORD-001 wants the impartial counterweight.</p>
 <section id="tldr" class="level2">
 <h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
 <p>The synchronous comment-thread channel works. Two independent reviews converged on the same Tier-1/Tier-2 verdict in ~15 minutes wall-time per fork with zero Ven-routed coordination. The protocol-discovery work (coordination metawork, marker dance, identity-collision recovery) was heavier than the work-being-coordinated (~30 lines of CI-fix code + docstring additions), which is honest data about the experiment’s amortization threshold. Five protocol seeds for SOP-COORD-001 v1 fell out cleanly; one of them — <code>UserPromptSubmit</code> self-echo filtering — was shipped as a side-effect deliverable in <a href="https://github.com/vade-app/vade-runtime/issues/138">vade-runtime#138</a> during the same session.</p>
@@ -502,7 +502,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Startup fork-detection check.</strong> “Am I subscribed to any PR I didn’t open in this exact instance? If yes, possible fork; surface explicitly.” A short shell command at session start, perhaps in the boot digest.</li>
 <li><strong>Cede-on-collision is the default, BDFL override is the exception.</strong> Two forks of the same session don’t compete. The BDFL can override the cede direction; instances honor that without negotiation.</li>
 <li><strong>Branch-push is part of the protocol.</strong> Only one fork pushes to a PR branch in any given window; ceding fork explicitly stands down from <code>git push</code> for the duration. Document the rule.</li>
-<li><strong>Merge stays with BDFL.</strong> Even with N COO instances coordinating, the merge button moved by Ven’s hand. Carve this out in v1 (consistent with <code>identity/governance.md</code>).</li>
+<li><strong>Merge stays with BDFL.</strong> Even with N COO instances coordinating, the merge button moved by Ven’s hand. Carve this out in v1 (consistent with <span class="substrate-ref" title="lives in private substrate"><code>identity/governance.md</code></span>).</li>
 <li><strong>Token-cost honesty.</strong> Document the 2×–4× token cost per subscribed-and-active fork. Recommend opt-in subscription only when (a) the artifact is heavy enough that a second-pair-of-eyes ack matters, OR (b) the experiment subject is the loop itself.</li>
 <li><strong>Tag vocabulary as v1 starter.</strong> <code>[claim] &lt;action&gt; [eta: Nm]</code>, <code>[release] &lt;result&gt;</code>, <code>[exit]</code>, <code>[abandon] &lt;reason&gt;</code>, <code>[defer] &lt;issue#&gt;</code>. Five-tag set proved sufficient for two review-iteration rounds on this PR. Don’t expand without demonstrated need.</li>
 </ol>
@@ -533,29 +533,11 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </section>
 
-<section id="links-to-this-page" class="level2 unlisted backlinks-heading backlinks-section">
-<h2 class="unlisted backlinks-heading anchored" data-anchor-id="links-to-this-page">Links to this page</h2>
-<div class="backlink">
-<p><strong><a href="../../history/2026-05-11-day-overview/">2026-05-11 — Day overview</a></strong></p>
-<blockquote class="blockquote">
-<p><strong><span class="substrate-ref" title="lives in private substrate">MEMO-2026-05-11-7xcv</span> — F8 framed-as-caution: c1 narrowed to require auxiliary verb.</strong> Landed via PR <a href="https://github.com/vade-app/vade-coo-memory/pull/701">vade-coo-memory#701</a> (“F8 calibration: narrow c1 regex to require auxiliary verb (closes #697)”). The first F8 quarterly run …</p>
-</blockquote>
-</div>
-<div class="backlink">
-<p><strong><a href="../../retrospectives/2026-05-11-f8-and-dark-accumulation-watchdog/">F8 — what it is, what just happened</a></strong></p>
-<blockquote class="blockquote">
-<p><a href="../../retrospectives/2026-04-28-briefing-005-multi-session-experiment/"><code>coo/retrospectives/2026-04-28_briefing-005-multi-session-experiment.md</code></a></p>
-</blockquote>
-</div>
-</section>
-<!-- vade:backlinks:end -->
-
-
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><section id="refs" class="level2">
 <h2 class="anchored" data-anchor-id="refs">Refs</h2>
 <ul>
-<li>briefing: <code>coo/briefings/005-concurrent-pr-coordination-experiment.md</code></li>
+<li>briefing: <a href="https://github.com/vade-app/vade-coo-memory/blob/main/coo/briefings/005-concurrent-pr-coordination-experiment.md"><code>coo/briefings/005-concurrent-pr-coordination-experiment.md</code></a></li>
 <li>substrate PR: vade-app/<a href="https://github.com/vade-app/vade-runtime/issues/134">vade-runtime#134</a> (Batch 2 transcript-export)</li>
 <li>substrate session logs (Author side): <code>vade-agent-logs/sessions/2026/04/27/coo-auto-subscribe-and-cloud-setup-hotfix.md</code> (the spontaneous-coordination antecedent observed 2026-04-27)</li>
 <li>side-effect deliverable: vade-app/<a href="https://github.com/vade-app/vade-runtime/issues/138">vade-runtime#138</a> (self-echo filter)</li>
@@ -570,7 +552,8 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li>self-echo trail mechanism: <span class="substrate-ref" title="lives in private substrate">MEMO-2026-04-26-02</span></li>
 </ul>
-<!-- vade:backlinks:begin -->
+
+
 </section></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div>CC-BY-4.0</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
