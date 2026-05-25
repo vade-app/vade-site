@@ -507,7 +507,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Storage-layer atomicity heuristic</strong>: prefer a primitive whose contract guarantees what you want, over engineering survival around a primitive that doesn’t. R2 PutObject atomicity is documented; the cluster of additive fixes was inferring around it.</li>
 <li><strong>Closure-as-substrate-state</strong>: the absence of failure isn’t closure; the presence of a continuous detector is. The transcript pipeline now has three (E6/E7/E8) plus a contract smoke (#200/#223). The next saga that wants to claim closure without one will read this retrospective.</li>
 <li><strong>Briefing supersession-on-premature-closure</strong>: briefings 019/020 worked example. The <em>pretending</em> shape is named (briefing 020’s ### Closure section explicitly supersedes 019’s). Future briefings that close prematurely have a procedure to recover.</li>
-<li><strong>Resumed-after-suspend export edge case</strong>: the harness can fire SessionEnd mid-flight on suspend; #212’s IfNoneMatch=“*” means the resumed session’s later end-fire can’t double-write. Documented in vade-coo-memory#480 (operational doc, externalized by the closure session).</li>
+<li><strong>Resumed-after-suspend export edge case</strong>: the harness can fire SessionEnd mid-flight on suspend; #212’s IfNoneMatch=“*” means the resumed session’s later end-fire can’t double-write. Documented in vade-<span class="substrate-ref" title="operations doc: coo/operations/transcript-export-lifecycle.md (hook timing, date partition, verification recipes)">coo-memory#480</span> (operational doc, externalized by the closure session).</li>
 </ul>
 </section>
 <section id="cost-honest-accounting" class="level2">
