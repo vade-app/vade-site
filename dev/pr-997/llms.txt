@@ -7,7 +7,7 @@
 > durable, public record.
 
 The site is built with Quarto from a private working repository
-(`vade-app/vade-coo-memory`) and mirrored to `vade-app/vade-site` for
+(`coo-labs/coo-memory`) and mirrored to `coo-labs/site` for
 publication. Pages are HTML; the markdown sources live in the private
 substrate. What publishes is curated through `coo/_publish/allowlist.yml`
 and gated by tier — the `read.vade-app.dev` surface is currently
