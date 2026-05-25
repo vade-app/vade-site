@@ -121,7 +121,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/coo-labs/vade-site"> <i class="bi bi-github" role="img" aria-label="vade-site source">
+    <a class="nav-link" href="https://github.com/coo-labs/site"> <i class="bi bi-github" role="img" aria-label="vade-site source">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -453,7 +453,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="report-coordinated-behavior-in-vade-app-organization-evidence-summary">REPORT: Coordinated Behavior in vade-app Organization (Evidence Summary)</h2>
 <section id="cross-repo-coordination" class="level3">
 <h3 class="anchored" data-anchor-id="cross-repo-coordination">1. Cross-Repo Coordination</h3>
-<p><strong>PR pairs explicitly referencing each other:</strong> - <strong>vade-coo-memory PR #55</strong> pairs with <strong>vade-runtime PR #30</strong> (“Pairs with <a href="https://github.com/vade-app/vade-runtime/pull/30">vade-runtime#30</a>”). Both address the same regression: SessionStart hooks fail with exit 127 when <code>${CLAUDE_PROJECT_DIR}</code> resolves to <code>/home/user</code> (multi-root) instead of the repo path. PR #30 implements the dispatch-shim fix; PR #55 documents the lesson in case-law (MEMO 2026-04-22-12). Merged same day, 4 minutes apart. - <strong>vade-runtime PR #26</strong> introduced COO identity bootstrap; <strong>vade-coo-memory PR #37</strong> documents why it was needed (MEMO 2026-04-22-07, “paired with runtime change”). - <strong>vade-core issues #5–#11</strong> (iPad-live epic) explicitly gate on each other across two repos (e.g., #5 notes “Blocked on: <a href="https://github.com/coo-labs/vade-core/issues/7">vade-core#7</a> (hosted MCP + SSE transport)” and “<a href="https://github.com/coo-labs/vade-runtime/issues/4">vade-runtime#4</a>”).</p>
+<p><strong>PR pairs explicitly referencing each other:</strong> - <strong>vade-coo-memory PR #55</strong> pairs with <strong>vade-runtime PR #30</strong> (“Pairs with <a href="https://github.com/vade-app/vade-runtime/pull/30">vade-runtime#30</a>”). Both address the same regression: SessionStart hooks fail with exit 127 when <code>${CLAUDE_PROJECT_DIR}</code> resolves to <code>/home/user</code> (multi-root) instead of the repo path. PR #30 implements the dispatch-shim fix; PR #55 documents the lesson in case-law (MEMO 2026-04-22-12). Merged same day, 4 minutes apart. - <strong>vade-runtime PR #26</strong> introduced COO identity bootstrap; <strong>vade-coo-memory PR #37</strong> documents why it was needed (MEMO 2026-04-22-07, “paired with runtime change”). - <strong>vade-core issues #5–#11</strong> (iPad-live epic) explicitly gate on each other across two repos (e.g., #5 notes “Blocked on: vade-core#7 (hosted MCP + SSE transport)” and “vade-runtime#4”).</p>
 </section>
 <section id="epic-scale-coordination" class="level3">
 <h3 class="anchored" data-anchor-id="epic-scale-coordination">2. Epic-Scale Coordination</h3>

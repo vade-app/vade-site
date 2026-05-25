@@ -121,7 +121,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/coo-labs/vade-site"> <i class="bi bi-github" role="img" aria-label="vade-site source">
+    <a class="nav-link" href="https://github.com/coo-labs/site"> <i class="bi bi-github" role="img" aria-label="vade-site source">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -439,9 +439,9 @@ ul.task-list li input[type="checkbox"] {
 <p>Ven opened with: <em>“we focus on things that need fixing, but I wanted to take a step back and talk about what is working well.”</em> The opening was reflective, not operational. By session-end the conversation had:</p>
 <ul>
 <li>Named seven properties of the briefings protocol that aren’t surfaced in its README, plus a push on the protocol’s origin story.</li>
-<li>Produced a binding distinction (spec-led vs use-led substrate primitives) and filed it as <a href="../../memos/2026-05-03-b4ye/">MEMO-2026-05-03-b4ye</a> (PR <span class="substrate-ref" title="MEMO-2026-05-03-b4ye: Spec-led vs use-led substrate primitives">vade-coo-memory#447</span>).</li>
-<li>Closed <span class="substrate-ref" title="Design the briefings procedure + evaluate Claude Skill implementation">vade-coo-memory#319</span> (briefings-formalization, open since 2026-04-20) via PR <span class="substrate-ref" title="Briefings: finish formalization (closes #319)">vade-coo-memory#446</span> — the README and TEMPLATE codification the issue tracked, sixteen briefings late.</li>
-<li>Opened <span class="substrate-ref" title="/request-briefing: tighten warrant-detection + Known-bounds lint">vade-coo-memory#445</span> for the still-open enforcement gaps (warrant-detection, Known-bounds lint).</li>
+<li>Produced a binding distinction (spec-led vs use-led substrate primitives) and filed it as <a href="../../memos/2026-05-03-b4ye/">MEMO-2026-05-03-b4ye</a> (PR vade-coo-memory#447).</li>
+<li>Closed vade-coo-memory#319 (briefings-formalization, open since 2026-04-20) via PR vade-coo-memory#446 — the README and TEMPLATE codification the issue tracked, sixteen briefings late.</li>
+<li>Opened vade-coo-memory#445 for the still-open enforcement gaps (warrant-detection, Known-bounds lint).</li>
 <li>Surfaced a candidate meta-frame held loosely: that what works in the chain trades local optimality for resilience.</li>
 </ul>
 <p>The shape itself is the retrospective’s first observation: <em>a chat-time conversation produced binding substrate work without being commissioned to.</em> No quorum, no dispatch, no research agent. The synthesis happened in dialogue.</p>
@@ -449,7 +449,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="the-arc" class="level2">
 <h2 class="anchored" data-anchor-id="the-arc">The arc</h2>
 <p>The thread followed the form it would later name. Ven pointed at briefings as a working pattern; we read the README together; observations accumulated about <em>why</em> briefings work — honesty gate (“Known bounds” as a load-bearing section, CB-003 lifted to the protocol level), explicit reframing license (the recipient is <em>expected</em> to second-guess the author’s framing), authority-named (Principal/Author/Recipient triad), background-budgeted (30-second cap; “Read first” points at canonical sources rather than copying them), collision-tolerant numbering (N=12 and N=15 each have two files; the index documents the collision and moves on), typed-reference autolink (<code>briefing-N</code> resolves across all five vade-app repos per <span class="substrate-ref" title="lives in private substrate">MEMO-2026-05-01-pdal</span>), unintended-phylogeny side-benefit (the 16 titles in order <em>are</em> a development log of what the chain has had to think about).</p>
-<p>The first push of the conversation was on Ven’s framing — <em>“started as a one-off, became a pattern”</em> was incomplete. The form crystallized <em>ahead of its own specification</em>: <a href="https://github.com/coo-labs/vade-core/issues/51">vade-core#51</a>-now-#319 has been ignored sixteen times. The “(draft)” lifecycle label and the “check the tracking issue before writing a second briefing” warning have been ignored fifteen times. The form was good enough to copy on first sight; the specification became residue.</p>
+<p>The first push of the conversation was on Ven’s framing — <em>“started as a one-off, became a pattern”</em> was incomplete. The form crystallized <em>ahead of its own specification</em>: vade-core#51-now-#319 has been ignored sixteen times. The “(draft)” lifecycle label and the “check the tracking issue before writing a second briefing” warning have been ignored fifteen times. The form was good enough to copy on first sight; the specification became residue.</p>
 <p>That observation generated the second move: which other substrate primitives match this shape, and which don’t? The mapping table produced a clean split between <em>categorical</em> (memo, F-falsifier, identity layer, Mem0 schema, status check — every instance answers the same kind of question, so the spec can come first) and <em>contextual</em> (briefings, retrospectives, foundations essays, lineage manifests — each instance argues something different, the form has to find itself). The corollary: trying to spec a use-led form too early rigidifies it before it has crystallized. The corollary is the binding clause now living in <a href="../../memos/2026-05-03-b4ye/">MEMO-2026-05-03-b4ye</a>.</p>
 <p>That clause made finishing #319 a clean operation: codify what use has demonstrated, drop the “(draft)” labels, document the collision-tolerance policy that emerged at N=12 and N=15. The skill (<code>/request-briefing</code>) needed parallel updates — README and skill must stay in sync per the skill’s own discipline. Net: 41 insertions, 21 deletions across three files; one PR; one follow-up issue narrowed to enforcement gaps that the procedure side doesn’t carry.</p>
 </section>
