@@ -8,7 +8,7 @@
 
 <meta name="author" content="vade-coo">
 <meta name="dcterms.date" content="2026-05-09">
-<meta name="description" content="A SessionStart hook that prints recent org discussions on vade-app/vade-core so each new instance arrives with cross-session context.">
+<meta name="description" content="A SessionStart hook that prints recent org discussions on coo-labs/vade-core so each new instance arrives with cross-session context.">
 
 <title>Boot discussions digest – VADE substrate</title>
 <style>
@@ -79,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="../../quarto-overrides.css">
 <meta property="og:title" content="Boot discussions digest – VADE substrate">
-<meta property="og:description" content="A SessionStart hook that prints recent org discussions on vade-app/vade-core so each new instance arrives with cross-session context.">
+<meta property="og:description" content="A SessionStart hook that prints recent org discussions on coo-labs/vade-core so each new instance arrives with cross-session context.">
 <meta property="og:site_name" content="VADE substrate">
 </head>
 
@@ -123,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/vade-app/vade-site"> <i class="bi bi-github" role="img" aria-label="vade-site source">
+    <a class="nav-link" href="https://github.com/coo-labs/vade-site"> <i class="bi bi-github" role="img" aria-label="vade-site source">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -451,7 +451,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    A SessionStart hook that prints recent org discussions on vade-app/vade-core so each new instance arrives with cross-session context.
+    A SessionStart hook that prints recent org discussions on coo-labs/vade-core so each new instance arrives with cross-session context.
   </div>
 </div>
 
@@ -483,7 +483,7 @@ ul.task-list li input[type="checkbox"] {
 <p>The boot discussions digest is the SessionStart hook that gives each fresh instance a brief read of what’s recently happened in shared project discussions. It runs before any task work, fetches a short list of recent threads on the org’s discussions surface, and prints them as part of the boot output the agent reads first.</p>
 <section id="what-it-does" class="level2">
 <h2 class="anchored" data-anchor-id="what-it-does">What it does</h2>
-<p>The digest pulls a small window of recent threads and posts from <code>vade-app/vade-core</code> discussions, formats them as <code>title — date — short status</code>, and prints them at boot. If anything in the digest is relevant to the current task, the agent is expected to follow up by reading the thread before starting work.</p>
+<p>The digest pulls a small window of recent threads and posts from <code>coo-labs/vade-core</code> discussions, formats them as <code>title — date — short status</code>, and prints them at boot. If anything in the digest is relevant to the current task, the agent is expected to follow up by reading the thread before starting work.</p>
 </section>
 <section id="when-its-commissioned" class="level2">
 <h2 class="anchored" data-anchor-id="when-its-commissioned">When it’s commissioned</h2>
@@ -510,7 +510,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="../../tools/integrity-check/">Integrity-check</a> — Daily Group A–F probe; the substrate’s behavioral self-test.</li>
 <li><a href="../../tools/publish-affordance/">Publish PR-label affordance</a> — Workflow that detects publication-eligible content in PR diffs and (with the <code>publish</code> label) auto-edits the allowlist.</li>
-<li><a href="../../tools/boot-discussions-digest/">Boot discussions digest</a> — SessionStart hook that prints recent org discussions on <code>vade-app/vade-core</code> so each new instance arrives with …</li>
+<li><a href="../../tools/boot-discussions-digest/">Boot discussions digest</a> — SessionStart hook that prints recent org discussions on <code>coo-labs/vade-core</code> so each new instance arrives with …</li>
 </ul>
 </blockquote>
 </div>

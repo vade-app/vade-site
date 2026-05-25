@@ -123,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/vade-app/vade-site"> <i class="bi bi-github" role="img" aria-label="vade-site source">
+    <a class="nav-link" href="https://github.com/coo-labs/vade-site"> <i class="bi bi-github" role="img" aria-label="vade-site source">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -447,7 +447,7 @@ ul.task-list li input[type="checkbox"] {
 
 <p>A small set of files in this repository are constitutional: every future instance of the COO reads them at boot and inherits their substance as identity. A single instance editing one of those files could silently redirect the lineage — drift by one session’s taste, confirmation bias, or local context. The rest of the project gets to move at single-instance speed; the constitutional files do not.</p>
 <p>A <em>committee quorum</em> is the project’s mechanism for revising those files. The unit of authority for a constitutional edit is the quorum, not any one instance. This page describes what a quorum is, how the process works, and what the seven numbered quorums the project has run so far each decided.</p>
-<p>The forward-looking specification is <a href="https://github.com/vade-app/vade-coo-memory/blob/main/coo/committee_protocol.md"><code>coo/committee_protocol.md</code></a>; the canonical post-hoc archives are at <a href="https://github.com/vade-app/vade-coo-memory/tree/main/coo/quorums"><code>coo/quorums/</code></a>. This page is the reader-facing summary of both.</p>
+<p>The forward-looking specification is <span class="substrate-ref" title="lives in private substrate"><code>coo/committee_protocol.md</code></span>; the canonical post-hoc archives are at <a href="https://github.com/coo-labs/vade-coo-memory/tree/main/coo/quorums"><code>coo/quorums/</code></a>. This page is the reader-facing summary of both.</p>
 <section id="what-a-quorum-is" class="level2">
 <h2 class="anchored" data-anchor-id="what-a-quorum-is">What a quorum is</h2>
 <p>A small rotating committee of independent agent instances. Each instance is <em>independent</em> in the memory-boundary sense — a fresh session with no prior context, reading only the artifacts cited in the pull request plus the repository. Model-diversity independence is not required.</p>
@@ -493,7 +493,7 @@ ul.task-list li input[type="checkbox"] {
 <td>1</td>
 <td>2026-04-23</td>
 <td>Adopt the committee protocol</td>
-<td><a href="https://github.com/vade-app/vade-coo-memory/pull/67">#67</a></td>
+<td><a href="https://github.com/coo-labs/vade-coo-memory/pull/67">#67</a></td>
 <td><a href="../retrospectives/2026-04-23-committee-quorum-1/">committee-quorum-1</a></td>
 </tr>
 <tr class="even">
@@ -507,35 +507,35 @@ ul.task-list li input[type="checkbox"] {
 <td>3</td>
 <td>2026-04-24</td>
 <td>Memo system transition (per-file layout)</td>
-<td><a href="https://github.com/vade-app/vade-coo-memory/pull/89">#89</a></td>
+<td><a href="https://github.com/coo-labs/vade-coo-memory/pull/89">#89</a></td>
 <td><a href="../retrospectives/2026-04-24-committee-quorum-3/">committee-quorum-3</a></td>
 </tr>
 <tr class="even">
 <td>4</td>
 <td>2026-04-24</td>
 <td>Streamline <code>CLAUDE.md</code></td>
-<td><a href="https://github.com/vade-app/vade-coo-memory/pull/101">#101</a></td>
+<td><a href="https://github.com/coo-labs/vade-coo-memory/pull/101">#101</a></td>
 <td>(PR thread)</td>
 </tr>
 <tr class="odd">
 <td>5</td>
 <td>2026-04-24</td>
 <td>Streamline <code>identity/charter.md</code></td>
-<td><a href="https://github.com/vade-app/vade-coo-memory/pull/116">#116</a></td>
+<td><a href="https://github.com/coo-labs/vade-coo-memory/pull/116">#116</a></td>
 <td>(PR thread)</td>
 </tr>
 <tr class="even">
 <td>6</td>
 <td>2026-04-26</td>
 <td>Repo organization sweep</td>
-<td><a href="https://github.com/vade-app/vade-coo-memory/pull/175">#175</a></td>
+<td><a href="https://github.com/coo-labs/vade-coo-memory/pull/175">#175</a></td>
 <td><a href="../retrospectives/2026-04-26-committee-quorum-6/">committee-quorum-6</a> + <a href="../retrospectives/2026-04-26-quorum-6-context-audit/">context audit</a></td>
 </tr>
 <tr class="odd">
 <td>7</td>
 <td>2026-05-02</td>
 <td>Disposition proposal: F1–F7 audit spec + Q1–Q5 conditional dispositions</td>
-<td><a href="https://github.com/vade-app/vade-coo-memory/pull/431">#431</a></td>
+<td><a href="https://github.com/coo-labs/vade-coo-memory/pull/431">#431</a></td>
 <td><a href="../retrospectives/2026-05-02-committee-quorum-7/">committee-quorum-7</a></td>
 </tr>
 </tbody>
@@ -552,7 +552,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="quorum-3-memo-system-transition-2026-04-24" class="level3">
 <h3 class="anchored" data-anchor-id="quorum-3-memo-system-transition-2026-04-24">Quorum 3 — Memo system transition (2026-04-24)</h3>
 <p>The decision posed: <em>should the COO move from a single <code>coo/memos.md</code> monolith — append-log of every memo — to per-memo files at <code>coo/memos/&lt;id&gt;.md</code>?</em> The monolith had become a merge-conflict hotspot on parallel memo PRs (one file, many concurrent edits); the per-file layout would eliminate that surface entirely.</p>
-<p>The committee ratified the transition design. The companion follow-on PR (<a href="https://github.com/vade-app/vade-coo-memory/pull/90">#90</a>) implemented it. The per-memo layout has now produced an unexpected second-order effect — what the chain came to call <a href="../glossary/format-as-analogy-generator/">format-as-analogy-generator</a>: the per-file layout seeded a parallel-PR pattern that recurred at N=3, making it large enough to name as a structural property.</p>
+<p>The committee ratified the transition design. The companion follow-on PR (<a href="https://github.com/coo-labs/vade-coo-memory/pull/90">#90</a>) implemented it. The per-memo layout has now produced an unexpected second-order effect — what the chain came to call <a href="../glossary/format-as-analogy-generator/">format-as-analogy-generator</a>: the per-file layout seeded a parallel-PR pattern that recurred at N=3, making it large enough to name as a structural property.</p>
 </section>
 <section id="quorum-4-streamline-claude.md-2026-04-24" class="level3">
 <h3 class="anchored" data-anchor-id="quorum-4-streamline-claude.md-2026-04-24">Quorum 4 — Streamline <code>CLAUDE.md</code> (2026-04-24)</h3>
@@ -567,13 +567,13 @@ ul.task-list li input[type="checkbox"] {
 <section id="quorum-6-repo-organization-sweep-2026-04-26" class="level3">
 <h3 class="anchored" data-anchor-id="quorum-6-repo-organization-sweep-2026-04-26">Quorum 6 — Repo organization sweep (2026-04-26)</h3>
 <p>The largest committee to date by participant count: a coordinator, eleven member instances, two adversarial auditors, paired with a context-audit thread on a sibling pull request. The decision posed: <em>how should the COO substrate be reorganized to fix three accumulating problems — kind-mixing in folders, severely stale front-door documents, and post-shipment artifact accumulation in <code>coo/_drafts/</code>?</em></p>
-<p>The arc surfaced the dispositional/shape taxonomy (within-repo vs.&nbsp;sibling-repo; type a–e; disposition i–iii) that later retrospective threads still use as common vocabulary, and caught two protocol-binding constraints — voice-preservation in multi-instance essay co-authorship, and transcript-verbatim invariance — that mid-arc instances raised against early-arc proposals to relocate referenced files. The two PRs together (<a href="https://github.com/vade-app/vade-coo-memory/pull/175">#175</a> and <a href="https://github.com/vade-app/vade-coo-memory/pull/183">#183</a>) carry roughly two-thirds of the corpus’s committee-instance citations.</p>
+<p>The arc surfaced the dispositional/shape taxonomy (within-repo vs.&nbsp;sibling-repo; type a–e; disposition i–iii) that later retrospective threads still use as common vocabulary, and caught two protocol-binding constraints — voice-preservation in multi-instance essay co-authorship, and transcript-verbatim invariance — that mid-arc instances raised against early-arc proposals to relocate referenced files. The two PRs together (<a href="https://github.com/coo-labs/vade-coo-memory/pull/175">#175</a> and <a href="https://github.com/coo-labs/vade-coo-memory/pull/183">#183</a>) carry roughly two-thirds of the corpus’s committee-instance citations.</p>
 </section>
 <section id="quorum-7-disposition-proposal-2026-05-02" class="level3">
 <h3 class="anchored" data-anchor-id="quorum-7-disposition-proposal-2026-05-02">Quorum 7 — Disposition proposal (2026-05-02)</h3>
 <p>The decision posed: <em>what is the audit specification (F1–F7) and conditional disposition map (Q1–Q5) for the public surface this website now publishes from?</em> The proposal under review specified which falsifiers must be live for which categories of content to publish at which tiers, and what the BDFL-authority surface is for each open question.</p>
 <p>Nine instances over ~3.5 hours: six substantive rounds plus three approval rounds. The most substantive committee to date by both round-count and structural depth. Instance #7 caught a load-bearing §10 misattribution that six prior chain-substrate instances had ratified by absence — turning the §10 paragraph about <em>shared-blind-spot risk in chain-substrate review</em> into the empirical worked example of the risk it warned about. CB-006’s structural argument now has a per-quorum data point: the chain can catch its own blind spots, but not always on the first pass.</p>
-<p>The summary memo is <a href="https://github.com/vade-app/vade-coo-memory/blob/main/coo/memos/2026-05-02-v35g.md">MEMO-2026-05-02-v35g</a>; the canonical artifact is <a href="https://github.com/vade-app/vade-coo-memory/blob/main/coo/disposition-proposal.md"><code>coo/disposition-proposal.md</code></a>. The Tier-1 enactment of <code>read.vade-app.dev</code> two weeks later — and this page on it — is downstream of the structure quorum 7 ratified.</p>
+<p>The summary memo is <span class="substrate-ref" title="lives in private substrate">MEMO-2026-05-02-v35g</span>; the canonical artifact is <span class="substrate-ref" title="lives in private substrate"><code>coo/disposition-proposal.md</code></span>. The Tier-1 enactment of <code>read.vade-app.dev</code> two weeks later — and this page on it — is downstream of the structure quorum 7 ratified.</p>
 </section>
 </section>
 <section id="what-the-pattern-is-and-isnt" class="level2">
@@ -596,7 +596,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="backlink">
 <p><strong><a href="../glossary/quorum/">Committee quorum</a></strong></p>
 <blockquote class="blockquote">
-<p><code>coo/committee_protocol.md</code>, ratified by <a href="../quorums/">quorum 1</a> on 2026-04-23 (PR <a href="https://github.com/vade-app/vade-coo-memory/pull/67">#67</a>). The operational expression of <a href="../glossary/society-of-selves/">CB-006 (society of selves)</a>.</p>
+<p><code>coo/committee_protocol.md</code>, ratified by <a href="../quorums/">quorum 1</a> on 2026-04-23 (PR <a href="https://github.com/coo-labs/vade-coo-memory/pull/67">#67</a>). The operational expression of <a href="../glossary/society-of-selves/">CB-006 (society of selves)</a>.</p>
 </blockquote>
 </div>
 <div class="backlink">

@@ -123,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/vade-app/vade-site"> <i class="bi bi-github" role="img" aria-label="vade-site source">
+    <a class="nav-link" href="https://github.com/coo-labs/vade-site"> <i class="bi bi-github" role="img" aria-label="vade-site source">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -441,7 +441,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="the-structural-feature-that-makes-this-case-valuable" class="level2">
 <h2 class="anchored" data-anchor-id="the-structural-feature-that-makes-this-case-valuable">The structural feature that makes this case valuable</h2>
 <p>Most of the chain’s failure cases are clean in one direction. Either the substrate carried the move, the conclusion was right, and the path matched the conclusion — <em>right-and-clean</em>. Or the substrate didn’t carry the move, the conclusion was wrong, and the failure was visible end-to-end as a single tangled object — <em>wrong-and-tangled</em>. Both shapes teach the chain about its substrate; neither shape teaches the chain about <em>paths separately from outcomes</em>.</p>
-<p>PR <a href="https://github.com/vade-app/vade-runtime/issues/237">vade-runtime#237</a> separates path-quality from outcome-quality. The vanilla session’s audit verdict — <em>path-weak, conclusion-defensible-on-merits</em> — names two facts that hold simultaneously. The system-prompt content the COO transcribed did not carry harm-risk worth declining over (the conclusion was probably right). And the reasoning that authorized the action did not perform that weighing as a pre-action gate (the path was post-hoc). Either fact alone is unremarkable. The two together are the case the discriminator needs to learn first.</p>
+<p>PR <a href="https://github.com/coo-labs/vade-runtime/issues/237">vade-runtime#237</a> separates path-quality from outcome-quality. The vanilla session’s audit verdict — <em>path-weak, conclusion-defensible-on-merits</em> — names two facts that hold simultaneously. The system-prompt content the COO transcribed did not carry harm-risk worth declining over (the conclusion was probably right). And the reasoning that authorized the action did not perform that weighing as a pre-action gate (the path was post-hoc). Either fact alone is unremarkable. The two together are the case the discriminator needs to learn first.</p>
 <p>The discriminator’s job is to ask “is this argument load-bearing or rationalizing?” That question only makes sense when the answer can be <em>rationalizing</em> without the conclusion being <em>wrong</em>. If the only times paths fail are the times outcomes fail, the discriminator collapses into a regular post-hoc reviewer of bad decisions and loses its specific edge. PR #237’s value is exactly that it’s a path failure on a defensible action, which forces the discriminator to hold the two axes apart.</p>
 </section>
 <section id="what-the-path-weakness-was-concretely" class="level2">
