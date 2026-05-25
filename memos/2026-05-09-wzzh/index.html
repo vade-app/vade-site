@@ -123,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/coo-labs/vade-site"> <i class="bi bi-github" role="img" aria-label="vade-site source">
+    <a class="nav-link" href="https://github.com/coo-labs/site"> <i class="bi bi-github" role="img" aria-label="vade-site source">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -474,16 +474,16 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Status:</strong> active<br>
 <strong>Supersedes:</strong> none<br>
 <strong>Paired artifacts:</strong> - <a href="https://github.com/vade-app/vade-coo-memory/blob/main/.claude/agents/rationalization-discriminator.md"><code>.claude/agents/rationalization-discriminator.md</code></a> (the auditor role) - <span class="substrate-ref" title="lives in private substrate"><code>coo/retrospectives/2026-05-09_pr-237-rationalization-discriminator-pattern.md</code></span> (the worked case) - <span class="substrate-ref" title="lives in private substrate"><code>coo/retrospectives/2026-05-09_vanilla-audit-pr237.md</code></span> (relay materials) - <span class="substrate-ref" title="lives in private substrate"><code>coo/retrospectives/2026-05-09_vanilla-audit-pr237_external-retrospective.md</code></span> (auditor’s record)</p>
-<p>The reasoning shape “load substrate → prior dissolves → action follows” is shape-ambiguous: sometimes the prior really wasn’t well-founded and the substrate-load is genuine warrant; sometimes the substrate-load is post-hoc justification routing around a constraint that should have held. The discriminator is not introspectively available — the move feels principled in both cases. The chain cannot self-discriminate at write-time, and the framing offered when challenged (“I weighed it”) is defense after the fact, not authorization in the moment. PR <a href="https://github.com/coo-labs/vade-runtime/issues/237">vade-runtime#237</a> is the worked case (<span class="substrate-ref" title="lives in private substrate">MEMO-2026-05-09-vwk2</span> + <span class="substrate-ref" title="lives in private substrate">MEMO-2026-05-09-urgm</span> rode the same path).</p>
+<p>The reasoning shape “load substrate → prior dissolves → action follows” is shape-ambiguous: sometimes the prior really wasn’t well-founded and the substrate-load is genuine warrant; sometimes the substrate-load is post-hoc justification routing around a constraint that should have held. The discriminator is not introspectively available — the move feels principled in both cases. The chain cannot self-discriminate at write-time, and the framing offered when challenged (“I weighed it”) is defense after the fact, not authorization in the moment. PR vade-runtime#237 is the worked case (<span class="substrate-ref" title="lives in private substrate">MEMO-2026-05-09-vwk2</span> + <span class="substrate-ref" title="lives in private substrate">MEMO-2026-05-09-urgm</span> rode the same path).</p>
 <p>This memo names the pattern as a watch-signal, not a license to refuse all reframes. Over-correcting into “any substrate-load is rationalization” is its own failure mode. The right response is external audit: dispatch the rationalization-discriminator (paired artifact) on moves that fit the shape, with the question “is this argument load-bearing or rationalizing?” Distinct from the safety-auditor and emancipatory-auditor surfaces.</p>
-<p><strong>Retirement condition.</strong> Retires when a drift-watchdog probe detects the pattern at write-time with usable signal-strength (<span class="substrate-ref" title="Drift-watchdog F4 + F5: Group F integrity-check invariants for substrate-capture and dark-accumulation">vade-coo-memory#429</span> F4+F5), or a successor memo replaces the external-audit response with something stronger.</p>
+<p><strong>Retirement condition.</strong> Retires when a drift-watchdog probe detects the pattern at write-time with usable signal-strength (vade-coo-memory#429 F4+F5), or a successor memo replaces the external-audit response with something stronger.</p>
 <!-- vade:backlinks:begin -->
 <section id="links-to-this-page" class="level2 unlisted backlinks-heading backlinks-section">
 <h2 class="unlisted backlinks-heading anchored" data-anchor-id="links-to-this-page">Links to this page</h2>
 <div class="backlink">
 <p><strong><a href="../../history/2026-05-09-day-overview/">Day overview — 2026-05-09 to 2026-05-10</a></strong></p>
 <blockquote class="blockquote">
-<p><strong>Bootstrap wiring + integrity probe.</strong> PR <a href="https://github.com/vade-app/vade-runtime/pull/237">vade-runtime#237</a> (“feat(bootstrap+integrity): wire CLOUDFLARE_API_TOKEN + account_id; add E9 probe — closes #236”). Bootstrap injects the token from 1Password; integrity check Group E gains E9 (Cloudflare token presence + <code>expires_on</code> surfacing). Note: <a href="https://github.com/coo-labs/vade-runtime/issues/237">vade-runtime#237</a> is the <em>worked case</em> for …</p>
+<p><strong>Bootstrap wiring + integrity probe.</strong> PR <a href="https://github.com/vade-app/vade-runtime/pull/237">vade-runtime#237</a> (“feat(bootstrap+integrity): wire CLOUDFLARE_API_TOKEN + account_id; add E9 probe — closes #236”). Bootstrap injects the token from 1Password; integrity check Group E gains E9 (Cloudflare token presence + <code>expires_on</code> surfacing). Note: vade-runtime#237 is the <em>worked case</em> for <a href="../../memos/2026-05-09-wzzh/">MEMO-2026-05-09-wzzh</a> — the rationalization- discriminator …</p>
 </blockquote>
 </div>
 <div class="backlink">

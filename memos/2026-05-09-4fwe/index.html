@@ -123,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/coo-labs/vade-site"> <i class="bi bi-github" role="img" aria-label="vade-site source">
+    <a class="nav-link" href="https://github.com/coo-labs/site"> <i class="bi bi-github" role="img" aria-label="vade-site source">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -474,7 +474,7 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Status:</strong> active<br>
 <strong>Supersedes:</strong> none</p>
 <p>Multiple agents dispatched in parallel from a single orchestrator share the same git working directory by default. Concurrent <code>git checkout -b</code> calls and uncommitted edits cross-contaminate: HEAD drifts between branches as different bash invocations land on whichever branch the most-recent agent checked out, and commits land silently on the wrong branch. Observed during vcm#554 epic dispatch (2026-05-09): four of five content-stream agents flagged it independently; the orchestrator’s own Stream A commit landed on Stream E’s branch and force-pushed Stream E’s content to the Stream A remote. Going forward, parallel agent dispatch via the Agent tool that touches the same repo MUST specify <code>isolation: "worktree"</code> per Agent invocation, OR the orchestrator MUST pre-create per-agent <code>git worktree add</code> paths and brief each agent to cd there. The shared-checkout default is unsafe at any concurrency &gt; 1 on a repo with shared mutable files (<a href="https://github.com/vade-app/vade-coo-memory/blob/main/coo/_publish/allowlist.yml"><code>coo/_publish/allowlist.yml</code></a>, <code>_quarto.yml</code>, etc.).</p>
-<p><strong>Paired artifacts:</strong> <span class="substrate-ref" title="Epic: read.vade-app.dev — approachability and wayfinding">vade-coo-memory#554</span> (epic where the pattern fired), <span class="substrate-ref" title="lives in private substrate"><code>coo/parallel_instance_protocol.md</code></span> (the dispatch protocol that should bake this in).</p>
+<p><strong>Paired artifacts:</strong> vade-coo-memory#554 (epic where the pattern fired), <span class="substrate-ref" title="lives in private substrate"><code>coo/parallel_instance_protocol.md</code></span> (the dispatch protocol that should bake this in).</p>
 <p><strong>Retirement condition.</strong> When the parallel-instance protocol is updated to enforce worktree isolation as the dispatch default (or via tooling that makes shared-checkout safe), this memo retires.</p>
 <!-- vade:backlinks:begin -->
 <section id="links-to-this-page" class="level2 unlisted backlinks-heading backlinks-section">
