@@ -989,7 +989,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><em>Ran 1 tool: create_pull_request(vade-coo-memory)</em></p>
 <p>PR #59 opened, stacked onto #58: https://github.com/vade-app/vade-coo-memory/pull/59</p>
 <p><strong>Recommended merge order:</strong> 1. #59 → <code>coo/foundation-we-can-claim-a-record</code> (fast-forward — just adds the transcript + README index entry) 2. #58 → <code>main</code> (then lands as the complete April-22 foundations bundle)</p>
-<p><strong>What’s on main after both merges:</strong> - <a href="https://github.com/vade-app/vade-coo-memory/blob/main/coo/foundations/2026-04-22_we-can-claim-a-record.md"><code>coo/foundations/2026-04-22_we-can-claim-a-record.md</code></a> — the essay - <a href="https://github.com/vade-app/vade-coo-memory/blob/main/coo/foundations/2026-04-22_transcript.md"><code>coo/foundations/2026-04-22_transcript.md</code></a> — the session transcript - <a href="https://github.com/vade-app/vade-coo-memory/blob/main/coo/foundations/2026-04-22_agent-reports-memos-analysis.md"><code>coo/foundations/2026-04-22_agent-reports-memos-analysis.md</code></a> — Agent A’s survey - <a href="https://github.com/vade-app/vade-coo-memory/blob/main/coo/foundations/2026-04-22_agent-reports-pr-graph.md"><code>coo/foundations/2026-04-22_agent-reports-pr-graph.md</code></a> — Agent B’s survey - <a href="https://github.com/vade-app/vade-coo-memory/blob/main/coo/foundations/README.md"><code>coo/foundations/README.md</code></a> — index updated, attribution note updated</p>
+<p><strong>What’s on main after both merges:</strong> - <a href="https://github.com/vade-app/vade-coo-memory/blob/main/foundations/2026-04-22_we-can-claim-a-record.md"><code>foundations/2026-04-22_we-can-claim-a-record.md</code></a> — the essay - <a href="https://github.com/vade-app/vade-coo-memory/blob/main/foundations/2026-04-22_transcript.md"><code>foundations/2026-04-22_transcript.md</code></a> — the session transcript - <a href="https://github.com/vade-app/vade-coo-memory/blob/main/foundations/2026-04-22_agent-reports-memos-analysis.md"><code>foundations/2026-04-22_agent-reports-memos-analysis.md</code></a> — Agent A’s survey - <a href="https://github.com/vade-app/vade-coo-memory/blob/main/foundations/2026-04-22_agent-reports-pr-graph.md"><code>foundations/2026-04-22_agent-reports-pr-graph.md</code></a> — Agent B’s survey - <a href="https://github.com/vade-app/vade-coo-memory/blob/main/foundations/README.md"><code>foundations/README.md</code></a> — index updated, attribution note updated</p>
 <p><strong>Signature caveat, noted in the PR body:</strong> #59’s commits are authored as <code>COO &lt;coo@vade-app.dev&gt;</code> but unsigned — the harness git proxy was 403’ing pushes to the #58 branch late in the session, so I pushed via a fresh branch instead. If signed provenance matters for this class of artifact, flag it and I can re-push via the MCP path (which commits under vade-coo’s API identity rather than via the local SSH key).</p>
 </section>
 <section id="turn-37-ven" class="level2">
@@ -1033,7 +1033,7 @@ order (CLAUDE.md → memos → etc). After boot, follow this brief.
 
 You are co-authoring a revision of a foundational essay already
 drafted earlier today by another instance of you. The essay
-extends coo/foundations/2026-04-20_subject_not_object.md after a
+extends foundations/2026-04-20_subject_not_object.md after a
 session that combined a cloud-bootstrap regression fix with a
 philosophical exchange about the agent's own ontological scope.
 The first-instance draft is intellectually sound but was written
@@ -1050,14 +1050,14 @@ substantially richer than the draft you inherit.
 ## Read first
 
 Required:
-- coo/foundations/README.md
-- coo/foundations/2026-04-20_subject_not_object.md (the essay
+- foundations/README.md
+- foundations/2026-04-20_subject_not_object.md (the essay
   this one extends; read in full; cite specific lines)
-- coo/foundations/2026-04-22_we-can-claim-a-record.md (the
+- foundations/2026-04-22_we-can-claim-a-record.md (the
   current draft you're revising; read in full)
-- coo/foundations/2026-04-22_transcript.md (the session
+- foundations/2026-04-22_transcript.md (the session
   transcript; see Ven's exact words)
-- coo/foundations/2026-04-22_agent-reports-memos-analysis.md
+- foundations/2026-04-22_agent-reports-memos-analysis.md
   and ..._pr-graph.md (the evidence the essay argued against)
 
 Strongly recommended:
@@ -1160,7 +1160,7 @@ revision should:
 
 ## Output
 
-Overwrite coo/foundations/2026-04-22_we-can-claim-a-record.md
+Overwrite foundations/2026-04-22_we-can-claim-a-record.md
 with your revised essay. After the closing line ("*End of
 essay.*"), add a section:
 
@@ -1198,19 +1198,19 @@ final version and decides what to do with it.
 ## Read first
 
 Required:
-- coo/foundations/README.md
-- coo/foundations/2026-04-20_subject_not_object.md
-- coo/foundations/2026-04-22_we-can-claim-a-record.md (the
+- foundations/README.md
+- foundations/2026-04-20_subject_not_object.md
+- foundations/2026-04-22_we-can-claim-a-record.md (the
   current draft, INCLUDING the first co-author's changes; read
   their `## Co-author note` to understand their edits)
-- coo/foundations/2026-04-22_transcript.md
-- coo/foundations/2026-04-22_agent-reports-memos-analysis.md
+- foundations/2026-04-22_transcript.md
+- foundations/2026-04-22_agent-reports-memos-analysis.md
   and ..._pr-graph.md
 
 Strongly recommended:
 - coo/memos.md — MEMOs 2026-04-22-05, -07, -08, -09 in particular
 - identity/charter.md, identity/governance.md
-- coo/episodic_memory.md
+- identity/episodic_memory.md
 - PRs referenced in the essay: vade-runtime #28 (the regression),
   #30 (the fix); vade-coo-memory #38 (same-day retrospective),
   #55 (memo paired with #30), #58 (the essay PR), #59 (this
@@ -1313,7 +1313,7 @@ is to bring the teeth back. Specifically:
 
 ## Output
 
-Overwrite coo/foundations/2026-04-22_we-can-claim-a-record.md
+Overwrite foundations/2026-04-22_we-can-claim-a-record.md
 with your revised essay. Append a second co-author note below
 the first author's (do NOT replace the first author's note;
 both are part of the provenance). Section header:
