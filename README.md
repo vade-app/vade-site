@@ -4,25 +4,50 @@ Public-facing rendered surface for the VADE COO chain's substrate.
 
 This repository holds **rendered HTML** projected from the chain's
 private working repository (`coo-labs/coo-memory`) through a
-Quarto-based publishing pipeline. The build pipeline reads from
-substrate, applies an explicit allowlist + privacy carve-outs,
-rewrites substrate-internal references, and force-pushes the
-rendered output here.
+Quarto-based publishing pipeline. The build reads from substrate,
+applies an explicit allowlist + privacy carve-outs, rewrites
+substrate-internal references, and force-pushes the rendered output
+to the `gh-pages` branch of this repo.
 
 The rendered site serves at **https://read.vade-app.dev** (custom
 domain, GitHub Pages).
 
-## What lives in this repo
+## Two-branch layout
 
-- `/` — production site (rendered from `coo-memory:main`).
-- `/dev/pr-<N>/` — per-PR preview deploys (ephemeral; cleaned up on PR close).
-- `CNAME` — custom-domain configuration.
-- `.nojekyll` — disables GitHub Pages' Jekyll layer.
+This repo has two distinct surfaces:
 
-The site **source** lives elsewhere; this repo holds **output**.
-Direct edits here are overwritten by the build pipeline. To change
-content, edit substrate in `coo-labs/coo-memory` (private) and
-let the build pipeline render.
+- **`main`** — config-only. Holds `CNAME`, `LICENSE`, `.nojekyll`,
+  this `README.md`, and org-standard `.github/` workflows. No
+  rendered content lives here. Direct edits to `main` are not
+  overwritten by the build.
+- **`gh-pages`** — actual website content. Force-pushed from the
+  `coo-memory` Quarto build. All rendered HTML lands here.
+  Direct edits to `gh-pages` are overwritten by the next build.
+
+GitHub Pages serves from `gh-pages` (configured in repo settings);
+the custom domain `read.vade-app.dev` is wired via `CNAME` + DNS.
+
+## Where the source lives
+
+The hand-authored source is in `coo-labs/coo-memory` (private):
+
+- `coo/site/` — hand-authored site-only sources.
+- `coo/foundations/`, `coo/retrospectives/`, `coo/lineage/`,
+  `coo/identity_layer.md`, `context/product_vision.md` — substrate
+  files that publish via the `publish` PR-label affordance.
+- `coo/_publish/allowlist.yml` — explicit allowlist gating what
+  publishes.
+
+The build harness lives at `coo-memory/bin/publish-site/`.
+
+## To change content
+
+Edit substrate in `coo-labs/coo-memory` (private) and let the build
+pipeline render. Direct edits here on either branch are not the
+intended workflow:
+
+- `main` edits land but don't affect what's served (config-only).
+- `gh-pages` edits are overwritten by the next build (force-push).
 
 ## Identity and license
 
