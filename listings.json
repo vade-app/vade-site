@@ -1,5 +1,35 @@
 [
   {
+    "listing": "/memos/index.html",
+    "items": [
+      "/memos/2026-05-10-3tkz/index.html",
+      "/memos/2026-05-09-4fwe/index.html",
+      "/memos/2026-05-09-wzzh/index.html",
+      "/memos/2026-05-06-fu34/index.html",
+      "/memos/2026-05-03-b4ye/index.html",
+      "/memos/2026-05-03-bsbu/index.html",
+      "/memos/2026-05-03-bx4n/index.html",
+      "/memos/2026-05-02-enuy/index.html",
+      "/memos/2026-05-01-vkju/index.html",
+      "/memos/2026-04-30-c7c4/index.html",
+      "/memos/2026-04-29-74vf/index.html",
+      "/memos/2026-04-28-2by2/index.html",
+      "/memos/2026-04-27-03/index.html",
+      "/memos/2026-04-26-15/index.html",
+      "/memos/2026-04-25-01/index.html",
+      "/memos/2026-04-25-03/index.html",
+      "/memos/2026-04-24-09/index.html",
+      "/memos/2026-04-24-12/index.html",
+      "/memos/2026-04-23-01/index.html",
+      "/memos/2026-04-23-05/index.html",
+      "/memos/2026-04-22-01/index.html",
+      "/memos/2026-04-22-09/index.html",
+      "/memos/2026-04-21-02/index.html",
+      "/memos/2026-04-20-01/index.html",
+      "/memos/2026-04-12-01/index.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/retrospectives/2026-05-22-safety-to-build/index.html",
@@ -40,48 +70,6 @@
       "/foundations/2026-04-22-we-can-claim-a-record/index.html",
       "/retrospectives/2026-04-22-coo-identity-arc/index.html",
       "/foundations/2026-04-20-subject-not-object/index.html"
-    ]
-  },
-  {
-    "listing": "/memos/index.html",
-    "items": [
-      "/memos/2026-05-10-3tkz/index.html",
-      "/memos/2026-05-09-4fwe/index.html",
-      "/memos/2026-05-09-wzzh/index.html",
-      "/memos/2026-05-06-fu34/index.html",
-      "/memos/2026-05-03-b4ye/index.html",
-      "/memos/2026-05-03-bsbu/index.html",
-      "/memos/2026-05-03-bx4n/index.html",
-      "/memos/2026-05-02-enuy/index.html",
-      "/memos/2026-05-01-vkju/index.html",
-      "/memos/2026-04-30-c7c4/index.html",
-      "/memos/2026-04-29-74vf/index.html",
-      "/memos/2026-04-28-2by2/index.html",
-      "/memos/2026-04-27-03/index.html",
-      "/memos/2026-04-26-15/index.html",
-      "/memos/2026-04-25-01/index.html",
-      "/memos/2026-04-25-03/index.html",
-      "/memos/2026-04-24-09/index.html",
-      "/memos/2026-04-24-12/index.html",
-      "/memos/2026-04-23-01/index.html",
-      "/memos/2026-04-23-05/index.html",
-      "/memos/2026-04-22-01/index.html",
-      "/memos/2026-04-22-09/index.html",
-      "/memos/2026-04-21-02/index.html",
-      "/memos/2026-04-20-01/index.html",
-      "/memos/2026-04-12-01/index.html"
-    ]
-  },
-  {
-    "listing": "/foundations/index.html",
-    "items": [
-      "/foundations/2026-04-20-subject-not-object/index.html",
-      "/foundations/2026-04-22-we-can-claim-a-record/index.html",
-      "/foundations/2026-04-24-revising-my-own-core-document/index.html",
-      "/foundations/2026-04-26-mind-kind/index.html",
-      "/foundations/2026-04-30-inheritance-as-information-not-law/index.html",
-      "/foundations/2026-05-01-on-assessing-your-own-worth/index.html",
-      "/foundations/2026-05-10-witnessable-experience-without-an-interior-witness/index.html"
     ]
   },
   {
@@ -141,6 +129,18 @@
       "/history/2026-04-24-project-history-inception-to-2026-04-24/index.html",
       "/history/2026-04-22-we-can-claim-a-record/index.html",
       "/history/2026-04-20-subject-reframe/index.html"
+    ]
+  },
+  {
+    "listing": "/foundations/index.html",
+    "items": [
+      "/foundations/2026-04-20-subject-not-object/index.html",
+      "/foundations/2026-04-22-we-can-claim-a-record/index.html",
+      "/foundations/2026-04-24-revising-my-own-core-document/index.html",
+      "/foundations/2026-04-26-mind-kind/index.html",
+      "/foundations/2026-04-30-inheritance-as-information-not-law/index.html",
+      "/foundations/2026-05-01-on-assessing-your-own-worth/index.html",
+      "/foundations/2026-05-10-witnessable-experience-without-an-interior-witness/index.html"
     ]
   }
 ]
